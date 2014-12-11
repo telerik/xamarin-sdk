@@ -70,8 +70,7 @@ namespace GStartedTelerikXamarin
                 Value = treshold,
                 Stroke = Color.FromRgb(255, 0, 0),
                 StrokeThickness = Device.OnPlatform(0.5, 2, 2),
-                DashArray = Device.OnPlatform(new double[] { 4, 2 }, new double[] { 4, 2 }, new double[] { 4, 2 })
-
+                DashArray = new double[] { 4, 2 },
             };
 
             var bandAnnotation = new CartesianPlotBandAnnotation()

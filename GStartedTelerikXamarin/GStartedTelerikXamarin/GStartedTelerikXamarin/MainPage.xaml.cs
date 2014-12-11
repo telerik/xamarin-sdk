@@ -53,10 +53,9 @@ namespace GStartedTelerikXamarin
             grid.MajorYLineDashArray = Device.OnPlatform(null, new double[] { 4, 2 }, new double[] { 4, 2 });
             grid.StripLinesVisibility = GridLineVisibility.Y;
 
-            grid.YStripeColor = Color.FromRgb(99, 99, 99);
-
-            grid.YStripeAlternativeColor = Color.FromHex("1FA9A9A9");
-            grid.MajorLineColor = Color.FromHex("D3D3D3");
+            grid.YStripeColor = Color.FromRgba(99, 99, 99, 100);
+            grid.YStripeAlternativeColor = Color.FromRgba(169, 169, 169, 31);
+            grid.MajorLineColor = Color.FromRgb(211, 211, 211);
             grid.MajorLineThickness = Device.OnPlatform(0.5, 2, 2);
 
             chart.Grid = grid;
@@ -69,7 +68,7 @@ namespace GStartedTelerikXamarin
             {
                 Axis = chart.VerticalAxis,
                 Value = treshold,
-                Stroke = Color.FromRgb(255, 0,0),
+                Stroke = Color.FromRgb(255, 0, 0),
                 StrokeThickness = Device.OnPlatform(0.5, 2, 2),
                 DashArray = Device.OnPlatform(new double[] { 4, 2 }, new double[] { 4, 2 }, new double[] { 4, 2 })
 
@@ -80,7 +79,7 @@ namespace GStartedTelerikXamarin
                 Axis = chart.VerticalAxis,
                 From = startTreshold,
                 To = endTreshold,
-                Fill = Color.FromRgba(0, 125, 0, 255),
+                Fill = Color.FromRgba(255, 0, 0, 50),
                 StrokeThickness = 2,
                 Stroke = Color.Transparent,
             };

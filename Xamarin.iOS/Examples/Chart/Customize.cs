@@ -50,7 +50,7 @@ namespace Examples
 
 		class ChartDelegate: TKChartDelegate 
 		{
-			public override TKChartPaletteItem PaletteItemForSeries (TKChart chart, TKChartSeries series, uint index)
+			public override TKChartPaletteItem PaletteItemForSeries (TKChart chart, TKChartSeries series, int index)
 			{
 				TKChartPaletteItem item = null;
 

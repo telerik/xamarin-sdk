@@ -63,6 +63,7 @@ namespace Examples
 			this.CalendarView = new TKCalendar (rect);
 			this.CalendarView.AutoresizingMask = UIViewAutoresizing.FlexibleHeight | UIViewAutoresizing.FlexibleWidth;
 			this.CalendarView.Delegate = new CalendarDelegate (this);
+			this.CalendarView.AllowPinchZoom = false;
 			this.View.AddSubview (CalendarView);
 
 			TKCalendarMonthPresenter presenter = (TKCalendarMonthPresenter)this.CalendarView.Presenter;

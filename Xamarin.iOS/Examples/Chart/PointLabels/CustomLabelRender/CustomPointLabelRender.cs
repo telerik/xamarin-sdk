@@ -1,8 +1,10 @@
 ﻿using System;
-using TelerikUI;
 using System.Collections.Generic;
-using MonoTouch.Foundation;
-using MonoTouch.UIKit;
+
+using Foundation;
+using UIKit;
+
+using TelerikUI;
 
 namespace Examples
 {
@@ -14,7 +16,7 @@ namespace Examples
 		{
 			base.ViewDidLoad ();
 			chart = new TKChart (this.ExampleBounds);
-			chart.AutoresizingMask = MonoTouch.UIKit.UIViewAutoresizing.FlexibleHeight | MonoTouch.UIKit.UIViewAutoresizing.FlexibleWidth;
+			chart.AutoresizingMask = UIViewAutoresizing.FlexibleHeight | UIViewAutoresizing.FlexibleWidth;
 			chart.Delegate = new ChartDelegate (0, 3);
 			this.View.AddSubview (chart);
 
@@ -66,7 +68,7 @@ namespace Examples
 				return null;
 			}
 
-			public override void PointSelected (TKChart chart, TKChartData point, TKChartSeries series, int index)
+			public override void PointSelected (TKChart chart, TKChartData point, TKChartSeries series, nint index)
 			{
 				if (this.labelRender != null) {
 					this.labelRender.SelectedSeries = (int)series.Index;
@@ -74,16 +76,16 @@ namespace Examples
 				}
 			}
 
-			public override void PointDeselected (TKChart chart, TKChartData point, TKChartSeries series, int index)
+			public override void PointDeselected (TKChart chart, TKChartData point, TKChartSeries series, nint index)
 			{
 				if (this.labelRender != null) {
 					this.labelRender.SelectedDataPoint = -1;
 				}
 			}
 
-			public override TKChartPaletteItem PaletteItemForPoint (TKChart chart, uint index, TKChartSeries series)
+			public override TKChartPaletteItem PaletteItemForPoint (TKChart chart, nuint index, TKChartSeries series)
 			{
-				if (series.Index == this.selectedSeriesIndex && index == this.selectedDataPointIndex) {
+				if (series.Index == (nuint)this.selectedSeriesIndex && index == (nuint)this.selectedDataPointIndex) {
 					return new TKChartPaletteItem (new TKStroke (UIColor.Black, (float)2.0), new TKSolidFill (UIColor.White));
 				}
 

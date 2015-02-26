@@ -1,9 +1,12 @@
 ﻿using System;
-using MonoTouch.Foundation;
-using MonoTouch.UIKit;
-using TelerikUI;
 using System.Drawing;
-using MonoTouch.ObjCRuntime;
+
+using Foundation;
+using UIKit;
+using ObjCRuntime;
+using CoreGraphics;
+
+using TelerikUI;
 
 namespace Examples
 {
@@ -50,7 +53,7 @@ namespace Examples
 			base.ViewDidLoad ();
 			this.presenterDelegate = new CalendarPresenterDelegate (this);
 
-			UIToolbar toolbar = new UIToolbar (new RectangleF (0, this.View.Frame.Size.Height - 44, this.View.Bounds.Size.Width, 44));
+			UIToolbar toolbar = new UIToolbar (new CGRect (0, this.View.Frame.Size.Height - 44, this.View.Bounds.Size.Width, 44));
 			toolbar.AutoresizingMask = UIViewAutoresizing.FlexibleWidth | UIViewAutoresizing.FlexibleTopMargin;
 			this.View.AddSubview (toolbar);
 
@@ -59,7 +62,7 @@ namespace Examples
 			UIBarButtonItem space = new UIBarButtonItem (UIBarButtonSystemItem.FlexibleSpace, this, null);
 			toolbar.Items = new UIBarButtonItem[] { buttonPrev, space, buttonNext };
 
-			RectangleF rect = new RectangleF (0, 0, this.View.Bounds.Size.Width, this.View.Bounds.Size.Height - toolbar.Frame.Size.Height);
+			CGRect rect = new CGRect (0, 0, this.View.Bounds.Size.Width, this.View.Bounds.Size.Height - toolbar.Frame.Size.Height);
 			this.CalendarView = new TKCalendar (rect);
 			this.CalendarView.AutoresizingMask = UIViewAutoresizing.FlexibleHeight | UIViewAutoresizing.FlexibleWidth;
 			this.CalendarView.Delegate = new CalendarDelegate (this);
@@ -155,7 +158,7 @@ namespace Examples
 				this.main = main;
 			}
 
-			public override void BeginTransition (ITKCalendarPresenter presenter, TKViewTransition transition)
+			public override void BeginTransition (TKCalendarPresenter presenter, TKViewTransition transition)
 			{
 				main.OldColorIndex = main.ColorIndex;
 				main.ColorIndex = (main.ColorIndex + 1) % main.Colors.Length;
@@ -163,7 +166,7 @@ namespace Examples
 				monthPresenter.ContentView.BackgroundColor = main.Colors [main.ColorIndex];
 			}
 
-			public override void FinishTransition (ITKCalendarPresenter presenter, bool canceled)
+			public override void FinishTransition (TKCalendarPresenter presenter, bool canceled)
 			{
 				if (canceled) {
 					TKCalendarMonthPresenter monthPresenter = (TKCalendarMonthPresenter)presenter;

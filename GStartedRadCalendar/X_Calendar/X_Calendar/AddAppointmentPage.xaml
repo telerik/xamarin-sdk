@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="X_Calendar.AddAppointmentPage">
+  <StackLayout>
+    <Label Text="Add Appointment Page" FontSize="30" VerticalOptions="Center" HorizontalOptions="Center" />
+    <StackLayout Orientation="Horizontal">
+      <Label Text="Start: "/>
+      <DatePicker x:Name="startDatePicker" HorizontalOptions="StartAndExpand"/>
+    </StackLayout>
+    <StackLayout Orientation="Horizontal">
+      <Label Text="End: "/>
+      <DatePicker x:Name="endDatePicker" HorizontalOptions="StartAndExpand"/>
+    </StackLayout>
+    <StackLayout Orientation="Horizontal">
+      <Label Text="Title: "/>
+      <Entry x:Name="title" WidthRequest="150"/>
+    </StackLayout>
+    <Button Text="Done" Clicked="DoneButtonClicked" VerticalOptions="Center" HorizontalOptions="Center"/>
+  </StackLayout>
+</ContentPage>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:telerik="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.XamarinForms.Input"
+             x:Class="X_Calendar.AppointmentsPage">
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition>
+        <RowDefinition.Height>
+          <OnPlatform x:TypeArguments="GridLength">
+            <OnPlatform.iOS>30</OnPlatform.iOS>
+            <OnPlatform.Android>50</OnPlatform.Android>
+            <OnPlatform.WinPhone>70</OnPlatform.WinPhone>
+          </OnPlatform>
+        </RowDefinition.Height>
+      </RowDefinition>
+      <RowDefinition>
+        <RowDefinition.Height>
+          <OnPlatform x:TypeArguments="GridLength">
+            <OnPlatform.iOS>30</OnPlatform.iOS>
+            <OnPlatform.Android>50</OnPlatform.Android>
+            <OnPlatform.WinPhone>70</OnPlatform.WinPhone>
+          </OnPlatform>
+        </RowDefinition.Height>
+      </RowDefinition>
+      <RowDefinition Height="*"/>
+    </Grid.RowDefinitions>
+    <Button Grid.Row="0" Text="Add Appointment" Clicked="AddButtonClicked"/>
+    <Button Grid.Row="1" Text="Delete Appointment" Clicked="DeleteButtonClicked"/>
+    <telerik:RadCalendar Grid.Row="2" x:Name="calendar"/>
+  </Grid>
+</ContentPage>

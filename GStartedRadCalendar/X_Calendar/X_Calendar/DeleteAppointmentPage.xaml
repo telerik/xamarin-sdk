@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="X_Calendar.DeleteAppointmentPage">
+  <StackLayout>
+    <Label Text="Delete Appointment" FontSize="30" VerticalOptions="Center" HorizontalOptions="Center" />
+    <Grid>
+      <Grid.RowDefinitions>
+        <RowDefinition Height="50"/>
+        <RowDefinition Height="*"/>
+        <RowDefinition Height="50"/>
+      </Grid.RowDefinitions>
+      <Label Text="Select appointment to delete"/>
+      <ListView x:Name="list" Grid.Row="1">
+        <ListView.ItemTemplate>
+          <DataTemplate>
+            <TextCell Text="{Binding Title}" />
+          </DataTemplate>
+        </ListView.ItemTemplate>
+      </ListView>
+      <Button Text="Done" Clicked="DeleteButtonClicked" Grid.Row="2"/>
+    </Grid>
+  </StackLayout>
+</ContentPage>

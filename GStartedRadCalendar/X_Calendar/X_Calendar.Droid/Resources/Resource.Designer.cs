@@ -26,32 +26,441 @@ namespace X_Calendar.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Animation.abc_fade_in = global::X_Calendar.Droid.Resource.Animation.abc_fade_in;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Animation.abc_fade_out = global::X_Calendar.Droid.Resource.Animation.abc_fade_out;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::X_Calendar.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Animation.abc_popup_enter = global::X_Calendar.Droid.Resource.Animation.abc_popup_enter;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Animation.abc_popup_exit = global::X_Calendar.Droid.Resource.Animation.abc_popup_exit;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Animation.abc_shrink_fade_out_from_bottom = global::X_Calendar.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Animation.abc_slide_in_bottom = global::X_Calendar.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Animation.abc_slide_in_top = global::X_Calendar.Droid.Resource.Animation.abc_slide_in_top;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Animation.abc_slide_out_bottom = global::X_Calendar.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Animation.abc_slide_out_top = global::X_Calendar.Droid.Resource.Animation.abc_slide_out_top;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Animation.drawer_slide_in_top = global::X_Calendar.Droid.Resource.Animation.drawer_slide_in_top;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Animation.drawer_slide_out_top = global::X_Calendar.Droid.Resource.Animation.drawer_slide_out_top;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.actionBarDivider = global::X_Calendar.Droid.Resource.Attribute.actionBarDivider;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.actionBarItemBackground = global::X_Calendar.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.actionBarPopupTheme = global::X_Calendar.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.actionBarSize = global::X_Calendar.Droid.Resource.Attribute.actionBarSize;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.actionBarSplitStyle = global::X_Calendar.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.actionBarStyle = global::X_Calendar.Droid.Resource.Attribute.actionBarStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.actionBarTabBarStyle = global::X_Calendar.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.actionBarTabStyle = global::X_Calendar.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.actionBarTabTextStyle = global::X_Calendar.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.actionBarTheme = global::X_Calendar.Droid.Resource.Attribute.actionBarTheme;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.actionBarWidgetTheme = global::X_Calendar.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.actionButtonStyle = global::X_Calendar.Droid.Resource.Attribute.actionButtonStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.actionDropDownStyle = global::X_Calendar.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.actionLayout = global::X_Calendar.Droid.Resource.Attribute.actionLayout;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.actionMenuTextAppearance = global::X_Calendar.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.actionMenuTextColor = global::X_Calendar.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.actionModeBackground = global::X_Calendar.Droid.Resource.Attribute.actionModeBackground;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.actionModeCloseButtonStyle = global::X_Calendar.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.actionModeCloseDrawable = global::X_Calendar.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.actionModeCopyDrawable = global::X_Calendar.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.actionModeCutDrawable = global::X_Calendar.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.actionModeFindDrawable = global::X_Calendar.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.actionModePasteDrawable = global::X_Calendar.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.actionModePopupWindowStyle = global::X_Calendar.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.actionModeSelectAllDrawable = global::X_Calendar.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.actionModeShareDrawable = global::X_Calendar.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.actionModeSplitBackground = global::X_Calendar.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.actionModeStyle = global::X_Calendar.Droid.Resource.Attribute.actionModeStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.actionModeWebSearchDrawable = global::X_Calendar.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.actionOverflowButtonStyle = global::X_Calendar.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.actionOverflowMenuStyle = global::X_Calendar.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.actionProviderClass = global::X_Calendar.Droid.Resource.Attribute.actionProviderClass;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.actionViewClass = global::X_Calendar.Droid.Resource.Attribute.actionViewClass;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.activityChooserViewStyle = global::X_Calendar.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.alertDialogButtonGroupStyle = global::X_Calendar.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.alertDialogCenterButtons = global::X_Calendar.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.alertDialogStyle = global::X_Calendar.Droid.Resource.Attribute.alertDialogStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.alertDialogTheme = global::X_Calendar.Droid.Resource.Attribute.alertDialogTheme;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.autoCompleteTextViewStyle = global::X_Calendar.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.background = global::X_Calendar.Droid.Resource.Attribute.background;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.backgroundSplit = global::X_Calendar.Droid.Resource.Attribute.backgroundSplit;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.backgroundStacked = global::X_Calendar.Droid.Resource.Attribute.backgroundStacked;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.backgroundTint = global::X_Calendar.Droid.Resource.Attribute.backgroundTint;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.backgroundTintMode = global::X_Calendar.Droid.Resource.Attribute.backgroundTintMode;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.barSize = global::X_Calendar.Droid.Resource.Attribute.barSize;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.borderlessButtonStyle = global::X_Calendar.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.buttonBarButtonStyle = global::X_Calendar.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.buttonBarNegativeButtonStyle = global::X_Calendar.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.buttonBarNeutralButtonStyle = global::X_Calendar.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.buttonBarPositiveButtonStyle = global::X_Calendar.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.buttonBarStyle = global::X_Calendar.Droid.Resource.Attribute.buttonBarStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.buttonPanelSideLayout = global::X_Calendar.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.buttonStyle = global::X_Calendar.Droid.Resource.Attribute.buttonStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.buttonStyleSmall = global::X_Calendar.Droid.Resource.Attribute.buttonStyleSmall;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.calendarBackground = global::X_Calendar.Droid.Resource.Attribute.calendarBackground;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.calendarStyle = global::X_Calendar.Droid.Resource.Attribute.calendarStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.checkboxStyle = global::X_Calendar.Droid.Resource.Attribute.checkboxStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.checkedTextViewStyle = global::X_Calendar.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.closeIcon = global::X_Calendar.Droid.Resource.Attribute.closeIcon;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.closeItemLayout = global::X_Calendar.Droid.Resource.Attribute.closeItemLayout;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.collapseContentDescription = global::X_Calendar.Droid.Resource.Attribute.collapseContentDescription;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.collapseIcon = global::X_Calendar.Droid.Resource.Attribute.collapseIcon;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.color = global::X_Calendar.Droid.Resource.Attribute.color;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.colorAccent = global::X_Calendar.Droid.Resource.Attribute.colorAccent;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.colorButtonNormal = global::X_Calendar.Droid.Resource.Attribute.colorButtonNormal;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.colorControlActivated = global::X_Calendar.Droid.Resource.Attribute.colorControlActivated;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.colorControlHighlight = global::X_Calendar.Droid.Resource.Attribute.colorControlHighlight;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.colorControlNormal = global::X_Calendar.Droid.Resource.Attribute.colorControlNormal;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.colorPrimary = global::X_Calendar.Droid.Resource.Attribute.colorPrimary;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.colorPrimaryDark = global::X_Calendar.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.colorSwitchThumbNormal = global::X_Calendar.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.commitIcon = global::X_Calendar.Droid.Resource.Attribute.commitIcon;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.contentInsetEnd = global::X_Calendar.Droid.Resource.Attribute.contentInsetEnd;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.contentInsetLeft = global::X_Calendar.Droid.Resource.Attribute.contentInsetLeft;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.contentInsetRight = global::X_Calendar.Droid.Resource.Attribute.contentInsetRight;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.contentInsetStart = global::X_Calendar.Droid.Resource.Attribute.contentInsetStart;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.customNavigationLayout = global::X_Calendar.Droid.Resource.Attribute.customNavigationLayout;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.defaultQueryHint = global::X_Calendar.Droid.Resource.Attribute.defaultQueryHint;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.dialogPreferredPadding = global::X_Calendar.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.dialogTheme = global::X_Calendar.Droid.Resource.Attribute.dialogTheme;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.disableChildrenWhenDisabled = global::X_Calendar.Droid.Resource.Attribute.disableChildrenWhenDisabled;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.displayMode = global::X_Calendar.Droid.Resource.Attribute.displayMode;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.displayOptions = global::X_Calendar.Droid.Resource.Attribute.displayOptions;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.divider = global::X_Calendar.Droid.Resource.Attribute.divider;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.dividerHorizontal = global::X_Calendar.Droid.Resource.Attribute.dividerHorizontal;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.dividerPadding = global::X_Calendar.Droid.Resource.Attribute.dividerPadding;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.dividerVertical = global::X_Calendar.Droid.Resource.Attribute.dividerVertical;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.drawableSize = global::X_Calendar.Droid.Resource.Attribute.drawableSize;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.drawerArrowStyle = global::X_Calendar.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.dropDownListViewStyle = global::X_Calendar.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.dropdownListPreferredItemHeight = global::X_Calendar.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.editTextBackground = global::X_Calendar.Droid.Resource.Attribute.editTextBackground;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.editTextColor = global::X_Calendar.Droid.Resource.Attribute.editTextColor;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.editTextStyle = global::X_Calendar.Droid.Resource.Attribute.editTextStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.elevation = global::X_Calendar.Droid.Resource.Attribute.elevation;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.expandActivityOverflowButtonDrawable = global::X_Calendar.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.fillViewport = global::X_Calendar.Droid.Resource.Attribute.fillViewport;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.gapBetweenBars = global::X_Calendar.Droid.Resource.Attribute.gapBetweenBars;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.goIcon = global::X_Calendar.Droid.Resource.Attribute.goIcon;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.height = global::X_Calendar.Droid.Resource.Attribute.height;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.hideOnContentScroll = global::X_Calendar.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.homeAsUpIndicator = global::X_Calendar.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.homeLayout = global::X_Calendar.Droid.Resource.Attribute.homeLayout;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.icon = global::X_Calendar.Droid.Resource.Attribute.icon;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.iconifiedByDefault = global::X_Calendar.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.indeterminateProgressStyle = global::X_Calendar.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.initialActivityCount = global::X_Calendar.Droid.Resource.Attribute.initialActivityCount;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.isLightTheme = global::X_Calendar.Droid.Resource.Attribute.isLightTheme;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.isYearModeCompact = global::X_Calendar.Droid.Resource.Attribute.isYearModeCompact;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.itemPadding = global::X_Calendar.Droid.Resource.Attribute.itemPadding;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.layout = global::X_Calendar.Droid.Resource.Attribute.layout;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.listChoiceBackgroundIndicator = global::X_Calendar.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.listDividerAlertDialog = global::X_Calendar.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.listItemLayout = global::X_Calendar.Droid.Resource.Attribute.listItemLayout;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.listLayout = global::X_Calendar.Droid.Resource.Attribute.listLayout;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.listPopupWindowStyle = global::X_Calendar.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.listPreferredItemHeight = global::X_Calendar.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.listPreferredItemHeightLarge = global::X_Calendar.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.listPreferredItemHeightSmall = global::X_Calendar.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.listPreferredItemPaddingLeft = global::X_Calendar.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.listPreferredItemPaddingRight = global::X_Calendar.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.logo = global::X_Calendar.Droid.Resource.Attribute.logo;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.maxButtonHeight = global::X_Calendar.Droid.Resource.Attribute.maxButtonHeight;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.measureWithLargestChild = global::X_Calendar.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.middleBarArrowSize = global::X_Calendar.Droid.Resource.Attribute.middleBarArrowSize;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.multiChoiceItemLayout = global::X_Calendar.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.navigationContentDescription = global::X_Calendar.Droid.Resource.Attribute.navigationContentDescription;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.navigationIcon = global::X_Calendar.Droid.Resource.Attribute.navigationIcon;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.navigationMode = global::X_Calendar.Droid.Resource.Attribute.navigationMode;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.overlapAnchor = global::X_Calendar.Droid.Resource.Attribute.overlapAnchor;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.paddingEnd = global::X_Calendar.Droid.Resource.Attribute.paddingEnd;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.paddingStart = global::X_Calendar.Droid.Resource.Attribute.paddingStart;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.panelBackground = global::X_Calendar.Droid.Resource.Attribute.panelBackground;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.panelMenuListTheme = global::X_Calendar.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.panelMenuListWidth = global::X_Calendar.Droid.Resource.Attribute.panelMenuListWidth;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.pointerFill = global::X_Calendar.Droid.Resource.Attribute.pointerFill;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.pointerMargin = global::X_Calendar.Droid.Resource.Attribute.pointerMargin;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.pointerSize = global::X_Calendar.Droid.Resource.Attribute.pointerSize;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.popupMenuStyle = global::X_Calendar.Droid.Resource.Attribute.popupMenuStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.popupPromptView = global::X_Calendar.Droid.Resource.Attribute.popupPromptView;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.popupTheme = global::X_Calendar.Droid.Resource.Attribute.popupTheme;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.popupWindowStyle = global::X_Calendar.Droid.Resource.Attribute.popupWindowStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.preserveIconSpacing = global::X_Calendar.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.progressBarPadding = global::X_Calendar.Droid.Resource.Attribute.progressBarPadding;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.progressBarStyle = global::X_Calendar.Droid.Resource.Attribute.progressBarStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.prompt = global::X_Calendar.Droid.Resource.Attribute.prompt;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.queryBackground = global::X_Calendar.Droid.Resource.Attribute.queryBackground;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.queryHint = global::X_Calendar.Droid.Resource.Attribute.queryHint;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.radScrollViewStyle = global::X_Calendar.Droid.Resource.Attribute.radScrollViewStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.radioButtonStyle = global::X_Calendar.Droid.Resource.Attribute.radioButtonStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.ratingBarStyle = global::X_Calendar.Droid.Resource.Attribute.ratingBarStyle;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.scrollMode = global::X_Calendar.Droid.Resource.Attribute.scrollMode;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.searchHintIcon = global::X_Calendar.Droid.Resource.Attribute.searchHintIcon;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.searchIcon = global::X_Calendar.Droid.Resource.Attribute.searchIcon;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.searchViewStyle = global::X_Calendar.Droid.Resource.Attribute.searchViewStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.selectableItemBackground = global::X_Calendar.Droid.Resource.Attribute.selectableItemBackground;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.selectableItemBackgroundBorderless = global::X_Calendar.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.selectionMode = global::X_Calendar.Droid.Resource.Attribute.selectionMode;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.showAsAction = global::X_Calendar.Droid.Resource.Attribute.showAsAction;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.showCellDecorations = global::X_Calendar.Droid.Resource.Attribute.showCellDecorations;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.showDayNames = global::X_Calendar.Droid.Resource.Attribute.showDayNames;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.showDividers = global::X_Calendar.Droid.Resource.Attribute.showDividers;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.showGridLines = global::X_Calendar.Droid.Resource.Attribute.showGridLines;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.showText = global::X_Calendar.Droid.Resource.Attribute.showText;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.showTitle = global::X_Calendar.Droid.Resource.Attribute.showTitle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.singleChoiceItemLayout = global::X_Calendar.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.spinBars = global::X_Calendar.Droid.Resource.Attribute.spinBars;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.spinnerDropDownItemStyle = global::X_Calendar.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.spinnerMode = global::X_Calendar.Droid.Resource.Attribute.spinnerMode;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.spinnerStyle = global::X_Calendar.Droid.Resource.Attribute.spinnerStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.splitTrack = global::X_Calendar.Droid.Resource.Attribute.splitTrack;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.state_above_anchor = global::X_Calendar.Droid.Resource.Attribute.state_above_anchor;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.state_calendar_cell_today = global::X_Calendar.Droid.Resource.Attribute.state_calendar_cell_today;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.submitBackground = global::X_Calendar.Droid.Resource.Attribute.submitBackground;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.subtitle = global::X_Calendar.Droid.Resource.Attribute.subtitle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.subtitleTextAppearance = global::X_Calendar.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.subtitleTextStyle = global::X_Calendar.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.suggestionRowLayout = global::X_Calendar.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.switchMinWidth = global::X_Calendar.Droid.Resource.Attribute.switchMinWidth;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.switchPadding = global::X_Calendar.Droid.Resource.Attribute.switchPadding;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.switchStyle = global::X_Calendar.Droid.Resource.Attribute.switchStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.switchTextAppearance = global::X_Calendar.Droid.Resource.Attribute.switchTextAppearance;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.textAllCaps = global::X_Calendar.Droid.Resource.Attribute.textAllCaps;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.textAppearanceLargePopupMenu = global::X_Calendar.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.textAppearanceListItem = global::X_Calendar.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.textAppearanceListItemSmall = global::X_Calendar.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.textAppearanceSearchResultSubtitle = global::X_Calendar.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.textAppearanceSearchResultTitle = global::X_Calendar.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.textAppearanceSmallPopupMenu = global::X_Calendar.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.textColorAlertDialogListItem = global::X_Calendar.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.textColorSearchUrl = global::X_Calendar.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.theme = global::X_Calendar.Droid.Resource.Attribute.theme;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.thickness = global::X_Calendar.Droid.Resource.Attribute.thickness;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.thumbTextPadding = global::X_Calendar.Droid.Resource.Attribute.thumbTextPadding;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.title = global::X_Calendar.Droid.Resource.Attribute.title;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.titleMarginBottom = global::X_Calendar.Droid.Resource.Attribute.titleMarginBottom;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.titleMarginEnd = global::X_Calendar.Droid.Resource.Attribute.titleMarginEnd;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.titleMarginStart = global::X_Calendar.Droid.Resource.Attribute.titleMarginStart;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.titleMarginTop = global::X_Calendar.Droid.Resource.Attribute.titleMarginTop;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.titleMargins = global::X_Calendar.Droid.Resource.Attribute.titleMargins;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.titleTextAppearance = global::X_Calendar.Droid.Resource.Attribute.titleTextAppearance;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.titleTextStyle = global::X_Calendar.Droid.Resource.Attribute.titleTextStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.toolbarNavigationButtonStyle = global::X_Calendar.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.toolbarStyle = global::X_Calendar.Droid.Resource.Attribute.toolbarStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.topBottomBarArrowSize = global::X_Calendar.Droid.Resource.Attribute.topBottomBarArrowSize;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.track = global::X_Calendar.Droid.Resource.Attribute.track;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.voiceIcon = global::X_Calendar.Droid.Resource.Attribute.voiceIcon;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.weekNumberDisplayMode = global::X_Calendar.Droid.Resource.Attribute.weekNumberDisplayMode;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.windowActionBar = global::X_Calendar.Droid.Resource.Attribute.windowActionBar;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.windowActionBarOverlay = global::X_Calendar.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.windowActionModeOverlay = global::X_Calendar.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.windowFixedHeightMajor = global::X_Calendar.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.windowFixedHeightMinor = global::X_Calendar.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.windowFixedWidthMajor = global::X_Calendar.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.windowFixedWidthMinor = global::X_Calendar.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.windowMinWidthMajor = global::X_Calendar.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.windowMinWidthMinor = global::X_Calendar.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.windowNoTitle = global::X_Calendar.Droid.Resource.Attribute.windowNoTitle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Boolean.abc_action_bar_embed_tabs = global::X_Calendar.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Boolean.abc_action_bar_embed_tabs_pre_jb = global::X_Calendar.Droid.Resource.Boolean.abc_action_bar_embed_tabs_pre_jb;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Boolean.abc_action_bar_expanded_action_views_exclusive = global::X_Calendar.Droid.Resource.Boolean.abc_action_bar_expanded_action_views_exclusive;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::X_Calendar.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Boolean.abc_config_allowActionMenuItemTextWithIcon = global::X_Calendar.Droid.Resource.Boolean.abc_config_allowActionMenuItemTextWithIcon;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::X_Calendar.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::X_Calendar.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.abc_background_cache_hint_selector_material_dark = global::X_Calendar.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.abc_background_cache_hint_selector_material_light = global::X_Calendar.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.abc_input_method_navigation_guard = global::X_Calendar.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.abc_primary_text_disable_only_material_dark = global::X_Calendar.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.abc_primary_text_disable_only_material_light = global::X_Calendar.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.abc_primary_text_material_dark = global::X_Calendar.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.abc_primary_text_material_light = global::X_Calendar.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.abc_search_url_text = global::X_Calendar.Droid.Resource.Color.abc_search_url_text;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.abc_search_url_text_normal = global::X_Calendar.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.abc_search_url_text_pressed = global::X_Calendar.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.abc_search_url_text_selected = global::X_Calendar.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.abc_secondary_text_material_dark = global::X_Calendar.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.abc_secondary_text_material_light = global::X_Calendar.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.accent_material_dark = global::X_Calendar.Droid.Resource.Color.accent_material_dark;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.accent_material_light = global::X_Calendar.Droid.Resource.Color.accent_material_light;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.background_floating_material_dark = global::X_Calendar.Droid.Resource.Color.background_floating_material_dark;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.background_floating_material_light = global::X_Calendar.Droid.Resource.Color.background_floating_material_light;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.background_material_dark = global::X_Calendar.Droid.Resource.Color.background_material_dark;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.background_material_light = global::X_Calendar.Droid.Resource.Color.background_material_light;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.black = global::X_Calendar.Droid.Resource.Color.black;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.bright_foreground_disabled_material_dark = global::X_Calendar.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.bright_foreground_disabled_material_light = global::X_Calendar.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.bright_foreground_inverse_material_dark = global::X_Calendar.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.bright_foreground_inverse_material_light = global::X_Calendar.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.bright_foreground_material_dark = global::X_Calendar.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.bright_foreground_material_light = global::X_Calendar.Droid.Resource.Color.bright_foreground_material_light;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.button_material_dark = global::X_Calendar.Droid.Resource.Color.button_material_dark;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.button_material_light = global::X_Calendar.Droid.Resource.Color.button_material_light;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.dim_foreground_disabled_material_dark = global::X_Calendar.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.dim_foreground_disabled_material_light = global::X_Calendar.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.dim_foreground_material_dark = global::X_Calendar.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.dim_foreground_material_light = global::X_Calendar.Droid.Resource.Color.dim_foreground_material_light;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.highlighted_text_material_dark = global::X_Calendar.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.highlighted_text_material_light = global::X_Calendar.Droid.Resource.Color.highlighted_text_material_light;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.hint_foreground_material_dark = global::X_Calendar.Droid.Resource.Color.hint_foreground_material_dark;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.hint_foreground_material_light = global::X_Calendar.Droid.Resource.Color.hint_foreground_material_light;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.link_text_material_dark = global::X_Calendar.Droid.Resource.Color.link_text_material_dark;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.link_text_material_light = global::X_Calendar.Droid.Resource.Color.link_text_material_light;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.material_blue_grey_800 = global::X_Calendar.Droid.Resource.Color.material_blue_grey_800;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.material_blue_grey_900 = global::X_Calendar.Droid.Resource.Color.material_blue_grey_900;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.material_blue_grey_950 = global::X_Calendar.Droid.Resource.Color.material_blue_grey_950;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.material_deep_teal_200 = global::X_Calendar.Droid.Resource.Color.material_deep_teal_200;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.material_deep_teal_500 = global::X_Calendar.Droid.Resource.Color.material_deep_teal_500;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.primary_dark_material_dark = global::X_Calendar.Droid.Resource.Color.primary_dark_material_dark;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.primary_dark_material_light = global::X_Calendar.Droid.Resource.Color.primary_dark_material_light;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.primary_material_dark = global::X_Calendar.Droid.Resource.Color.primary_material_dark;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.primary_material_light = global::X_Calendar.Droid.Resource.Color.primary_material_light;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.primary_text_default_material_dark = global::X_Calendar.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.primary_text_default_material_light = global::X_Calendar.Droid.Resource.Color.primary_text_default_material_light;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.primary_text_disabled_material_dark = global::X_Calendar.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.primary_text_disabled_material_light = global::X_Calendar.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.ripple_material_dark = global::X_Calendar.Droid.Resource.Color.ripple_material_dark;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.ripple_material_light = global::X_Calendar.Droid.Resource.Color.ripple_material_light;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.secondary_text_default_material_dark = global::X_Calendar.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.secondary_text_default_material_light = global::X_Calendar.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.secondary_text_disabled_material_dark = global::X_Calendar.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.secondary_text_disabled_material_light = global::X_Calendar.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.switch_thumb_disabled_material_dark = global::X_Calendar.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.switch_thumb_disabled_material_light = global::X_Calendar.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.switch_thumb_material_dark = global::X_Calendar.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.switch_thumb_material_light = global::X_Calendar.Droid.Resource.Color.switch_thumb_material_light;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.switch_thumb_normal_material_dark = global::X_Calendar.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.switch_thumb_normal_material_light = global::X_Calendar.Droid.Resource.Color.switch_thumb_normal_material_light;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.white = global::X_Calendar.Droid.Resource.Color.white;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_action_bar_content_inset_material = global::X_Calendar.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_action_bar_default_height_material = global::X_Calendar.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_action_bar_default_padding_material = global::X_Calendar.Droid.Resource.Dimension.abc_action_bar_default_padding_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::X_Calendar.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_action_bar_navigation_padding_start_material = global::X_Calendar.Droid.Resource.Dimension.abc_action_bar_navigation_padding_start_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::X_Calendar.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::X_Calendar.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_action_bar_progress_bar_size = global::X_Calendar.Droid.Resource.Dimension.abc_action_bar_progress_bar_size;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_action_bar_stacked_max_height = global::X_Calendar.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::X_Calendar.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::X_Calendar.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::X_Calendar.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_action_button_min_height_material = global::X_Calendar.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_action_button_min_width_material = global::X_Calendar.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_action_button_min_width_overflow_material = global::X_Calendar.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_alert_dialog_button_bar_height = global::X_Calendar.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_button_inset_horizontal_material = global::X_Calendar.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_button_inset_vertical_material = global::X_Calendar.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_button_padding_horizontal_material = global::X_Calendar.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_button_padding_vertical_material = global::X_Calendar.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_config_prefDialogWidth = global::X_Calendar.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_control_corner_material = global::X_Calendar.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_control_inset_material = global::X_Calendar.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_control_padding_material = global::X_Calendar.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_dialog_list_padding_vertical_material = global::X_Calendar.Droid.Resource.Dimension.abc_dialog_list_padding_vertical_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_dialog_min_width_major = global::X_Calendar.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_dialog_min_width_minor = global::X_Calendar.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_dialog_padding_material = global::X_Calendar.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_dialog_padding_top_material = global::X_Calendar.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_disabled_alpha_material_dark = global::X_Calendar.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_disabled_alpha_material_light = global::X_Calendar.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_dropdownitem_icon_width = global::X_Calendar.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_dropdownitem_text_padding_left = global::X_Calendar.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_dropdownitem_text_padding_right = global::X_Calendar.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_edit_text_inset_bottom_material = global::X_Calendar.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::X_Calendar.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_edit_text_inset_top_material = global::X_Calendar.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_floating_window_z = global::X_Calendar.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_list_item_padding_horizontal_material = global::X_Calendar.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_panel_menu_list_width = global::X_Calendar.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_search_view_preferred_width = global::X_Calendar.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_search_view_text_min_width = global::X_Calendar.Droid.Resource.Dimension.abc_search_view_text_min_width;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_switch_padding = global::X_Calendar.Droid.Resource.Dimension.abc_switch_padding;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_text_size_body_1_material = global::X_Calendar.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_text_size_body_2_material = global::X_Calendar.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_text_size_button_material = global::X_Calendar.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_text_size_caption_material = global::X_Calendar.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_text_size_display_1_material = global::X_Calendar.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_text_size_display_2_material = global::X_Calendar.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_text_size_display_3_material = global::X_Calendar.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_text_size_display_4_material = global::X_Calendar.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_text_size_headline_material = global::X_Calendar.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_text_size_large_material = global::X_Calendar.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_text_size_medium_material = global::X_Calendar.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_text_size_menu_material = global::X_Calendar.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_text_size_small_material = global::X_Calendar.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_text_size_subhead_material = global::X_Calendar.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::X_Calendar.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_text_size_title_material = global::X_Calendar.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.abc_text_size_title_material_toolbar = global::X_Calendar.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.date_text_size_year_mode = global::X_Calendar.Droid.Resource.Dimension.date_text_size_year_mode;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.dialog_fixed_height_major = global::X_Calendar.Droid.Resource.Dimension.dialog_fixed_height_major;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.dialog_fixed_height_minor = global::X_Calendar.Droid.Resource.Dimension.dialog_fixed_height_minor;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.dialog_fixed_width_major = global::X_Calendar.Droid.Resource.Dimension.dialog_fixed_width_major;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.dialog_fixed_width_minor = global::X_Calendar.Droid.Resource.Dimension.dialog_fixed_width_minor;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.disabled_alpha_material_dark = global::X_Calendar.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.disabled_alpha_material_light = global::X_Calendar.Droid.Resource.Dimension.disabled_alpha_material_light;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.legend_stroke_width = global::X_Calendar.Droid.Resource.Dimension.legend_stroke_width;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.notification_large_icon_height = global::X_Calendar.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.notification_large_icon_width = global::X_Calendar.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.notification_subtext_size = global::X_Calendar.Droid.Resource.Dimension.notification_subtext_size;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::X_Calendar.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_btn_borderless_material = global::X_Calendar.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_btn_check_material = global::X_Calendar.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::X_Calendar.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::X_Calendar.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_btn_default_mtrl_shape = global::X_Calendar.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_btn_radio_material = global::X_Calendar.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::X_Calendar.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::X_Calendar.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_btn_rating_star_off_mtrl_alpha = global::X_Calendar.Droid.Resource.Drawable.abc_btn_rating_star_off_mtrl_alpha;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_btn_rating_star_on_mtrl_alpha = global::X_Calendar.Droid.Resource.Drawable.abc_btn_rating_star_on_mtrl_alpha;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::X_Calendar.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::X_Calendar.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_cab_background_internal_bg = global::X_Calendar.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_cab_background_top_material = global::X_Calendar.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::X_Calendar.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_dialog_material_background_dark = global::X_Calendar.Droid.Resource.Drawable.abc_dialog_material_background_dark;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_dialog_material_background_light = global::X_Calendar.Droid.Resource.Drawable.abc_dialog_material_background_light;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_edit_text_material = global::X_Calendar.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_ic_ab_back_mtrl_am_alpha = global::X_Calendar.Droid.Resource.Drawable.abc_ic_ab_back_mtrl_am_alpha;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_ic_clear_mtrl_alpha = global::X_Calendar.Droid.Resource.Drawable.abc_ic_clear_mtrl_alpha;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::X_Calendar.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_ic_go_search_api_mtrl_alpha = global::X_Calendar.Droid.Resource.Drawable.abc_ic_go_search_api_mtrl_alpha;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::X_Calendar.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::X_Calendar.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_ic_menu_moreoverflow_mtrl_alpha = global::X_Calendar.Droid.Resource.Drawable.abc_ic_menu_moreoverflow_mtrl_alpha;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::X_Calendar.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::X_Calendar.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::X_Calendar.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_ic_search_api_mtrl_alpha = global::X_Calendar.Droid.Resource.Drawable.abc_ic_search_api_mtrl_alpha;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_ic_voice_search_api_mtrl_alpha = global::X_Calendar.Droid.Resource.Drawable.abc_ic_voice_search_api_mtrl_alpha;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_item_background_holo_dark = global::X_Calendar.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_item_background_holo_light = global::X_Calendar.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_list_divider_mtrl_alpha = global::X_Calendar.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_list_focused_holo = global::X_Calendar.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_list_longpressed_holo = global::X_Calendar.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_list_pressed_holo_dark = global::X_Calendar.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_list_pressed_holo_light = global::X_Calendar.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::X_Calendar.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::X_Calendar.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::X_Calendar.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_list_selector_disabled_holo_light = global::X_Calendar.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_list_selector_holo_dark = global::X_Calendar.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_list_selector_holo_light = global::X_Calendar.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::X_Calendar.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_popup_background_mtrl_mult = global::X_Calendar.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_ratingbar_full_material = global::X_Calendar.Droid.Resource.Drawable.abc_ratingbar_full_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::X_Calendar.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_spinner_textfield_background_material = global::X_Calendar.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_switch_thumb_material = global::X_Calendar.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_switch_track_mtrl_alpha = global::X_Calendar.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_tab_indicator_material = global::X_Calendar.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::X_Calendar.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_text_cursor_mtrl_alpha = global::X_Calendar.Droid.Resource.Drawable.abc_text_cursor_mtrl_alpha;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::X_Calendar.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::X_Calendar.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::X_Calendar.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::X_Calendar.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.abc_textfield_search_material = global::X_Calendar.Droid.Resource.Drawable.abc_textfield_search_material;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.events_popup_bg = global::X_Calendar.Droid.Resource.Drawable.events_popup_bg;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.hamburger = global::X_Calendar.Droid.Resource.Drawable.hamburger;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.hmb = global::X_Calendar.Droid.Resource.Drawable.hmb;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.notification_template_icon_bg = global::X_Calendar.Droid.Resource.Drawable.notification_template_icon_bg;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.Block = global::X_Calendar.Droid.Resource.Id.Block;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.Inline = global::X_Calendar.Droid.Resource.Id.Inline;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.Month = global::X_Calendar.Droid.Resource.Id.Month;
@@ -61,11 +470,39 @@ namespace X_Calendar.Droid
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.Single = global::X_Calendar.Droid.Resource.Id.Single;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.Week = global::X_Calendar.Droid.Resource.Id.Week;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.Year = global::X_Calendar.Droid.Resource.Id.Year;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.action0 = global::X_Calendar.Droid.Resource.Id.action0;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.action_bar = global::X_Calendar.Droid.Resource.Id.action_bar;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.action_bar_activity_content = global::X_Calendar.Droid.Resource.Id.action_bar_activity_content;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.action_bar_container = global::X_Calendar.Droid.Resource.Id.action_bar_container;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.action_bar_root = global::X_Calendar.Droid.Resource.Id.action_bar_root;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.action_bar_spinner = global::X_Calendar.Droid.Resource.Id.action_bar_spinner;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.action_bar_subtitle = global::X_Calendar.Droid.Resource.Id.action_bar_subtitle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.action_bar_title = global::X_Calendar.Droid.Resource.Id.action_bar_title;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.action_context_bar = global::X_Calendar.Droid.Resource.Id.action_context_bar;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.action_divider = global::X_Calendar.Droid.Resource.Id.action_divider;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.action_menu_divider = global::X_Calendar.Droid.Resource.Id.action_menu_divider;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.action_menu_presenter = global::X_Calendar.Droid.Resource.Id.action_menu_presenter;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.action_mode_bar = global::X_Calendar.Droid.Resource.Id.action_mode_bar;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.action_mode_bar_stub = global::X_Calendar.Droid.Resource.Id.action_mode_bar_stub;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.action_mode_close_button = global::X_Calendar.Droid.Resource.Id.action_mode_close_button;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.activity_chooser_view_content = global::X_Calendar.Droid.Resource.Id.activity_chooser_view_content;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.alertTitle = global::X_Calendar.Droid.Resource.Id.alertTitle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.always = global::X_Calendar.Droid.Resource.Id.always;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.beginning = global::X_Calendar.Droid.Resource.Id.beginning;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.buttonPanel = global::X_Calendar.Droid.Resource.Id.buttonPanel;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.cancel_action = global::X_Calendar.Droid.Resource.Id.cancel_action;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.chart_data_point_content_container = global::X_Calendar.Droid.Resource.Id.chart_data_point_content_container;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.chart_tooltip_category = global::X_Calendar.Droid.Resource.Id.chart_tooltip_category;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.chart_tooltip_pointer = global::X_Calendar.Droid.Resource.Id.chart_tooltip_pointer;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.chart_tooltip_value = global::X_Calendar.Droid.Resource.Id.chart_tooltip_value;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.checkbox = global::X_Calendar.Droid.Resource.Id.checkbox;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.chronometer = global::X_Calendar.Droid.Resource.Id.chronometer;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.collapseActionView = global::X_Calendar.Droid.Resource.Id.collapseActionView;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.contentPanel = global::X_Calendar.Droid.Resource.Id.contentPanel;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.custom = global::X_Calendar.Droid.Resource.Id.custom;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.customPanel = global::X_Calendar.Droid.Resource.Id.customPanel;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.data_form_checkbox_editor = global::X_Calendar.Droid.Resource.Id.data_form_checkbox_editor;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.data_form_core_editor_layout = global::X_Calendar.Droid.Resource.Id.data_form_core_editor_layout;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.data_form_date_editor = global::X_Calendar.Droid.Resource.Id.data_form_date_editor;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.data_form_decimal_editor = global::X_Calendar.Droid.Resource.Id.data_form_decimal_editor;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.data_form_integer_editor = global::X_Calendar.Droid.Resource.Id.data_form_integer_editor;
@@ -80,22 +517,118 @@ namespace X_Calendar.Droid
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.data_form_toggle_editor = global::X_Calendar.Droid.Resource.Id.data_form_toggle_editor;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.data_form_validation_message_view = global::X_Calendar.Droid.Resource.Id.data_form_validation_message_view;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.data_form_validation_view = global::X_Calendar.Droid.Resource.Id.data_form_validation_view;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.decor_content_parent = global::X_Calendar.Droid.Resource.Id.decor_content_parent;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.default_activity_button = global::X_Calendar.Droid.Resource.Id.default_activity_button;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.dialog = global::X_Calendar.Droid.Resource.Id.dialog;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.disableHome = global::X_Calendar.Droid.Resource.Id.disableHome;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.dropdown = global::X_Calendar.Droid.Resource.Id.dropdown;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.edit_query = global::X_Calendar.Droid.Resource.Id.edit_query;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.end = global::X_Calendar.Droid.Resource.Id.end;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.end_padder = global::X_Calendar.Droid.Resource.Id.end_padder;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.expand_activities_button = global::X_Calendar.Droid.Resource.Id.expand_activities_button;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.expanded_menu = global::X_Calendar.Droid.Resource.Id.expanded_menu;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.home = global::X_Calendar.Droid.Resource.Id.home;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.homeAsUp = global::X_Calendar.Droid.Resource.Id.homeAsUp;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.horizontal = global::X_Calendar.Droid.Resource.Id.horizontal;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.icon = global::X_Calendar.Droid.Resource.Id.icon;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.ifRoom = global::X_Calendar.Droid.Resource.Id.ifRoom;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.image = global::X_Calendar.Droid.Resource.Id.image;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.imageView = global::X_Calendar.Droid.Resource.Id.imageView;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.info = global::X_Calendar.Droid.Resource.Id.info;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.inline_event_end = global::X_Calendar.Droid.Resource.Id.inline_event_end;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.inline_event_start = global::X_Calendar.Droid.Resource.Id.inline_event_start;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.inline_event_title = global::X_Calendar.Droid.Resource.Id.inline_event_title;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.line1 = global::X_Calendar.Droid.Resource.Id.line1;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.line3 = global::X_Calendar.Droid.Resource.Id.line3;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.listMode = global::X_Calendar.Droid.Resource.Id.listMode;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.list_item = global::X_Calendar.Droid.Resource.Id.list_item;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.media_actions = global::X_Calendar.Droid.Resource.Id.media_actions;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.middle = global::X_Calendar.Droid.Resource.Id.middle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.multiply = global::X_Calendar.Droid.Resource.Id.multiply;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.navItemsLayout = global::X_Calendar.Droid.Resource.Id.navItemsLayout;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.navigationItemText = global::X_Calendar.Droid.Resource.Id.navigationItemText;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.never = global::X_Calendar.Droid.Resource.Id.never;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.none = global::X_Calendar.Droid.Resource.Id.none;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.normal = global::X_Calendar.Droid.Resource.Id.normal;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.parentPanel = global::X_Calendar.Droid.Resource.Id.parentPanel;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.popup_event_time = global::X_Calendar.Droid.Resource.Id.popup_event_time;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.popup_event_title = global::X_Calendar.Droid.Resource.Id.popup_event_title;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.progress_circular = global::X_Calendar.Droid.Resource.Id.progress_circular;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.progress_horizontal = global::X_Calendar.Droid.Resource.Id.progress_horizontal;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.radio = global::X_Calendar.Droid.Resource.Id.radio;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.screen = global::X_Calendar.Droid.Resource.Id.screen;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.scrollView = global::X_Calendar.Droid.Resource.Id.scrollView;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.search_badge = global::X_Calendar.Droid.Resource.Id.search_badge;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.search_bar = global::X_Calendar.Droid.Resource.Id.search_bar;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.search_button = global::X_Calendar.Droid.Resource.Id.search_button;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.search_close_btn = global::X_Calendar.Droid.Resource.Id.search_close_btn;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.search_edit_frame = global::X_Calendar.Droid.Resource.Id.search_edit_frame;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.search_go_btn = global::X_Calendar.Droid.Resource.Id.search_go_btn;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.search_mag_icon = global::X_Calendar.Droid.Resource.Id.search_mag_icon;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.search_plate = global::X_Calendar.Droid.Resource.Id.search_plate;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.search_src_text = global::X_Calendar.Droid.Resource.Id.search_src_text;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.search_voice_btn = global::X_Calendar.Droid.Resource.Id.search_voice_btn;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.select_dialog_listview = global::X_Calendar.Droid.Resource.Id.select_dialog_listview;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.shortcut = global::X_Calendar.Droid.Resource.Id.shortcut;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.showCustom = global::X_Calendar.Droid.Resource.Id.showCustom;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.showHome = global::X_Calendar.Droid.Resource.Id.showHome;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.showTitle = global::X_Calendar.Droid.Resource.Id.showTitle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.split_action_bar = global::X_Calendar.Droid.Resource.Id.split_action_bar;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.src_atop = global::X_Calendar.Droid.Resource.Id.src_atop;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.src_in = global::X_Calendar.Droid.Resource.Id.src_in;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.src_over = global::X_Calendar.Droid.Resource.Id.src_over;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.status_bar_latest_event_content = global::X_Calendar.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.submit_area = global::X_Calendar.Droid.Resource.Id.submit_area;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.tabMode = global::X_Calendar.Droid.Resource.Id.tabMode;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.text = global::X_Calendar.Droid.Resource.Id.text;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.text2 = global::X_Calendar.Droid.Resource.Id.text2;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.textSpacerNoButtons = global::X_Calendar.Droid.Resource.Id.textSpacerNoButtons;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.time = global::X_Calendar.Droid.Resource.Id.time;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.title = global::X_Calendar.Droid.Resource.Id.title;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.title_template = global::X_Calendar.Droid.Resource.Id.title_template;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.tooltip_content_container = global::X_Calendar.Droid.Resource.Id.tooltip_content_container;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.topPanel = global::X_Calendar.Droid.Resource.Id.topPanel;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.up = global::X_Calendar.Droid.Resource.Id.up;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.useLogo = global::X_Calendar.Droid.Resource.Id.useLogo;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.vertical = global::X_Calendar.Droid.Resource.Id.vertical;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.withText = global::X_Calendar.Droid.Resource.Id.withText;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.wrap_content = global::X_Calendar.Droid.Resource.Id.wrap_content;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Integer.abc_config_activityDefaultDur = global::X_Calendar.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Integer.abc_config_activityShortDur = global::X_Calendar.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Integer.abc_max_action_buttons = global::X_Calendar.Droid.Resource.Integer.abc_max_action_buttons;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Integer.cancel_button_image_alpha = global::X_Calendar.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Integer.status_bar_notification_info_maxnum = global::X_Calendar.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.abc_action_bar_title_item = global::X_Calendar.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.abc_action_bar_up_container = global::X_Calendar.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.abc_action_bar_view_list_nav_layout = global::X_Calendar.Droid.Resource.Layout.abc_action_bar_view_list_nav_layout;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.abc_action_menu_item_layout = global::X_Calendar.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.abc_action_menu_layout = global::X_Calendar.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.abc_action_mode_bar = global::X_Calendar.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.abc_action_mode_close_item_material = global::X_Calendar.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.abc_activity_chooser_view = global::X_Calendar.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.abc_activity_chooser_view_list_item = global::X_Calendar.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.abc_alert_dialog_material = global::X_Calendar.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.abc_dialog_title_material = global::X_Calendar.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.abc_expanded_menu_layout = global::X_Calendar.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.abc_list_menu_item_checkbox = global::X_Calendar.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.abc_list_menu_item_icon = global::X_Calendar.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.abc_list_menu_item_layout = global::X_Calendar.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.abc_list_menu_item_radio = global::X_Calendar.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.abc_popup_menu_item_layout = global::X_Calendar.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.abc_screen_content_include = global::X_Calendar.Droid.Resource.Layout.abc_screen_content_include;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.abc_screen_simple = global::X_Calendar.Droid.Resource.Layout.abc_screen_simple;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.abc_screen_simple_overlay_action_mode = global::X_Calendar.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.abc_screen_toolbar = global::X_Calendar.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.abc_search_dropdown_item_icons_2line = global::X_Calendar.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.abc_search_view = global::X_Calendar.Droid.Resource.Layout.abc_search_view;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.abc_select_dialog_material = global::X_Calendar.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.abc_simple_dropdown_hint = global::X_Calendar.Droid.Resource.Layout.abc_simple_dropdown_hint;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.data_form_checkbox_editor = global::X_Calendar.Droid.Resource.Layout.data_form_checkbox_editor;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.data_form_date_editor = global::X_Calendar.Droid.Resource.Layout.data_form_date_editor;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.data_form_decimal_editor = global::X_Calendar.Droid.Resource.Layout.data_form_decimal_editor;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.data_form_group_layout = global::X_Calendar.Droid.Resource.Layout.data_form_group_layout;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.data_form_integer_editor = global::X_Calendar.Droid.Resource.Layout.data_form_integer_editor;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.data_form_main_editor_layout = global::X_Calendar.Droid.Resource.Layout.data_form_main_editor_layout;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.data_form_root_layout = global::X_Calendar.Droid.Resource.Layout.data_form_root_layout;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.data_form_seek_bar_editor = global::X_Calendar.Droid.Resource.Layout.data_form_seek_bar_editor;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.data_form_spinner_editor = global::X_Calendar.Droid.Resource.Layout.data_form_spinner_editor;
@@ -110,23 +643,464 @@ namespace X_Calendar.Droid
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.inline_event = global::X_Calendar.Droid.Resource.Layout.inline_event;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.navigation_drawer_content = global::X_Calendar.Droid.Resource.Layout.navigation_drawer_content;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.navigation_item_view = global::X_Calendar.Droid.Resource.Layout.navigation_item_view;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.notification_media_action = global::X_Calendar.Droid.Resource.Layout.notification_media_action;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.notification_media_cancel_action = global::X_Calendar.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.notification_template_big_media = global::X_Calendar.Droid.Resource.Layout.notification_template_big_media;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.notification_template_big_media_narrow = global::X_Calendar.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.notification_template_lines = global::X_Calendar.Droid.Resource.Layout.notification_template_lines;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.notification_template_media = global::X_Calendar.Droid.Resource.Layout.notification_template_media;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.notification_template_part_chronometer = global::X_Calendar.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.notification_template_part_time = global::X_Calendar.Droid.Resource.Layout.notification_template_part_time;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.popup_event = global::X_Calendar.Droid.Resource.Layout.popup_event;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.select_dialog_item_material = global::X_Calendar.Droid.Resource.Layout.select_dialog_item_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.select_dialog_multichoice_material = global::X_Calendar.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.select_dialog_singlechoice_material = global::X_Calendar.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::X_Calendar.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.tooltip_container = global::X_Calendar.Droid.Resource.Layout.tooltip_container;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.trial_message = global::X_Calendar.Droid.Resource.Layout.trial_message;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.String.ApplicationName = global::X_Calendar.Droid.Resource.String.ApplicationName;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.String.Hello = global::X_Calendar.Droid.Resource.String.Hello;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.String.abc_action_bar_home_description = global::X_Calendar.Droid.Resource.String.abc_action_bar_home_description;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.String.abc_action_bar_home_description_format = global::X_Calendar.Droid.Resource.String.abc_action_bar_home_description_format;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.String.abc_action_bar_home_subtitle_description_format = global::X_Calendar.Droid.Resource.String.abc_action_bar_home_subtitle_description_format;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.String.abc_action_bar_up_description = global::X_Calendar.Droid.Resource.String.abc_action_bar_up_description;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.String.abc_action_menu_overflow_description = global::X_Calendar.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.String.abc_action_mode_done = global::X_Calendar.Droid.Resource.String.abc_action_mode_done;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.String.abc_activity_chooser_view_see_all = global::X_Calendar.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.String.abc_activitychooserview_choose_application = global::X_Calendar.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.String.abc_search_hint = global::X_Calendar.Droid.Resource.String.abc_search_hint;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.String.abc_searchview_description_clear = global::X_Calendar.Droid.Resource.String.abc_searchview_description_clear;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.String.abc_searchview_description_query = global::X_Calendar.Droid.Resource.String.abc_searchview_description_query;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.String.abc_searchview_description_search = global::X_Calendar.Droid.Resource.String.abc_searchview_description_search;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.String.abc_searchview_description_submit = global::X_Calendar.Droid.Resource.String.abc_searchview_description_submit;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.String.abc_searchview_description_voice = global::X_Calendar.Droid.Resource.String.abc_searchview_description_voice;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.String.abc_shareactionprovider_share_with = global::X_Calendar.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.String.abc_shareactionprovider_share_with_application = global::X_Calendar.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.String.abc_toolbar_collapse_description = global::X_Calendar.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.String.status_bar_notification_info_overflow = global::X_Calendar.Droid.Resource.String.status_bar_notification_info_overflow;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.String.trial_message = global::X_Calendar.Droid.Resource.String.trial_message;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.String.trial_message_caption = global::X_Calendar.Droid.Resource.String.trial_message_caption;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.AlertDialog_AppCompat = global::X_Calendar.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.AlertDialog_AppCompat_Light = global::X_Calendar.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Animation_AppCompat_Dialog = global::X_Calendar.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Animation_AppCompat_DropDownUp = global::X_Calendar.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_AlertDialog_AppCompat = global::X_Calendar.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_AlertDialog_AppCompat_Light = global::X_Calendar.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Animation_AppCompat_Dialog = global::X_Calendar.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::X_Calendar.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_DialogWindowTitle_AppCompat = global::X_Calendar.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::X_Calendar.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat = global::X_Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::X_Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::X_Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Button = global::X_Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::X_Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::X_Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::X_Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::X_Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::X_Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::X_Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::X_Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Large = global::X_Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::X_Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::X_Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::X_Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::X_Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::X_Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::X_Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::X_Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::X_Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::X_Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Small = global::X_Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::X_Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::X_Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::X_Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Title = global::X_Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::X_Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::X_Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::X_Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::X_Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::X_Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::X_Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::X_Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::X_Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::X_Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::X_Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::X_Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::X_Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::X_Calendar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::X_Calendar.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::X_Calendar.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::X_Calendar.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Theme_AppCompat = global::X_Calendar.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::X_Calendar.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Theme_AppCompat_Dialog = global::X_Calendar.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::X_Calendar.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::X_Calendar.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::X_Calendar.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::X_Calendar.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Theme_AppCompat_Light = global::X_Calendar.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::X_Calendar.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::X_Calendar.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::X_Calendar.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::X_Calendar.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::X_Calendar.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::X_Calendar.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_ThemeOverlay_AppCompat = global::X_Calendar.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::X_Calendar.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::X_Calendar.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::X_Calendar.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::X_Calendar.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::X_Calendar.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::X_Calendar.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::X_Calendar.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::X_Calendar.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_V21_Theme_AppCompat = global::X_Calendar.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::X_Calendar.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_V21_Theme_AppCompat_Light = global::X_Calendar.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::X_Calendar.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_V7_Theme_AppCompat = global::X_Calendar.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::X_Calendar.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_V7_Theme_AppCompat_Light = global::X_Calendar.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::X_Calendar.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::X_Calendar.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::X_Calendar.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Widget_AppCompat_ActionBar = global::X_Calendar.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::X_Calendar.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::X_Calendar.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::X_Calendar.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::X_Calendar.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Widget_AppCompat_ActionButton = global::X_Calendar.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::X_Calendar.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::X_Calendar.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Widget_AppCompat_ActionMode = global::X_Calendar.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::X_Calendar.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::X_Calendar.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Widget_AppCompat_Button = global::X_Calendar.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::X_Calendar.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::X_Calendar.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::X_Calendar.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Widget_AppCompat_Button_Small = global::X_Calendar.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::X_Calendar.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::X_Calendar.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::X_Calendar.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::X_Calendar.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::X_Calendar.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::X_Calendar.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::X_Calendar.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::X_Calendar.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Widget_AppCompat_EditText = global::X_Calendar.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::X_Calendar.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::X_Calendar.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::X_Calendar.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::X_Calendar.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::X_Calendar.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::X_Calendar.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::X_Calendar.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::X_Calendar.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::X_Calendar.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Widget_AppCompat_ListView = global::X_Calendar.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::X_Calendar.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::X_Calendar.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::X_Calendar.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::X_Calendar.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::X_Calendar.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::X_Calendar.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::X_Calendar.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Widget_AppCompat_RatingBar = global::X_Calendar.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Widget_AppCompat_SearchView = global::X_Calendar.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::X_Calendar.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Widget_AppCompat_Spinner = global::X_Calendar.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Widget_AppCompat_Spinner_DropDown_ActionBar = global::X_Calendar.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::X_Calendar.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::X_Calendar.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Widget_AppCompat_Toolbar = global::X_Calendar.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::X_Calendar.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Platform_AppCompat = global::X_Calendar.Droid.Resource.Style.Platform_AppCompat;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Platform_AppCompat_Light = global::X_Calendar.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::X_Calendar.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::X_Calendar.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Platform_V11_AppCompat = global::X_Calendar.Droid.Resource.Style.Platform_V11_AppCompat;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Platform_V11_AppCompat_Light = global::X_Calendar.Droid.Resource.Style.Platform_V11_AppCompat_Light;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Platform_V14_AppCompat = global::X_Calendar.Droid.Resource.Style.Platform_V14_AppCompat;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Platform_V14_AppCompat_Light = global::X_Calendar.Droid.Resource.Style.Platform_V14_AppCompat_Light;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.RadScrollViewStyle = global::X_Calendar.Droid.Resource.Style.RadScrollViewStyle;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.RadScrollViewTheme = global::X_Calendar.Droid.Resource.Style.RadScrollViewTheme;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::X_Calendar.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::X_Calendar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_ActionButton_Overflow = global::X_Calendar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::X_Calendar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::X_Calendar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::X_Calendar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::X_Calendar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::X_Calendar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::X_Calendar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::X_Calendar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::X_Calendar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::X_Calendar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::X_Calendar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Toolbar_Button_Navigation = global::X_Calendar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.TextAppearance_AppCompat = global::X_Calendar.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.TextAppearance_AppCompat_Body1 = global::X_Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.TextAppearance_AppCompat_Body2 = global::X_Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.TextAppearance_AppCompat_Button = global::X_Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.TextAppearance_AppCompat_Caption = global::X_Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.TextAppearance_AppCompat_Display1 = global::X_Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.TextAppearance_AppCompat_Display2 = global::X_Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.TextAppearance_AppCompat_Display3 = global::X_Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.TextAppearance_AppCompat_Display4 = global::X_Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.TextAppearance_AppCompat_Headline = global::X_Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.TextAppearance_AppCompat_Inverse = global::X_Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.TextAppearance_AppCompat_Large = global::X_Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::X_Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::X_Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::X_Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::X_Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::X_Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.TextAppearance_AppCompat_Medium = global::X_Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::X_Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.TextAppearance_AppCompat_Menu = global::X_Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::X_Calendar.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::X_Calendar.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.TextAppearance_AppCompat_Small = global::X_Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::X_Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.TextAppearance_AppCompat_Subhead = global::X_Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::X_Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.TextAppearance_AppCompat_Title = global::X_Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::X_Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::X_Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::X_Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::X_Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::X_Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::X_Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::X_Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::X_Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::X_Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::X_Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::X_Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::X_Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::X_Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::X_Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::X_Calendar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.TextAppearance_StatusBar_EventContent = global::X_Calendar.Droid.Resource.Style.TextAppearance_StatusBar_EventContent;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Info = global::X_Calendar.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Info;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Line2 = global::X_Calendar.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Line2;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Time = global::X_Calendar.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Time;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Title = global::X_Calendar.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Title;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::X_Calendar.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::X_Calendar.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::X_Calendar.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Theme_AppCompat = global::X_Calendar.Droid.Resource.Style.Theme_AppCompat;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Theme_AppCompat_CompactMenu = global::X_Calendar.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Theme_AppCompat_Dialog = global::X_Calendar.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Theme_AppCompat_Dialog_Alert = global::X_Calendar.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::X_Calendar.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::X_Calendar.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Theme_AppCompat_Light = global::X_Calendar.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::X_Calendar.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Theme_AppCompat_Light_Dialog = global::X_Calendar.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::X_Calendar.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::X_Calendar.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::X_Calendar.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::X_Calendar.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Theme_AppCompat_NoActionBar = global::X_Calendar.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.ThemeOverlay_AppCompat = global::X_Calendar.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::X_Calendar.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.ThemeOverlay_AppCompat_Dark = global::X_Calendar.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::X_Calendar.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.ThemeOverlay_AppCompat_Light = global::X_Calendar.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_ActionBar = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_ActionButton = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_ActionMode = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_ActivityChooserView = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_Button = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_Button_Borderless = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_Button_Small = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_ButtonBar = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_EditText = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_Light_ActionBar = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_Light_ActionButton = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_Light_SearchView = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_ListPopupWindow = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_ListView = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_ListView_DropDown = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_ListView_Menu = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_PopupMenu = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_PopupWindow = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_ProgressBar = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_RatingBar = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_SearchView = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_Spinner = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_Toolbar = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::X_Calendar.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.ActionBar = global::X_Calendar.Droid.Resource.Styleable.ActionBar;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.ActionBar_background = global::X_Calendar.Droid.Resource.Styleable.ActionBar_background;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.ActionBar_backgroundSplit = global::X_Calendar.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.ActionBar_backgroundStacked = global::X_Calendar.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.ActionBar_contentInsetEnd = global::X_Calendar.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.ActionBar_contentInsetLeft = global::X_Calendar.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.ActionBar_contentInsetRight = global::X_Calendar.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.ActionBar_contentInsetStart = global::X_Calendar.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.ActionBar_customNavigationLayout = global::X_Calendar.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.ActionBar_displayOptions = global::X_Calendar.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.ActionBar_divider = global::X_Calendar.Droid.Resource.Styleable.ActionBar_divider;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.ActionBar_elevation = global::X_Calendar.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.ActionBar_height = global::X_Calendar.Droid.Resource.Styleable.ActionBar_height;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.ActionBar_hideOnContentScroll = global::X_Calendar.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.ActionBar_homeAsUpIndicator = global::X_Calendar.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.ActionBar_homeLayout = global::X_Calendar.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.ActionBar_icon = global::X_Calendar.Droid.Resource.Styleable.ActionBar_icon;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::X_Calendar.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.ActionBar_itemPadding = global::X_Calendar.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.ActionBar_logo = global::X_Calendar.Droid.Resource.Styleable.ActionBar_logo;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.ActionBar_navigationMode = global::X_Calendar.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.ActionBar_popupTheme = global::X_Calendar.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.ActionBar_progressBarPadding = global::X_Calendar.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.ActionBar_progressBarStyle = global::X_Calendar.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.ActionBar_subtitle = global::X_Calendar.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.ActionBar_subtitleTextStyle = global::X_Calendar.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.ActionBar_title = global::X_Calendar.Droid.Resource.Styleable.ActionBar_title;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.ActionBar_titleTextStyle = global::X_Calendar.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.ActionBarLayout = global::X_Calendar.Droid.Resource.Styleable.ActionBarLayout;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::X_Calendar.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.ActionMenuItemView = global::X_Calendar.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.ActionMenuItemView_android_minWidth = global::X_Calendar.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.ActionMenuView = global::X_Calendar.Droid.Resource.Styleable.ActionMenuView;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.ActionMode = global::X_Calendar.Droid.Resource.Styleable.ActionMode;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.ActionMode_background = global::X_Calendar.Droid.Resource.Styleable.ActionMode_background;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.ActionMode_backgroundSplit = global::X_Calendar.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.ActionMode_closeItemLayout = global::X_Calendar.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.ActionMode_height = global::X_Calendar.Droid.Resource.Styleable.ActionMode_height;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.ActionMode_subtitleTextStyle = global::X_Calendar.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.ActionMode_titleTextStyle = global::X_Calendar.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.ActivityChooserView = global::X_Calendar.Droid.Resource.Styleable.ActivityChooserView;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::X_Calendar.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.ActivityChooserView_initialActivityCount = global::X_Calendar.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.AlertDialog = global::X_Calendar.Droid.Resource.Styleable.AlertDialog;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.AlertDialog_android_layout = global::X_Calendar.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::X_Calendar.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.AlertDialog_listItemLayout = global::X_Calendar.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.AlertDialog_listLayout = global::X_Calendar.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::X_Calendar.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::X_Calendar.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.AppCompatTextView = global::X_Calendar.Droid.Resource.Styleable.AppCompatTextView;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.AppCompatTextView_android_textAppearance = global::X_Calendar.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.AppCompatTextView_textAllCaps = global::X_Calendar.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.CalendarCellState = global::X_Calendar.Droid.Resource.Styleable.CalendarCellState;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.CalendarCellState_state_calendar_cell_today = global::X_Calendar.Droid.Resource.Styleable.CalendarCellState_state_calendar_cell_today;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.CalendarTheme = global::X_Calendar.Droid.Resource.Styleable.CalendarTheme;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.CalendarTheme_calendarStyle = global::X_Calendar.Droid.Resource.Styleable.CalendarTheme_calendarStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.DrawerArrowToggle = global::X_Calendar.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.DrawerArrowToggle_barSize = global::X_Calendar.Droid.Resource.Styleable.DrawerArrowToggle_barSize;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.DrawerArrowToggle_color = global::X_Calendar.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.DrawerArrowToggle_drawableSize = global::X_Calendar.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::X_Calendar.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.DrawerArrowToggle_middleBarArrowSize = global::X_Calendar.Droid.Resource.Styleable.DrawerArrowToggle_middleBarArrowSize;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.DrawerArrowToggle_spinBars = global::X_Calendar.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.DrawerArrowToggle_thickness = global::X_Calendar.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.DrawerArrowToggle_topBottomBarArrowSize = global::X_Calendar.Droid.Resource.Styleable.DrawerArrowToggle_topBottomBarArrowSize;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.LinearLayoutCompat = global::X_Calendar.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::X_Calendar.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::X_Calendar.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.LinearLayoutCompat_android_gravity = global::X_Calendar.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.LinearLayoutCompat_android_orientation = global::X_Calendar.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::X_Calendar.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.LinearLayoutCompat_divider = global::X_Calendar.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::X_Calendar.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::X_Calendar.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.LinearLayoutCompat_showDividers = global::X_Calendar.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.LinearLayoutCompat_Layout = global::X_Calendar.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::X_Calendar.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::X_Calendar.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::X_Calendar.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::X_Calendar.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.ListPopupWindow = global::X_Calendar.Droid.Resource.Styleable.ListPopupWindow;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::X_Calendar.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::X_Calendar.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.MenuGroup = global::X_Calendar.Droid.Resource.Styleable.MenuGroup;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.MenuGroup_android_checkableBehavior = global::X_Calendar.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.MenuGroup_android_enabled = global::X_Calendar.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.MenuGroup_android_id = global::X_Calendar.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.MenuGroup_android_menuCategory = global::X_Calendar.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.MenuGroup_android_orderInCategory = global::X_Calendar.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.MenuGroup_android_visible = global::X_Calendar.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.MenuItem = global::X_Calendar.Droid.Resource.Styleable.MenuItem;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.MenuItem_actionLayout = global::X_Calendar.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.MenuItem_actionProviderClass = global::X_Calendar.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.MenuItem_actionViewClass = global::X_Calendar.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::X_Calendar.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.MenuItem_android_checkable = global::X_Calendar.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.MenuItem_android_checked = global::X_Calendar.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.MenuItem_android_enabled = global::X_Calendar.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.MenuItem_android_icon = global::X_Calendar.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.MenuItem_android_id = global::X_Calendar.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.MenuItem_android_menuCategory = global::X_Calendar.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.MenuItem_android_numericShortcut = global::X_Calendar.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.MenuItem_android_onClick = global::X_Calendar.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.MenuItem_android_orderInCategory = global::X_Calendar.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.MenuItem_android_title = global::X_Calendar.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.MenuItem_android_titleCondensed = global::X_Calendar.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.MenuItem_android_visible = global::X_Calendar.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.MenuItem_showAsAction = global::X_Calendar.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.MenuView = global::X_Calendar.Droid.Resource.Styleable.MenuView;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.MenuView_android_headerBackground = global::X_Calendar.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.MenuView_android_horizontalDivider = global::X_Calendar.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.MenuView_android_itemBackground = global::X_Calendar.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::X_Calendar.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.MenuView_android_itemTextAppearance = global::X_Calendar.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.MenuView_android_verticalDivider = global::X_Calendar.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.MenuView_android_windowAnimationStyle = global::X_Calendar.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.MenuView_preserveIconSpacing = global::X_Calendar.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.PointerLayout = global::X_Calendar.Droid.Resource.Styleable.PointerLayout;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.PointerLayout_pointerFill = global::X_Calendar.Droid.Resource.Styleable.PointerLayout_pointerFill;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.PointerLayout_pointerMargin = global::X_Calendar.Droid.Resource.Styleable.PointerLayout_pointerMargin;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.PointerLayout_pointerSize = global::X_Calendar.Droid.Resource.Styleable.PointerLayout_pointerSize;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.PopupWindow = global::X_Calendar.Droid.Resource.Styleable.PopupWindow;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.PopupWindow_android_popupBackground = global::X_Calendar.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.PopupWindow_overlapAnchor = global::X_Calendar.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.PopupWindowBackgroundState = global::X_Calendar.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::X_Calendar.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.RadCalendarView = global::X_Calendar.Droid.Resource.Styleable.RadCalendarView;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.RadCalendarView_calendarBackground = global::X_Calendar.Droid.Resource.Styleable.RadCalendarView_calendarBackground;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.RadCalendarView_displayMode = global::X_Calendar.Droid.Resource.Styleable.RadCalendarView_displayMode;
@@ -142,6 +1116,195 @@ namespace X_Calendar.Droid
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.RadScrollView_scrollMode = global::X_Calendar.Droid.Resource.Styleable.RadScrollView_scrollMode;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.RadScrollViewTheme = global::X_Calendar.Droid.Resource.Styleable.RadScrollViewTheme;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.RadScrollViewTheme_radScrollViewStyle = global::X_Calendar.Droid.Resource.Styleable.RadScrollViewTheme_radScrollViewStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.SearchView = global::X_Calendar.Droid.Resource.Styleable.SearchView;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.SearchView_android_focusable = global::X_Calendar.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.SearchView_android_imeOptions = global::X_Calendar.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.SearchView_android_inputType = global::X_Calendar.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.SearchView_android_maxWidth = global::X_Calendar.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.SearchView_closeIcon = global::X_Calendar.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.SearchView_commitIcon = global::X_Calendar.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.SearchView_defaultQueryHint = global::X_Calendar.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.SearchView_goIcon = global::X_Calendar.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.SearchView_iconifiedByDefault = global::X_Calendar.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.SearchView_layout = global::X_Calendar.Droid.Resource.Styleable.SearchView_layout;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.SearchView_queryBackground = global::X_Calendar.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.SearchView_queryHint = global::X_Calendar.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.SearchView_searchHintIcon = global::X_Calendar.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.SearchView_searchIcon = global::X_Calendar.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.SearchView_submitBackground = global::X_Calendar.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.SearchView_suggestionRowLayout = global::X_Calendar.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.SearchView_voiceIcon = global::X_Calendar.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Spinner = global::X_Calendar.Droid.Resource.Styleable.Spinner;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Spinner_android_background = global::X_Calendar.Droid.Resource.Styleable.Spinner_android_background;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Spinner_android_dropDownHorizontalOffset = global::X_Calendar.Droid.Resource.Styleable.Spinner_android_dropDownHorizontalOffset;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Spinner_android_dropDownSelector = global::X_Calendar.Droid.Resource.Styleable.Spinner_android_dropDownSelector;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Spinner_android_dropDownVerticalOffset = global::X_Calendar.Droid.Resource.Styleable.Spinner_android_dropDownVerticalOffset;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Spinner_android_dropDownWidth = global::X_Calendar.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Spinner_android_gravity = global::X_Calendar.Droid.Resource.Styleable.Spinner_android_gravity;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Spinner_android_popupBackground = global::X_Calendar.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Spinner_disableChildrenWhenDisabled = global::X_Calendar.Droid.Resource.Styleable.Spinner_disableChildrenWhenDisabled;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Spinner_popupPromptView = global::X_Calendar.Droid.Resource.Styleable.Spinner_popupPromptView;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Spinner_prompt = global::X_Calendar.Droid.Resource.Styleable.Spinner_prompt;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Spinner_spinnerMode = global::X_Calendar.Droid.Resource.Styleable.Spinner_spinnerMode;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.SwitchCompat = global::X_Calendar.Droid.Resource.Styleable.SwitchCompat;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.SwitchCompat_android_textOff = global::X_Calendar.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.SwitchCompat_android_textOn = global::X_Calendar.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.SwitchCompat_android_thumb = global::X_Calendar.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.SwitchCompat_showText = global::X_Calendar.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.SwitchCompat_splitTrack = global::X_Calendar.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.SwitchCompat_switchMinWidth = global::X_Calendar.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.SwitchCompat_switchPadding = global::X_Calendar.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.SwitchCompat_switchTextAppearance = global::X_Calendar.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.SwitchCompat_thumbTextPadding = global::X_Calendar.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.SwitchCompat_track = global::X_Calendar.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.TextAppearance = global::X_Calendar.Droid.Resource.Styleable.TextAppearance;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.TextAppearance_android_textColor = global::X_Calendar.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.TextAppearance_android_textSize = global::X_Calendar.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.TextAppearance_android_textStyle = global::X_Calendar.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.TextAppearance_android_typeface = global::X_Calendar.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.TextAppearance_textAllCaps = global::X_Calendar.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme = global::X_Calendar.Droid.Resource.Styleable.Theme;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_actionBarDivider = global::X_Calendar.Droid.Resource.Styleable.Theme_actionBarDivider;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_actionBarItemBackground = global::X_Calendar.Droid.Resource.Styleable.Theme_actionBarItemBackground;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_actionBarPopupTheme = global::X_Calendar.Droid.Resource.Styleable.Theme_actionBarPopupTheme;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_actionBarSize = global::X_Calendar.Droid.Resource.Styleable.Theme_actionBarSize;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_actionBarSplitStyle = global::X_Calendar.Droid.Resource.Styleable.Theme_actionBarSplitStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_actionBarStyle = global::X_Calendar.Droid.Resource.Styleable.Theme_actionBarStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_actionBarTabBarStyle = global::X_Calendar.Droid.Resource.Styleable.Theme_actionBarTabBarStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_actionBarTabStyle = global::X_Calendar.Droid.Resource.Styleable.Theme_actionBarTabStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_actionBarTabTextStyle = global::X_Calendar.Droid.Resource.Styleable.Theme_actionBarTabTextStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_actionBarTheme = global::X_Calendar.Droid.Resource.Styleable.Theme_actionBarTheme;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_actionBarWidgetTheme = global::X_Calendar.Droid.Resource.Styleable.Theme_actionBarWidgetTheme;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_actionButtonStyle = global::X_Calendar.Droid.Resource.Styleable.Theme_actionButtonStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_actionDropDownStyle = global::X_Calendar.Droid.Resource.Styleable.Theme_actionDropDownStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_actionMenuTextAppearance = global::X_Calendar.Droid.Resource.Styleable.Theme_actionMenuTextAppearance;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_actionMenuTextColor = global::X_Calendar.Droid.Resource.Styleable.Theme_actionMenuTextColor;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_actionModeBackground = global::X_Calendar.Droid.Resource.Styleable.Theme_actionModeBackground;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_actionModeCloseButtonStyle = global::X_Calendar.Droid.Resource.Styleable.Theme_actionModeCloseButtonStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_actionModeCloseDrawable = global::X_Calendar.Droid.Resource.Styleable.Theme_actionModeCloseDrawable;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_actionModeCopyDrawable = global::X_Calendar.Droid.Resource.Styleable.Theme_actionModeCopyDrawable;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_actionModeCutDrawable = global::X_Calendar.Droid.Resource.Styleable.Theme_actionModeCutDrawable;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_actionModeFindDrawable = global::X_Calendar.Droid.Resource.Styleable.Theme_actionModeFindDrawable;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_actionModePasteDrawable = global::X_Calendar.Droid.Resource.Styleable.Theme_actionModePasteDrawable;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_actionModePopupWindowStyle = global::X_Calendar.Droid.Resource.Styleable.Theme_actionModePopupWindowStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_actionModeSelectAllDrawable = global::X_Calendar.Droid.Resource.Styleable.Theme_actionModeSelectAllDrawable;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_actionModeShareDrawable = global::X_Calendar.Droid.Resource.Styleable.Theme_actionModeShareDrawable;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_actionModeSplitBackground = global::X_Calendar.Droid.Resource.Styleable.Theme_actionModeSplitBackground;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_actionModeStyle = global::X_Calendar.Droid.Resource.Styleable.Theme_actionModeStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_actionModeWebSearchDrawable = global::X_Calendar.Droid.Resource.Styleable.Theme_actionModeWebSearchDrawable;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_actionOverflowButtonStyle = global::X_Calendar.Droid.Resource.Styleable.Theme_actionOverflowButtonStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_actionOverflowMenuStyle = global::X_Calendar.Droid.Resource.Styleable.Theme_actionOverflowMenuStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_activityChooserViewStyle = global::X_Calendar.Droid.Resource.Styleable.Theme_activityChooserViewStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_alertDialogButtonGroupStyle = global::X_Calendar.Droid.Resource.Styleable.Theme_alertDialogButtonGroupStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_alertDialogCenterButtons = global::X_Calendar.Droid.Resource.Styleable.Theme_alertDialogCenterButtons;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_alertDialogStyle = global::X_Calendar.Droid.Resource.Styleable.Theme_alertDialogStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_alertDialogTheme = global::X_Calendar.Droid.Resource.Styleable.Theme_alertDialogTheme;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_android_windowAnimationStyle = global::X_Calendar.Droid.Resource.Styleable.Theme_android_windowAnimationStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_android_windowIsFloating = global::X_Calendar.Droid.Resource.Styleable.Theme_android_windowIsFloating;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_autoCompleteTextViewStyle = global::X_Calendar.Droid.Resource.Styleable.Theme_autoCompleteTextViewStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_borderlessButtonStyle = global::X_Calendar.Droid.Resource.Styleable.Theme_borderlessButtonStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_buttonBarButtonStyle = global::X_Calendar.Droid.Resource.Styleable.Theme_buttonBarButtonStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_buttonBarNegativeButtonStyle = global::X_Calendar.Droid.Resource.Styleable.Theme_buttonBarNegativeButtonStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_buttonBarNeutralButtonStyle = global::X_Calendar.Droid.Resource.Styleable.Theme_buttonBarNeutralButtonStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_buttonBarPositiveButtonStyle = global::X_Calendar.Droid.Resource.Styleable.Theme_buttonBarPositiveButtonStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_buttonBarStyle = global::X_Calendar.Droid.Resource.Styleable.Theme_buttonBarStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_buttonStyle = global::X_Calendar.Droid.Resource.Styleable.Theme_buttonStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_buttonStyleSmall = global::X_Calendar.Droid.Resource.Styleable.Theme_buttonStyleSmall;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_checkboxStyle = global::X_Calendar.Droid.Resource.Styleable.Theme_checkboxStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_checkedTextViewStyle = global::X_Calendar.Droid.Resource.Styleable.Theme_checkedTextViewStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_colorAccent = global::X_Calendar.Droid.Resource.Styleable.Theme_colorAccent;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_colorButtonNormal = global::X_Calendar.Droid.Resource.Styleable.Theme_colorButtonNormal;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_colorControlActivated = global::X_Calendar.Droid.Resource.Styleable.Theme_colorControlActivated;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_colorControlHighlight = global::X_Calendar.Droid.Resource.Styleable.Theme_colorControlHighlight;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_colorControlNormal = global::X_Calendar.Droid.Resource.Styleable.Theme_colorControlNormal;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_colorPrimary = global::X_Calendar.Droid.Resource.Styleable.Theme_colorPrimary;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_colorPrimaryDark = global::X_Calendar.Droid.Resource.Styleable.Theme_colorPrimaryDark;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_colorSwitchThumbNormal = global::X_Calendar.Droid.Resource.Styleable.Theme_colorSwitchThumbNormal;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_dialogPreferredPadding = global::X_Calendar.Droid.Resource.Styleable.Theme_dialogPreferredPadding;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_dialogTheme = global::X_Calendar.Droid.Resource.Styleable.Theme_dialogTheme;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_dividerHorizontal = global::X_Calendar.Droid.Resource.Styleable.Theme_dividerHorizontal;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_dividerVertical = global::X_Calendar.Droid.Resource.Styleable.Theme_dividerVertical;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_dropDownListViewStyle = global::X_Calendar.Droid.Resource.Styleable.Theme_dropDownListViewStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_dropdownListPreferredItemHeight = global::X_Calendar.Droid.Resource.Styleable.Theme_dropdownListPreferredItemHeight;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_editTextBackground = global::X_Calendar.Droid.Resource.Styleable.Theme_editTextBackground;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_editTextColor = global::X_Calendar.Droid.Resource.Styleable.Theme_editTextColor;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_editTextStyle = global::X_Calendar.Droid.Resource.Styleable.Theme_editTextStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_homeAsUpIndicator = global::X_Calendar.Droid.Resource.Styleable.Theme_homeAsUpIndicator;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_listChoiceBackgroundIndicator = global::X_Calendar.Droid.Resource.Styleable.Theme_listChoiceBackgroundIndicator;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_listDividerAlertDialog = global::X_Calendar.Droid.Resource.Styleable.Theme_listDividerAlertDialog;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_listPopupWindowStyle = global::X_Calendar.Droid.Resource.Styleable.Theme_listPopupWindowStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_listPreferredItemHeight = global::X_Calendar.Droid.Resource.Styleable.Theme_listPreferredItemHeight;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_listPreferredItemHeightLarge = global::X_Calendar.Droid.Resource.Styleable.Theme_listPreferredItemHeightLarge;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_listPreferredItemHeightSmall = global::X_Calendar.Droid.Resource.Styleable.Theme_listPreferredItemHeightSmall;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_listPreferredItemPaddingLeft = global::X_Calendar.Droid.Resource.Styleable.Theme_listPreferredItemPaddingLeft;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_listPreferredItemPaddingRight = global::X_Calendar.Droid.Resource.Styleable.Theme_listPreferredItemPaddingRight;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_panelBackground = global::X_Calendar.Droid.Resource.Styleable.Theme_panelBackground;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_panelMenuListTheme = global::X_Calendar.Droid.Resource.Styleable.Theme_panelMenuListTheme;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_panelMenuListWidth = global::X_Calendar.Droid.Resource.Styleable.Theme_panelMenuListWidth;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_popupMenuStyle = global::X_Calendar.Droid.Resource.Styleable.Theme_popupMenuStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_popupWindowStyle = global::X_Calendar.Droid.Resource.Styleable.Theme_popupWindowStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_radioButtonStyle = global::X_Calendar.Droid.Resource.Styleable.Theme_radioButtonStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_ratingBarStyle = global::X_Calendar.Droid.Resource.Styleable.Theme_ratingBarStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_searchViewStyle = global::X_Calendar.Droid.Resource.Styleable.Theme_searchViewStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_selectableItemBackground = global::X_Calendar.Droid.Resource.Styleable.Theme_selectableItemBackground;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_selectableItemBackgroundBorderless = global::X_Calendar.Droid.Resource.Styleable.Theme_selectableItemBackgroundBorderless;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_spinnerDropDownItemStyle = global::X_Calendar.Droid.Resource.Styleable.Theme_spinnerDropDownItemStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_spinnerStyle = global::X_Calendar.Droid.Resource.Styleable.Theme_spinnerStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_switchStyle = global::X_Calendar.Droid.Resource.Styleable.Theme_switchStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_textAppearanceLargePopupMenu = global::X_Calendar.Droid.Resource.Styleable.Theme_textAppearanceLargePopupMenu;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_textAppearanceListItem = global::X_Calendar.Droid.Resource.Styleable.Theme_textAppearanceListItem;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_textAppearanceListItemSmall = global::X_Calendar.Droid.Resource.Styleable.Theme_textAppearanceListItemSmall;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_textAppearanceSearchResultSubtitle = global::X_Calendar.Droid.Resource.Styleable.Theme_textAppearanceSearchResultSubtitle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_textAppearanceSearchResultTitle = global::X_Calendar.Droid.Resource.Styleable.Theme_textAppearanceSearchResultTitle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_textAppearanceSmallPopupMenu = global::X_Calendar.Droid.Resource.Styleable.Theme_textAppearanceSmallPopupMenu;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_textColorAlertDialogListItem = global::X_Calendar.Droid.Resource.Styleable.Theme_textColorAlertDialogListItem;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_textColorSearchUrl = global::X_Calendar.Droid.Resource.Styleable.Theme_textColorSearchUrl;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_toolbarNavigationButtonStyle = global::X_Calendar.Droid.Resource.Styleable.Theme_toolbarNavigationButtonStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_toolbarStyle = global::X_Calendar.Droid.Resource.Styleable.Theme_toolbarStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_windowActionBar = global::X_Calendar.Droid.Resource.Styleable.Theme_windowActionBar;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_windowActionBarOverlay = global::X_Calendar.Droid.Resource.Styleable.Theme_windowActionBarOverlay;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_windowActionModeOverlay = global::X_Calendar.Droid.Resource.Styleable.Theme_windowActionModeOverlay;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_windowFixedHeightMajor = global::X_Calendar.Droid.Resource.Styleable.Theme_windowFixedHeightMajor;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_windowFixedHeightMinor = global::X_Calendar.Droid.Resource.Styleable.Theme_windowFixedHeightMinor;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_windowFixedWidthMajor = global::X_Calendar.Droid.Resource.Styleable.Theme_windowFixedWidthMajor;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_windowFixedWidthMinor = global::X_Calendar.Droid.Resource.Styleable.Theme_windowFixedWidthMinor;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_windowMinWidthMajor = global::X_Calendar.Droid.Resource.Styleable.Theme_windowMinWidthMajor;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_windowMinWidthMinor = global::X_Calendar.Droid.Resource.Styleable.Theme_windowMinWidthMinor;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Theme_windowNoTitle = global::X_Calendar.Droid.Resource.Styleable.Theme_windowNoTitle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Toolbar = global::X_Calendar.Droid.Resource.Styleable.Toolbar;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Toolbar_android_gravity = global::X_Calendar.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Toolbar_android_minHeight = global::X_Calendar.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Toolbar_collapseContentDescription = global::X_Calendar.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Toolbar_collapseIcon = global::X_Calendar.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Toolbar_contentInsetEnd = global::X_Calendar.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Toolbar_contentInsetLeft = global::X_Calendar.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Toolbar_contentInsetRight = global::X_Calendar.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Toolbar_contentInsetStart = global::X_Calendar.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Toolbar_maxButtonHeight = global::X_Calendar.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Toolbar_navigationContentDescription = global::X_Calendar.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Toolbar_navigationIcon = global::X_Calendar.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Toolbar_popupTheme = global::X_Calendar.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Toolbar_subtitle = global::X_Calendar.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Toolbar_subtitleTextAppearance = global::X_Calendar.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Toolbar_title = global::X_Calendar.Droid.Resource.Styleable.Toolbar_title;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Toolbar_titleMarginBottom = global::X_Calendar.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Toolbar_titleMarginEnd = global::X_Calendar.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Toolbar_titleMarginStart = global::X_Calendar.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Toolbar_titleMarginTop = global::X_Calendar.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Toolbar_titleMargins = global::X_Calendar.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.Toolbar_titleTextAppearance = global::X_Calendar.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.View = global::X_Calendar.Droid.Resource.Styleable.View;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.View_android_focusable = global::X_Calendar.Droid.Resource.Styleable.View_android_focusable;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.View_android_theme = global::X_Calendar.Droid.Resource.Styleable.View_android_theme;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.View_backgroundTint = global::X_Calendar.Droid.Resource.Styleable.View_backgroundTint;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.View_backgroundTintMode = global::X_Calendar.Droid.Resource.Styleable.View_backgroundTintMode;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.View_paddingEnd = global::X_Calendar.Droid.Resource.Styleable.View_paddingEnd;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.View_paddingStart = global::X_Calendar.Droid.Resource.Styleable.View_paddingStart;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.View_theme = global::X_Calendar.Droid.Resource.Styleable.View_theme;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.ViewStubCompat = global::X_Calendar.Droid.Resource.Styleable.ViewStubCompat;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.ViewStubCompat_android_id = global::X_Calendar.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.ViewStubCompat_android_inflatedId = global::X_Calendar.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.ViewStubCompat_android_layout = global::X_Calendar.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 			global::Xamarin.Forms.Platform.Resource.String.ApplicationName = global::X_Calendar.Droid.Resource.String.ApplicationName;
 			global::Xamarin.Forms.Platform.Resource.String.Hello = global::X_Calendar.Droid.Resource.String.Hello;
 		}
@@ -156,22 +1319,34 @@ namespace X_Calendar.Droid
 			public const int abc_fade_out = 2130968577;
 			
 			// aapt resource value: 0x7f040002
-			public const int abc_slide_in_bottom = 2130968578;
+			public const int abc_grow_fade_in_from_bottom = 2130968578;
 			
 			// aapt resource value: 0x7f040003
-			public const int abc_slide_in_top = 2130968579;
+			public const int abc_popup_enter = 2130968579;
 			
 			// aapt resource value: 0x7f040004
-			public const int abc_slide_out_bottom = 2130968580;
+			public const int abc_popup_exit = 2130968580;
 			
 			// aapt resource value: 0x7f040005
-			public const int abc_slide_out_top = 2130968581;
+			public const int abc_shrink_fade_out_from_bottom = 2130968581;
 			
 			// aapt resource value: 0x7f040006
-			public const int drawer_slide_in_top = 2130968582;
+			public const int abc_slide_in_bottom = 2130968582;
 			
 			// aapt resource value: 0x7f040007
-			public const int drawer_slide_out_top = 2130968583;
+			public const int abc_slide_in_top = 2130968583;
+			
+			// aapt resource value: 0x7f040008
+			public const int abc_slide_out_bottom = 2130968584;
+			
+			// aapt resource value: 0x7f040009
+			public const int abc_slide_out_top = 2130968585;
+			
+			// aapt resource value: 0x7f04000a
+			public const int drawer_slide_in_top = 2130968586;
+			
+			// aapt resource value: 0x7f04000b
+			public const int drawer_slide_out_top = 2130968587;
 			
 			static Animation()
 			{
@@ -186,563 +1361,671 @@ namespace X_Calendar.Droid
 		public partial class Attribute
 		{
 			
-			// aapt resource value: 0x7f01005a
-			public const int actionBarDivider = 2130772058;
-			
-			// aapt resource value: 0x7f01005b
-			public const int actionBarItemBackground = 2130772059;
-			
-			// aapt resource value: 0x7f010054
-			public const int actionBarPopupTheme = 2130772052;
-			
-			// aapt resource value: 0x7f010059
-			public const int actionBarSize = 2130772057;
-			
-			// aapt resource value: 0x7f010056
-			public const int actionBarSplitStyle = 2130772054;
-			
-			// aapt resource value: 0x7f010055
-			public const int actionBarStyle = 2130772053;
-			
-			// aapt resource value: 0x7f010050
-			public const int actionBarTabBarStyle = 2130772048;
-			
-			// aapt resource value: 0x7f01004f
-			public const int actionBarTabStyle = 2130772047;
-			
-			// aapt resource value: 0x7f010051
-			public const int actionBarTabTextStyle = 2130772049;
-			
-			// aapt resource value: 0x7f010057
-			public const int actionBarTheme = 2130772055;
-			
-			// aapt resource value: 0x7f010058
-			public const int actionBarWidgetTheme = 2130772056;
-			
-			// aapt resource value: 0x7f010072
-			public const int actionButtonStyle = 2130772082;
-			
-			// aapt resource value: 0x7f01006d
-			public const int actionDropDownStyle = 2130772077;
-			
-			// aapt resource value: 0x7f01002c
-			public const int actionLayout = 2130772012;
-			
-			// aapt resource value: 0x7f01005c
-			public const int actionMenuTextAppearance = 2130772060;
-			
-			// aapt resource value: 0x7f01005d
-			public const int actionMenuTextColor = 2130772061;
-			
-			// aapt resource value: 0x7f010060
-			public const int actionModeBackground = 2130772064;
-			
-			// aapt resource value: 0x7f01005f
-			public const int actionModeCloseButtonStyle = 2130772063;
-			
-			// aapt resource value: 0x7f010062
-			public const int actionModeCloseDrawable = 2130772066;
-			
-			// aapt resource value: 0x7f010064
-			public const int actionModeCopyDrawable = 2130772068;
-			
-			// aapt resource value: 0x7f010063
-			public const int actionModeCutDrawable = 2130772067;
-			
 			// aapt resource value: 0x7f010068
-			public const int actionModeFindDrawable = 2130772072;
-			
-			// aapt resource value: 0x7f010065
-			public const int actionModePasteDrawable = 2130772069;
-			
-			// aapt resource value: 0x7f01006a
-			public const int actionModePopupWindowStyle = 2130772074;
-			
-			// aapt resource value: 0x7f010066
-			public const int actionModeSelectAllDrawable = 2130772070;
-			
-			// aapt resource value: 0x7f010067
-			public const int actionModeShareDrawable = 2130772071;
-			
-			// aapt resource value: 0x7f010061
-			public const int actionModeSplitBackground = 2130772065;
-			
-			// aapt resource value: 0x7f01005e
-			public const int actionModeStyle = 2130772062;
+			public const int actionBarDivider = 2130772072;
 			
 			// aapt resource value: 0x7f010069
-			public const int actionModeWebSearchDrawable = 2130772073;
+			public const int actionBarItemBackground = 2130772073;
 			
-			// aapt resource value: 0x7f010052
-			public const int actionOverflowButtonStyle = 2130772050;
+			// aapt resource value: 0x7f010062
+			public const int actionBarPopupTheme = 2130772066;
 			
-			// aapt resource value: 0x7f010053
-			public const int actionOverflowMenuStyle = 2130772051;
+			// aapt resource value: 0x7f010067
+			public const int actionBarSize = 2130772071;
 			
-			// aapt resource value: 0x7f01002e
-			public const int actionProviderClass = 2130772014;
+			// aapt resource value: 0x7f010064
+			public const int actionBarSplitStyle = 2130772068;
 			
-			// aapt resource value: 0x7f01002d
-			public const int actionViewClass = 2130772013;
+			// aapt resource value: 0x7f010063
+			public const int actionBarStyle = 2130772067;
 			
-			// aapt resource value: 0x7f010079
-			public const int activityChooserViewStyle = 2130772089;
+			// aapt resource value: 0x7f01005e
+			public const int actionBarTabBarStyle = 2130772062;
 			
-			// aapt resource value: 0x7f01000c
-			public const int background = 2130771980;
+			// aapt resource value: 0x7f01005d
+			public const int actionBarTabStyle = 2130772061;
 			
-			// aapt resource value: 0x7f01000e
-			public const int backgroundSplit = 2130771982;
+			// aapt resource value: 0x7f01005f
+			public const int actionBarTabTextStyle = 2130772063;
 			
-			// aapt resource value: 0x7f01000d
-			public const int backgroundStacked = 2130771981;
+			// aapt resource value: 0x7f010065
+			public const int actionBarTheme = 2130772069;
 			
-			// aapt resource value: 0x7f010026
-			public const int barSize = 2130772006;
-			
-			// aapt resource value: 0x7f010074
-			public const int buttonBarButtonStyle = 2130772084;
-			
-			// aapt resource value: 0x7f010073
-			public const int buttonBarStyle = 2130772083;
-			
-			// aapt resource value: 0x7f0100b0
-			public const int calendarBackground = 2130772144;
-			
-			// aapt resource value: 0x7f0100b9
-			public const int calendarStyle = 2130772153;
-			
-			// aapt resource value: 0x7f010035
-			public const int closeIcon = 2130772021;
-			
-			// aapt resource value: 0x7f01001c
-			public const int closeItemLayout = 2130771996;
-			
-			// aapt resource value: 0x7f0100a4
-			public const int collapseContentDescription = 2130772132;
-			
-			// aapt resource value: 0x7f0100a3
-			public const int collapseIcon = 2130772131;
-			
-			// aapt resource value: 0x7f010020
-			public const int color = 2130772000;
-			
-			// aapt resource value: 0x7f010094
-			public const int colorAccent = 2130772116;
-			
-			// aapt resource value: 0x7f010098
-			public const int colorButtonNormal = 2130772120;
-			
-			// aapt resource value: 0x7f010096
-			public const int colorControlActivated = 2130772118;
-			
-			// aapt resource value: 0x7f010097
-			public const int colorControlHighlight = 2130772119;
-			
-			// aapt resource value: 0x7f010095
-			public const int colorControlNormal = 2130772117;
-			
-			// aapt resource value: 0x7f010092
-			public const int colorPrimary = 2130772114;
-			
-			// aapt resource value: 0x7f010093
-			public const int colorPrimaryDark = 2130772115;
-			
-			// aapt resource value: 0x7f010099
-			public const int colorSwitchThumbNormal = 2130772121;
-			
-			// aapt resource value: 0x7f010039
-			public const int commitIcon = 2130772025;
-			
-			// aapt resource value: 0x7f010017
-			public const int contentInsetEnd = 2130771991;
-			
-			// aapt resource value: 0x7f010018
-			public const int contentInsetLeft = 2130771992;
-			
-			// aapt resource value: 0x7f010019
-			public const int contentInsetRight = 2130771993;
-			
-			// aapt resource value: 0x7f010016
-			public const int contentInsetStart = 2130771990;
-			
-			// aapt resource value: 0x7f01000f
-			public const int customNavigationLayout = 2130771983;
-			
-			// aapt resource value: 0x7f010040
-			public const int disableChildrenWhenDisabled = 2130772032;
-			
-			// aapt resource value: 0x7f0100b6
-			public const int displayMode = 2130772150;
-			
-			// aapt resource value: 0x7f010005
-			public const int displayOptions = 2130771973;
-			
-			// aapt resource value: 0x7f01000b
-			public const int divider = 2130771979;
-			
-			// aapt resource value: 0x7f010078
-			public const int dividerHorizontal = 2130772088;
-			
-			// aapt resource value: 0x7f01002a
-			public const int dividerPadding = 2130772010;
-			
-			// aapt resource value: 0x7f010077
-			public const int dividerVertical = 2130772087;
-			
-			// aapt resource value: 0x7f010022
-			public const int drawableSize = 2130772002;
-			
-			// aapt resource value: 0x7f010000
-			public const int drawerArrowStyle = 2130771968;
-			
-			// aapt resource value: 0x7f01008a
-			public const int dropDownListViewStyle = 2130772106;
-			
-			// aapt resource value: 0x7f01006e
-			public const int dropdownListPreferredItemHeight = 2130772078;
-			
-			// aapt resource value: 0x7f01007f
-			public const int editTextBackground = 2130772095;
-			
-			// aapt resource value: 0x7f01007e
-			public const int editTextColor = 2130772094;
-			
-			// aapt resource value: 0x7f01001a
-			public const int elevation = 2130771994;
-			
-			// aapt resource value: 0x7f01001e
-			public const int expandActivityOverflowButtonDrawable = 2130771998;
-			
-			// aapt resource value: 0x7f0100ac
-			public const int fillViewport = 2130772140;
-			
-			// aapt resource value: 0x7f010023
-			public const int gapBetweenBars = 2130772003;
-			
-			// aapt resource value: 0x7f010036
-			public const int goIcon = 2130772022;
-			
-			// aapt resource value: 0x7f010001
-			public const int height = 2130771969;
-			
-			// aapt resource value: 0x7f010015
-			public const int hideOnContentScroll = 2130771989;
-			
-			// aapt resource value: 0x7f010071
-			public const int homeAsUpIndicator = 2130772081;
-			
-			// aapt resource value: 0x7f010010
-			public const int homeLayout = 2130771984;
-			
-			// aapt resource value: 0x7f010009
-			public const int icon = 2130771977;
-			
-			// aapt resource value: 0x7f010033
-			public const int iconifiedByDefault = 2130772019;
-			
-			// aapt resource value: 0x7f010012
-			public const int indeterminateProgressStyle = 2130771986;
-			
-			// aapt resource value: 0x7f01001d
-			public const int initialActivityCount = 2130771997;
-			
-			// aapt resource value: 0x7f010002
-			public const int isLightTheme = 2130771970;
-			
-			// aapt resource value: 0x7f0100b8
-			public const int isYearModeCompact = 2130772152;
-			
-			// aapt resource value: 0x7f010014
-			public const int itemPadding = 2130771988;
-			
-			// aapt resource value: 0x7f010032
-			public const int layout = 2130772018;
-			
-			// aapt resource value: 0x7f010091
-			public const int listChoiceBackgroundIndicator = 2130772113;
-			
-			// aapt resource value: 0x7f01008b
-			public const int listPopupWindowStyle = 2130772107;
-			
-			// aapt resource value: 0x7f010085
-			public const int listPreferredItemHeight = 2130772101;
-			
-			// aapt resource value: 0x7f010087
-			public const int listPreferredItemHeightLarge = 2130772103;
-			
-			// aapt resource value: 0x7f010086
-			public const int listPreferredItemHeightSmall = 2130772102;
-			
-			// aapt resource value: 0x7f010088
-			public const int listPreferredItemPaddingLeft = 2130772104;
-			
-			// aapt resource value: 0x7f010089
-			public const int listPreferredItemPaddingRight = 2130772105;
-			
-			// aapt resource value: 0x7f01000a
-			public const int logo = 2130771978;
-			
-			// aapt resource value: 0x7f0100a1
-			public const int maxButtonHeight = 2130772129;
-			
-			// aapt resource value: 0x7f010028
-			public const int measureWithLargestChild = 2130772008;
-			
-			// aapt resource value: 0x7f010025
-			public const int middleBarArrowSize = 2130772005;
-			
-			// aapt resource value: 0x7f0100a6
-			public const int navigationContentDescription = 2130772134;
-			
-			// aapt resource value: 0x7f0100a5
-			public const int navigationIcon = 2130772133;
-			
-			// aapt resource value: 0x7f010004
-			public const int navigationMode = 2130771972;
-			
-			// aapt resource value: 0x7f010030
-			public const int overlapAnchor = 2130772016;
-			
-			// aapt resource value: 0x7f0100a8
-			public const int paddingEnd = 2130772136;
-			
-			// aapt resource value: 0x7f0100a7
-			public const int paddingStart = 2130772135;
-			
-			// aapt resource value: 0x7f01008e
-			public const int panelBackground = 2130772110;
-			
-			// aapt resource value: 0x7f010090
-			public const int panelMenuListTheme = 2130772112;
-			
-			// aapt resource value: 0x7f01008f
-			public const int panelMenuListWidth = 2130772111;
-			
-			// aapt resource value: 0x7f0100ab
-			public const int pointerFill = 2130772139;
-			
-			// aapt resource value: 0x7f0100aa
-			public const int pointerMargin = 2130772138;
-			
-			// aapt resource value: 0x7f0100a9
-			public const int pointerSize = 2130772137;
-			
-			// aapt resource value: 0x7f01007c
-			public const int popupMenuStyle = 2130772092;
-			
-			// aapt resource value: 0x7f01003f
-			public const int popupPromptView = 2130772031;
-			
-			// aapt resource value: 0x7f01001b
-			public const int popupTheme = 2130771995;
-			
-			// aapt resource value: 0x7f01007d
-			public const int popupWindowStyle = 2130772093;
-			
-			// aapt resource value: 0x7f01002f
-			public const int preserveIconSpacing = 2130772015;
-			
-			// aapt resource value: 0x7f010013
-			public const int progressBarPadding = 2130771987;
-			
-			// aapt resource value: 0x7f010011
-			public const int progressBarStyle = 2130771985;
-			
-			// aapt resource value: 0x7f01003d
-			public const int prompt = 2130772029;
-			
-			// aapt resource value: 0x7f01003b
-			public const int queryBackground = 2130772027;
-			
-			// aapt resource value: 0x7f010034
-			public const int queryHint = 2130772020;
-			
-			// aapt resource value: 0x7f0100ae
-			public const int radScrollViewStyle = 2130772142;
-			
-			// aapt resource value: 0x7f0100ad
-			public const int scrollMode = 2130772141;
-			
-			// aapt resource value: 0x7f010037
-			public const int searchIcon = 2130772023;
-			
-			// aapt resource value: 0x7f010084
-			public const int searchViewStyle = 2130772100;
-			
-			// aapt resource value: 0x7f010075
-			public const int selectableItemBackground = 2130772085;
-			
-			// aapt resource value: 0x7f010076
-			public const int selectableItemBackgroundBorderless = 2130772086;
-			
-			// aapt resource value: 0x7f0100b5
-			public const int selectionMode = 2130772149;
-			
-			// aapt resource value: 0x7f01002b
-			public const int showAsAction = 2130772011;
-			
-			// aapt resource value: 0x7f0100b4
-			public const int showCellDecorations = 2130772148;
-			
-			// aapt resource value: 0x7f0100b2
-			public const int showDayNames = 2130772146;
-			
-			// aapt resource value: 0x7f010029
-			public const int showDividers = 2130772009;
-			
-			// aapt resource value: 0x7f0100b3
-			public const int showGridLines = 2130772147;
-			
-			// aapt resource value: 0x7f010047
-			public const int showText = 2130772039;
-			
-			// aapt resource value: 0x7f0100b1
-			public const int showTitle = 2130772145;
-			
-			// aapt resource value: 0x7f010021
-			public const int spinBars = 2130772001;
-			
-			// aapt resource value: 0x7f010070
-			public const int spinnerDropDownItemStyle = 2130772080;
-			
-			// aapt resource value: 0x7f01003e
-			public const int spinnerMode = 2130772030;
-			
-			// aapt resource value: 0x7f01006f
-			public const int spinnerStyle = 2130772079;
-			
-			// aapt resource value: 0x7f010046
-			public const int splitTrack = 2130772038;
-			
-			// aapt resource value: 0x7f010031
-			public const int state_above_anchor = 2130772017;
-			
-			// aapt resource value: 0x7f0100af
-			public const int state_calendar_cell_today = 2130772143;
-			
-			// aapt resource value: 0x7f01003c
-			public const int submitBackground = 2130772028;
-			
-			// aapt resource value: 0x7f010006
-			public const int subtitle = 2130771974;
-			
-			// aapt resource value: 0x7f01009b
-			public const int subtitleTextAppearance = 2130772123;
-			
-			// aapt resource value: 0x7f010008
-			public const int subtitleTextStyle = 2130771976;
-			
-			// aapt resource value: 0x7f01003a
-			public const int suggestionRowLayout = 2130772026;
-			
-			// aapt resource value: 0x7f010044
-			public const int switchMinWidth = 2130772036;
-			
-			// aapt resource value: 0x7f010045
-			public const int switchPadding = 2130772037;
-			
-			// aapt resource value: 0x7f010080
-			public const int switchStyle = 2130772096;
-			
-			// aapt resource value: 0x7f010043
-			public const int switchTextAppearance = 2130772035;
-			
-			// aapt resource value: 0x7f01001f
-			public const int textAllCaps = 2130771999;
-			
-			// aapt resource value: 0x7f01006b
-			public const int textAppearanceLargePopupMenu = 2130772075;
-			
-			// aapt resource value: 0x7f01008c
-			public const int textAppearanceListItem = 2130772108;
-			
-			// aapt resource value: 0x7f01008d
-			public const int textAppearanceListItemSmall = 2130772109;
+			// aapt resource value: 0x7f010066
+			public const int actionBarWidgetTheme = 2130772070;
 			
 			// aapt resource value: 0x7f010082
-			public const int textAppearanceSearchResultSubtitle = 2130772098;
+			public const int actionButtonStyle = 2130772098;
 			
-			// aapt resource value: 0x7f010081
-			public const int textAppearanceSearchResultTitle = 2130772097;
+			// aapt resource value: 0x7f01007e
+			public const int actionDropDownStyle = 2130772094;
+			
+			// aapt resource value: 0x7f010035
+			public const int actionLayout = 2130772021;
+			
+			// aapt resource value: 0x7f01006a
+			public const int actionMenuTextAppearance = 2130772074;
+			
+			// aapt resource value: 0x7f01006b
+			public const int actionMenuTextColor = 2130772075;
+			
+			// aapt resource value: 0x7f01006e
+			public const int actionModeBackground = 2130772078;
+			
+			// aapt resource value: 0x7f01006d
+			public const int actionModeCloseButtonStyle = 2130772077;
+			
+			// aapt resource value: 0x7f010070
+			public const int actionModeCloseDrawable = 2130772080;
+			
+			// aapt resource value: 0x7f010072
+			public const int actionModeCopyDrawable = 2130772082;
+			
+			// aapt resource value: 0x7f010071
+			public const int actionModeCutDrawable = 2130772081;
+			
+			// aapt resource value: 0x7f010076
+			public const int actionModeFindDrawable = 2130772086;
+			
+			// aapt resource value: 0x7f010073
+			public const int actionModePasteDrawable = 2130772083;
+			
+			// aapt resource value: 0x7f010078
+			public const int actionModePopupWindowStyle = 2130772088;
+			
+			// aapt resource value: 0x7f010074
+			public const int actionModeSelectAllDrawable = 2130772084;
+			
+			// aapt resource value: 0x7f010075
+			public const int actionModeShareDrawable = 2130772085;
+			
+			// aapt resource value: 0x7f01006f
+			public const int actionModeSplitBackground = 2130772079;
 			
 			// aapt resource value: 0x7f01006c
-			public const int textAppearanceSmallPopupMenu = 2130772076;
+			public const int actionModeStyle = 2130772076;
+			
+			// aapt resource value: 0x7f010077
+			public const int actionModeWebSearchDrawable = 2130772087;
+			
+			// aapt resource value: 0x7f010060
+			public const int actionOverflowButtonStyle = 2130772064;
+			
+			// aapt resource value: 0x7f010061
+			public const int actionOverflowMenuStyle = 2130772065;
+			
+			// aapt resource value: 0x7f010037
+			public const int actionProviderClass = 2130772023;
+			
+			// aapt resource value: 0x7f010036
+			public const int actionViewClass = 2130772022;
+			
+			// aapt resource value: 0x7f01008a
+			public const int activityChooserViewStyle = 2130772106;
+			
+			// aapt resource value: 0x7f0100ab
+			public const int alertDialogButtonGroupStyle = 2130772139;
+			
+			// aapt resource value: 0x7f0100ac
+			public const int alertDialogCenterButtons = 2130772140;
+			
+			// aapt resource value: 0x7f0100aa
+			public const int alertDialogStyle = 2130772138;
+			
+			// aapt resource value: 0x7f0100ad
+			public const int alertDialogTheme = 2130772141;
+			
+			// aapt resource value: 0x7f0100b2
+			public const int autoCompleteTextViewStyle = 2130772146;
+			
+			// aapt resource value: 0x7f010010
+			public const int background = 2130771984;
+			
+			// aapt resource value: 0x7f010012
+			public const int backgroundSplit = 2130771986;
+			
+			// aapt resource value: 0x7f010011
+			public const int backgroundStacked = 2130771985;
+			
+			// aapt resource value: 0x7f0100cb
+			public const int backgroundTint = 2130772171;
+			
+			// aapt resource value: 0x7f0100cc
+			public const int backgroundTintMode = 2130772172;
+			
+			// aapt resource value: 0x7f01002f
+			public const int barSize = 2130772015;
+			
+			// aapt resource value: 0x7f010087
+			public const int borderlessButtonStyle = 2130772103;
+			
+			// aapt resource value: 0x7f010084
+			public const int buttonBarButtonStyle = 2130772100;
+			
+			// aapt resource value: 0x7f0100b0
+			public const int buttonBarNegativeButtonStyle = 2130772144;
+			
+			// aapt resource value: 0x7f0100b1
+			public const int buttonBarNeutralButtonStyle = 2130772145;
+			
+			// aapt resource value: 0x7f0100af
+			public const int buttonBarPositiveButtonStyle = 2130772143;
 			
 			// aapt resource value: 0x7f010083
-			public const int textColorSearchUrl = 2130772099;
+			public const int buttonBarStyle = 2130772099;
+			
+			// aapt resource value: 0x7f010023
+			public const int buttonPanelSideLayout = 2130772003;
+			
+			// aapt resource value: 0x7f0100b3
+			public const int buttonStyle = 2130772147;
+			
+			// aapt resource value: 0x7f0100b4
+			public const int buttonStyleSmall = 2130772148;
+			
+			// aapt resource value: 0x7f0100d4
+			public const int calendarBackground = 2130772180;
+			
+			// aapt resource value: 0x7f0100dd
+			public const int calendarStyle = 2130772189;
+			
+			// aapt resource value: 0x7f0100b5
+			public const int checkboxStyle = 2130772149;
+			
+			// aapt resource value: 0x7f0100b6
+			public const int checkedTextViewStyle = 2130772150;
+			
+			// aapt resource value: 0x7f01003f
+			public const int closeIcon = 2130772031;
+			
+			// aapt resource value: 0x7f010020
+			public const int closeItemLayout = 2130772000;
+			
+			// aapt resource value: 0x7f0100c5
+			public const int collapseContentDescription = 2130772165;
+			
+			// aapt resource value: 0x7f0100c4
+			public const int collapseIcon = 2130772164;
+			
+			// aapt resource value: 0x7f010029
+			public const int color = 2130772009;
+			
+			// aapt resource value: 0x7f0100a4
+			public const int colorAccent = 2130772132;
+			
+			// aapt resource value: 0x7f0100a8
+			public const int colorButtonNormal = 2130772136;
+			
+			// aapt resource value: 0x7f0100a6
+			public const int colorControlActivated = 2130772134;
+			
+			// aapt resource value: 0x7f0100a7
+			public const int colorControlHighlight = 2130772135;
+			
+			// aapt resource value: 0x7f0100a5
+			public const int colorControlNormal = 2130772133;
 			
 			// aapt resource value: 0x7f0100a2
-			public const int theme = 2130772130;
+			public const int colorPrimary = 2130772130;
 			
-			// aapt resource value: 0x7f010027
-			public const int thickness = 2130772007;
+			// aapt resource value: 0x7f0100a3
+			public const int colorPrimaryDark = 2130772131;
 			
-			// aapt resource value: 0x7f010042
-			public const int thumbTextPadding = 2130772034;
+			// aapt resource value: 0x7f0100a9
+			public const int colorSwitchThumbNormal = 2130772137;
 			
-			// aapt resource value: 0x7f010003
-			public const int title = 2130771971;
+			// aapt resource value: 0x7f010044
+			public const int commitIcon = 2130772036;
 			
-			// aapt resource value: 0x7f0100a0
-			public const int titleMarginBottom = 2130772128;
+			// aapt resource value: 0x7f01001b
+			public const int contentInsetEnd = 2130771995;
 			
-			// aapt resource value: 0x7f01009e
-			public const int titleMarginEnd = 2130772126;
+			// aapt resource value: 0x7f01001c
+			public const int contentInsetLeft = 2130771996;
 			
-			// aapt resource value: 0x7f01009d
-			public const int titleMarginStart = 2130772125;
+			// aapt resource value: 0x7f01001d
+			public const int contentInsetRight = 2130771997;
 			
-			// aapt resource value: 0x7f01009f
-			public const int titleMarginTop = 2130772127;
+			// aapt resource value: 0x7f01001a
+			public const int contentInsetStart = 2130771994;
 			
-			// aapt resource value: 0x7f01009c
-			public const int titleMargins = 2130772124;
+			// aapt resource value: 0x7f010013
+			public const int customNavigationLayout = 2130771987;
 			
-			// aapt resource value: 0x7f01009a
-			public const int titleTextAppearance = 2130772122;
+			// aapt resource value: 0x7f01003e
+			public const int defaultQueryHint = 2130772030;
 			
-			// aapt resource value: 0x7f010007
-			public const int titleTextStyle = 2130771975;
+			// aapt resource value: 0x7f01007c
+			public const int dialogPreferredPadding = 2130772092;
 			
 			// aapt resource value: 0x7f01007b
-			public const int toolbarNavigationButtonStyle = 2130772091;
-			
-			// aapt resource value: 0x7f01007a
-			public const int toolbarStyle = 2130772090;
-			
-			// aapt resource value: 0x7f010024
-			public const int topBottomBarArrowSize = 2130772004;
-			
-			// aapt resource value: 0x7f010041
-			public const int track = 2130772033;
-			
-			// aapt resource value: 0x7f010038
-			public const int voiceIcon = 2130772024;
-			
-			// aapt resource value: 0x7f0100b7
-			public const int weekNumberDisplayMode = 2130772151;
-			
-			// aapt resource value: 0x7f010048
-			public const int windowActionBar = 2130772040;
-			
-			// aapt resource value: 0x7f010049
-			public const int windowActionBarOverlay = 2130772041;
-			
-			// aapt resource value: 0x7f01004a
-			public const int windowActionModeOverlay = 2130772042;
-			
-			// aapt resource value: 0x7f01004e
-			public const int windowFixedHeightMajor = 2130772046;
-			
-			// aapt resource value: 0x7f01004c
-			public const int windowFixedHeightMinor = 2130772044;
+			public const int dialogTheme = 2130772091;
 			
 			// aapt resource value: 0x7f01004b
-			public const int windowFixedWidthMajor = 2130772043;
+			public const int disableChildrenWhenDisabled = 2130772043;
+			
+			// aapt resource value: 0x7f0100da
+			public const int displayMode = 2130772186;
+			
+			// aapt resource value: 0x7f010009
+			public const int displayOptions = 2130771977;
+			
+			// aapt resource value: 0x7f01000f
+			public const int divider = 2130771983;
+			
+			// aapt resource value: 0x7f010089
+			public const int dividerHorizontal = 2130772105;
+			
+			// aapt resource value: 0x7f010033
+			public const int dividerPadding = 2130772019;
+			
+			// aapt resource value: 0x7f010088
+			public const int dividerVertical = 2130772104;
+			
+			// aapt resource value: 0x7f01002b
+			public const int drawableSize = 2130772011;
+			
+			// aapt resource value: 0x7f010004
+			public const int drawerArrowStyle = 2130771972;
+			
+			// aapt resource value: 0x7f01009a
+			public const int dropDownListViewStyle = 2130772122;
+			
+			// aapt resource value: 0x7f01007f
+			public const int dropdownListPreferredItemHeight = 2130772095;
+			
+			// aapt resource value: 0x7f010090
+			public const int editTextBackground = 2130772112;
+			
+			// aapt resource value: 0x7f01008f
+			public const int editTextColor = 2130772111;
+			
+			// aapt resource value: 0x7f0100b7
+			public const int editTextStyle = 2130772151;
+			
+			// aapt resource value: 0x7f01001e
+			public const int elevation = 2130771998;
+			
+			// aapt resource value: 0x7f010022
+			public const int expandActivityOverflowButtonDrawable = 2130772002;
+			
+			// aapt resource value: 0x7f0100d0
+			public const int fillViewport = 2130772176;
+			
+			// aapt resource value: 0x7f01002c
+			public const int gapBetweenBars = 2130772012;
+			
+			// aapt resource value: 0x7f010040
+			public const int goIcon = 2130772032;
+			
+			// aapt resource value: 0x7f010005
+			public const int height = 2130771973;
+			
+			// aapt resource value: 0x7f010019
+			public const int hideOnContentScroll = 2130771993;
+			
+			// aapt resource value: 0x7f010081
+			public const int homeAsUpIndicator = 2130772097;
+			
+			// aapt resource value: 0x7f010014
+			public const int homeLayout = 2130771988;
+			
+			// aapt resource value: 0x7f01000d
+			public const int icon = 2130771981;
+			
+			// aapt resource value: 0x7f01003c
+			public const int iconifiedByDefault = 2130772028;
+			
+			// aapt resource value: 0x7f010016
+			public const int indeterminateProgressStyle = 2130771990;
+			
+			// aapt resource value: 0x7f010021
+			public const int initialActivityCount = 2130772001;
+			
+			// aapt resource value: 0x7f010006
+			public const int isLightTheme = 2130771974;
+			
+			// aapt resource value: 0x7f0100dc
+			public const int isYearModeCompact = 2130772188;
+			
+			// aapt resource value: 0x7f010018
+			public const int itemPadding = 2130771992;
+			
+			// aapt resource value: 0x7f01003b
+			public const int layout = 2130772027;
+			
+			// aapt resource value: 0x7f010000
+			public const int layoutManager = 2130771968;
+			
+			// aapt resource value: 0x7f0100a1
+			public const int listChoiceBackgroundIndicator = 2130772129;
+			
+			// aapt resource value: 0x7f01007d
+			public const int listDividerAlertDialog = 2130772093;
+			
+			// aapt resource value: 0x7f010027
+			public const int listItemLayout = 2130772007;
+			
+			// aapt resource value: 0x7f010024
+			public const int listLayout = 2130772004;
+			
+			// aapt resource value: 0x7f01009b
+			public const int listPopupWindowStyle = 2130772123;
+			
+			// aapt resource value: 0x7f010095
+			public const int listPreferredItemHeight = 2130772117;
+			
+			// aapt resource value: 0x7f010097
+			public const int listPreferredItemHeightLarge = 2130772119;
+			
+			// aapt resource value: 0x7f010096
+			public const int listPreferredItemHeightSmall = 2130772118;
+			
+			// aapt resource value: 0x7f010098
+			public const int listPreferredItemPaddingLeft = 2130772120;
+			
+			// aapt resource value: 0x7f010099
+			public const int listPreferredItemPaddingRight = 2130772121;
+			
+			// aapt resource value: 0x7f01000e
+			public const int logo = 2130771982;
+			
+			// aapt resource value: 0x7f0100c3
+			public const int maxButtonHeight = 2130772163;
+			
+			// aapt resource value: 0x7f010031
+			public const int measureWithLargestChild = 2130772017;
+			
+			// aapt resource value: 0x7f01002e
+			public const int middleBarArrowSize = 2130772014;
+			
+			// aapt resource value: 0x7f010025
+			public const int multiChoiceItemLayout = 2130772005;
+			
+			// aapt resource value: 0x7f0100c7
+			public const int navigationContentDescription = 2130772167;
+			
+			// aapt resource value: 0x7f0100c6
+			public const int navigationIcon = 2130772166;
+			
+			// aapt resource value: 0x7f010008
+			public const int navigationMode = 2130771976;
+			
+			// aapt resource value: 0x7f010039
+			public const int overlapAnchor = 2130772025;
+			
+			// aapt resource value: 0x7f0100c9
+			public const int paddingEnd = 2130772169;
+			
+			// aapt resource value: 0x7f0100c8
+			public const int paddingStart = 2130772168;
+			
+			// aapt resource value: 0x7f01009e
+			public const int panelBackground = 2130772126;
+			
+			// aapt resource value: 0x7f0100a0
+			public const int panelMenuListTheme = 2130772128;
+			
+			// aapt resource value: 0x7f01009f
+			public const int panelMenuListWidth = 2130772127;
+			
+			// aapt resource value: 0x7f0100cf
+			public const int pointerFill = 2130772175;
+			
+			// aapt resource value: 0x7f0100ce
+			public const int pointerMargin = 2130772174;
+			
+			// aapt resource value: 0x7f0100cd
+			public const int pointerSize = 2130772173;
+			
+			// aapt resource value: 0x7f01008d
+			public const int popupMenuStyle = 2130772109;
+			
+			// aapt resource value: 0x7f01004a
+			public const int popupPromptView = 2130772042;
+			
+			// aapt resource value: 0x7f01001f
+			public const int popupTheme = 2130771999;
+			
+			// aapt resource value: 0x7f01008e
+			public const int popupWindowStyle = 2130772110;
+			
+			// aapt resource value: 0x7f010038
+			public const int preserveIconSpacing = 2130772024;
+			
+			// aapt resource value: 0x7f010017
+			public const int progressBarPadding = 2130771991;
+			
+			// aapt resource value: 0x7f010015
+			public const int progressBarStyle = 2130771989;
+			
+			// aapt resource value: 0x7f010048
+			public const int prompt = 2130772040;
+			
+			// aapt resource value: 0x7f010046
+			public const int queryBackground = 2130772038;
+			
+			// aapt resource value: 0x7f01003d
+			public const int queryHint = 2130772029;
+			
+			// aapt resource value: 0x7f0100d2
+			public const int radScrollViewStyle = 2130772178;
+			
+			// aapt resource value: 0x7f0100b8
+			public const int radioButtonStyle = 2130772152;
+			
+			// aapt resource value: 0x7f0100b9
+			public const int ratingBarStyle = 2130772153;
+			
+			// aapt resource value: 0x7f010002
+			public const int reverseLayout = 2130771970;
+			
+			// aapt resource value: 0x7f0100d1
+			public const int scrollMode = 2130772177;
+			
+			// aapt resource value: 0x7f010042
+			public const int searchHintIcon = 2130772034;
+			
+			// aapt resource value: 0x7f010041
+			public const int searchIcon = 2130772033;
+			
+			// aapt resource value: 0x7f010094
+			public const int searchViewStyle = 2130772116;
+			
+			// aapt resource value: 0x7f010085
+			public const int selectableItemBackground = 2130772101;
+			
+			// aapt resource value: 0x7f010086
+			public const int selectableItemBackgroundBorderless = 2130772102;
+			
+			// aapt resource value: 0x7f0100d9
+			public const int selectionMode = 2130772185;
+			
+			// aapt resource value: 0x7f010034
+			public const int showAsAction = 2130772020;
+			
+			// aapt resource value: 0x7f0100d8
+			public const int showCellDecorations = 2130772184;
+			
+			// aapt resource value: 0x7f0100d6
+			public const int showDayNames = 2130772182;
+			
+			// aapt resource value: 0x7f010032
+			public const int showDividers = 2130772018;
+			
+			// aapt resource value: 0x7f0100d7
+			public const int showGridLines = 2130772183;
+			
+			// aapt resource value: 0x7f010052
+			public const int showText = 2130772050;
+			
+			// aapt resource value: 0x7f0100d5
+			public const int showTitle = 2130772181;
+			
+			// aapt resource value: 0x7f010026
+			public const int singleChoiceItemLayout = 2130772006;
+			
+			// aapt resource value: 0x7f010001
+			public const int spanCount = 2130771969;
+			
+			// aapt resource value: 0x7f01002a
+			public const int spinBars = 2130772010;
+			
+			// aapt resource value: 0x7f010080
+			public const int spinnerDropDownItemStyle = 2130772096;
+			
+			// aapt resource value: 0x7f010049
+			public const int spinnerMode = 2130772041;
+			
+			// aapt resource value: 0x7f0100ba
+			public const int spinnerStyle = 2130772154;
+			
+			// aapt resource value: 0x7f010051
+			public const int splitTrack = 2130772049;
+			
+			// aapt resource value: 0x7f010003
+			public const int stackFromEnd = 2130771971;
+			
+			// aapt resource value: 0x7f01003a
+			public const int state_above_anchor = 2130772026;
+			
+			// aapt resource value: 0x7f0100d3
+			public const int state_calendar_cell_today = 2130772179;
+			
+			// aapt resource value: 0x7f010047
+			public const int submitBackground = 2130772039;
+			
+			// aapt resource value: 0x7f01000a
+			public const int subtitle = 2130771978;
+			
+			// aapt resource value: 0x7f0100bd
+			public const int subtitleTextAppearance = 2130772157;
+			
+			// aapt resource value: 0x7f01000c
+			public const int subtitleTextStyle = 2130771980;
+			
+			// aapt resource value: 0x7f010045
+			public const int suggestionRowLayout = 2130772037;
+			
+			// aapt resource value: 0x7f01004f
+			public const int switchMinWidth = 2130772047;
+			
+			// aapt resource value: 0x7f010050
+			public const int switchPadding = 2130772048;
+			
+			// aapt resource value: 0x7f0100bb
+			public const int switchStyle = 2130772155;
+			
+			// aapt resource value: 0x7f01004e
+			public const int switchTextAppearance = 2130772046;
+			
+			// aapt resource value: 0x7f010028
+			public const int textAllCaps = 2130772008;
+			
+			// aapt resource value: 0x7f010079
+			public const int textAppearanceLargePopupMenu = 2130772089;
+			
+			// aapt resource value: 0x7f01009c
+			public const int textAppearanceListItem = 2130772124;
+			
+			// aapt resource value: 0x7f01009d
+			public const int textAppearanceListItemSmall = 2130772125;
+			
+			// aapt resource value: 0x7f010092
+			public const int textAppearanceSearchResultSubtitle = 2130772114;
+			
+			// aapt resource value: 0x7f010091
+			public const int textAppearanceSearchResultTitle = 2130772113;
+			
+			// aapt resource value: 0x7f01007a
+			public const int textAppearanceSmallPopupMenu = 2130772090;
+			
+			// aapt resource value: 0x7f0100ae
+			public const int textColorAlertDialogListItem = 2130772142;
+			
+			// aapt resource value: 0x7f010093
+			public const int textColorSearchUrl = 2130772115;
+			
+			// aapt resource value: 0x7f0100ca
+			public const int theme = 2130772170;
+			
+			// aapt resource value: 0x7f010030
+			public const int thickness = 2130772016;
 			
 			// aapt resource value: 0x7f01004d
-			public const int windowFixedWidthMinor = 2130772045;
+			public const int thumbTextPadding = 2130772045;
+			
+			// aapt resource value: 0x7f010007
+			public const int title = 2130771975;
+			
+			// aapt resource value: 0x7f0100c2
+			public const int titleMarginBottom = 2130772162;
+			
+			// aapt resource value: 0x7f0100c0
+			public const int titleMarginEnd = 2130772160;
+			
+			// aapt resource value: 0x7f0100bf
+			public const int titleMarginStart = 2130772159;
+			
+			// aapt resource value: 0x7f0100c1
+			public const int titleMarginTop = 2130772161;
+			
+			// aapt resource value: 0x7f0100be
+			public const int titleMargins = 2130772158;
+			
+			// aapt resource value: 0x7f0100bc
+			public const int titleTextAppearance = 2130772156;
+			
+			// aapt resource value: 0x7f01000b
+			public const int titleTextStyle = 2130771979;
+			
+			// aapt resource value: 0x7f01008c
+			public const int toolbarNavigationButtonStyle = 2130772108;
+			
+			// aapt resource value: 0x7f01008b
+			public const int toolbarStyle = 2130772107;
+			
+			// aapt resource value: 0x7f01002d
+			public const int topBottomBarArrowSize = 2130772013;
+			
+			// aapt resource value: 0x7f01004c
+			public const int track = 2130772044;
+			
+			// aapt resource value: 0x7f010043
+			public const int voiceIcon = 2130772035;
+			
+			// aapt resource value: 0x7f0100db
+			public const int weekNumberDisplayMode = 2130772187;
+			
+			// aapt resource value: 0x7f010053
+			public const int windowActionBar = 2130772051;
+			
+			// aapt resource value: 0x7f010055
+			public const int windowActionBarOverlay = 2130772053;
+			
+			// aapt resource value: 0x7f010056
+			public const int windowActionModeOverlay = 2130772054;
+			
+			// aapt resource value: 0x7f01005a
+			public const int windowFixedHeightMajor = 2130772058;
+			
+			// aapt resource value: 0x7f010058
+			public const int windowFixedHeightMinor = 2130772056;
+			
+			// aapt resource value: 0x7f010057
+			public const int windowFixedWidthMajor = 2130772055;
+			
+			// aapt resource value: 0x7f010059
+			public const int windowFixedWidthMinor = 2130772057;
+			
+			// aapt resource value: 0x7f01005b
+			public const int windowMinWidthMajor = 2130772059;
+			
+			// aapt resource value: 0x7f01005c
+			public const int windowMinWidthMinor = 2130772060;
+			
+			// aapt resource value: 0x7f010054
+			public const int windowNoTitle = 2130772052;
 			
 			static Attribute()
 			{
@@ -757,23 +2040,26 @@ namespace X_Calendar.Droid
 		public partial class Boolean
 		{
 			
-			// aapt resource value: 0x7f050000
-			public const int abc_action_bar_embed_tabs = 2131034112;
+			// aapt resource value: 0x7f090002
+			public const int abc_action_bar_embed_tabs = 2131296258;
 			
-			// aapt resource value: 0x7f050001
-			public const int abc_action_bar_embed_tabs_pre_jb = 2131034113;
+			// aapt resource value: 0x7f090000
+			public const int abc_action_bar_embed_tabs_pre_jb = 2131296256;
 			
-			// aapt resource value: 0x7f050002
-			public const int abc_action_bar_expanded_action_views_exclusive = 2131034114;
+			// aapt resource value: 0x7f090003
+			public const int abc_action_bar_expanded_action_views_exclusive = 2131296259;
 			
-			// aapt resource value: 0x7f050003
-			public const int abc_config_actionMenuItemAllCaps = 2131034115;
+			// aapt resource value: 0x7f090004
+			public const int abc_config_actionMenuItemAllCaps = 2131296260;
 			
-			// aapt resource value: 0x7f050004
-			public const int abc_config_allowActionMenuItemTextWithIcon = 2131034116;
+			// aapt resource value: 0x7f090001
+			public const int abc_config_allowActionMenuItemTextWithIcon = 2131296257;
 			
-			// aapt resource value: 0x7f050005
-			public const int abc_config_showMenuShortcutsWhenKeyboardPresent = 2131034117;
+			// aapt resource value: 0x7f090005
+			public const int abc_config_closeDialogWhenTouchOutside = 2131296261;
+			
+			// aapt resource value: 0x7f090006
+			public const int abc_config_showMenuShortcutsWhenKeyboardPresent = 2131296262;
 			
 			static Boolean()
 			{
@@ -788,185 +2074,197 @@ namespace X_Calendar.Droid
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f060033
-			public const int abc_background_cache_hint_selector_material_dark = 2131099699;
+			// aapt resource value: 0x7f0b0035
+			public const int abc_background_cache_hint_selector_material_dark = 2131427381;
 			
-			// aapt resource value: 0x7f060034
-			public const int abc_background_cache_hint_selector_material_light = 2131099700;
+			// aapt resource value: 0x7f0b0036
+			public const int abc_background_cache_hint_selector_material_light = 2131427382;
 			
-			// aapt resource value: 0x7f060000
-			public const int abc_input_method_navigation_guard = 2131099648;
+			// aapt resource value: 0x7f0b0000
+			public const int abc_input_method_navigation_guard = 2131427328;
 			
-			// aapt resource value: 0x7f060035
-			public const int abc_primary_text_disable_only_material_dark = 2131099701;
+			// aapt resource value: 0x7f0b0037
+			public const int abc_primary_text_disable_only_material_dark = 2131427383;
 			
-			// aapt resource value: 0x7f060036
-			public const int abc_primary_text_disable_only_material_light = 2131099702;
+			// aapt resource value: 0x7f0b0038
+			public const int abc_primary_text_disable_only_material_light = 2131427384;
 			
-			// aapt resource value: 0x7f060037
-			public const int abc_primary_text_material_dark = 2131099703;
+			// aapt resource value: 0x7f0b0039
+			public const int abc_primary_text_material_dark = 2131427385;
 			
-			// aapt resource value: 0x7f060038
-			public const int abc_primary_text_material_light = 2131099704;
+			// aapt resource value: 0x7f0b003a
+			public const int abc_primary_text_material_light = 2131427386;
 			
-			// aapt resource value: 0x7f060039
-			public const int abc_search_url_text = 2131099705;
+			// aapt resource value: 0x7f0b003b
+			public const int abc_search_url_text = 2131427387;
 			
-			// aapt resource value: 0x7f060001
-			public const int abc_search_url_text_normal = 2131099649;
+			// aapt resource value: 0x7f0b0001
+			public const int abc_search_url_text_normal = 2131427329;
 			
-			// aapt resource value: 0x7f060002
-			public const int abc_search_url_text_pressed = 2131099650;
+			// aapt resource value: 0x7f0b0002
+			public const int abc_search_url_text_pressed = 2131427330;
 			
-			// aapt resource value: 0x7f060003
-			public const int abc_search_url_text_selected = 2131099651;
+			// aapt resource value: 0x7f0b0003
+			public const int abc_search_url_text_selected = 2131427331;
 			
-			// aapt resource value: 0x7f06003a
-			public const int abc_secondary_text_material_dark = 2131099706;
+			// aapt resource value: 0x7f0b003c
+			public const int abc_secondary_text_material_dark = 2131427388;
 			
-			// aapt resource value: 0x7f06003b
-			public const int abc_secondary_text_material_light = 2131099707;
+			// aapt resource value: 0x7f0b003d
+			public const int abc_secondary_text_material_light = 2131427389;
 			
-			// aapt resource value: 0x7f060004
-			public const int accent_material_dark = 2131099652;
+			// aapt resource value: 0x7f0b0004
+			public const int accent_material_dark = 2131427332;
 			
-			// aapt resource value: 0x7f060005
-			public const int accent_material_light = 2131099653;
+			// aapt resource value: 0x7f0b0005
+			public const int accent_material_light = 2131427333;
 			
-			// aapt resource value: 0x7f060006
-			public const int background_floating_material_dark = 2131099654;
+			// aapt resource value: 0x7f0b0006
+			public const int background_floating_material_dark = 2131427334;
 			
-			// aapt resource value: 0x7f060007
-			public const int background_floating_material_light = 2131099655;
+			// aapt resource value: 0x7f0b0007
+			public const int background_floating_material_light = 2131427335;
 			
-			// aapt resource value: 0x7f060008
-			public const int background_material_dark = 2131099656;
+			// aapt resource value: 0x7f0b0008
+			public const int background_material_dark = 2131427336;
 			
-			// aapt resource value: 0x7f060009
-			public const int background_material_light = 2131099657;
+			// aapt resource value: 0x7f0b0009
+			public const int background_material_light = 2131427337;
 			
-			// aapt resource value: 0x7f060032
-			public const int black = 2131099698;
+			// aapt resource value: 0x7f0b0034
+			public const int black = 2131427380;
 			
-			// aapt resource value: 0x7f06000a
-			public const int bright_foreground_disabled_material_dark = 2131099658;
+			// aapt resource value: 0x7f0b000a
+			public const int bright_foreground_disabled_material_dark = 2131427338;
 			
-			// aapt resource value: 0x7f06000b
-			public const int bright_foreground_disabled_material_light = 2131099659;
+			// aapt resource value: 0x7f0b000b
+			public const int bright_foreground_disabled_material_light = 2131427339;
 			
-			// aapt resource value: 0x7f06000c
-			public const int bright_foreground_inverse_material_dark = 2131099660;
+			// aapt resource value: 0x7f0b000c
+			public const int bright_foreground_inverse_material_dark = 2131427340;
 			
-			// aapt resource value: 0x7f06000d
-			public const int bright_foreground_inverse_material_light = 2131099661;
+			// aapt resource value: 0x7f0b000d
+			public const int bright_foreground_inverse_material_light = 2131427341;
 			
-			// aapt resource value: 0x7f06000e
-			public const int bright_foreground_material_dark = 2131099662;
+			// aapt resource value: 0x7f0b000e
+			public const int bright_foreground_material_dark = 2131427342;
 			
-			// aapt resource value: 0x7f06000f
-			public const int bright_foreground_material_light = 2131099663;
+			// aapt resource value: 0x7f0b000f
+			public const int bright_foreground_material_light = 2131427343;
 			
-			// aapt resource value: 0x7f060010
-			public const int button_material_dark = 2131099664;
+			// aapt resource value: 0x7f0b0010
+			public const int button_material_dark = 2131427344;
 			
-			// aapt resource value: 0x7f060011
-			public const int button_material_light = 2131099665;
+			// aapt resource value: 0x7f0b0011
+			public const int button_material_light = 2131427345;
 			
-			// aapt resource value: 0x7f060012
-			public const int dim_foreground_disabled_material_dark = 2131099666;
+			// aapt resource value: 0x7f0b0012
+			public const int dim_foreground_disabled_material_dark = 2131427346;
 			
-			// aapt resource value: 0x7f060013
-			public const int dim_foreground_disabled_material_light = 2131099667;
+			// aapt resource value: 0x7f0b0013
+			public const int dim_foreground_disabled_material_light = 2131427347;
 			
-			// aapt resource value: 0x7f060014
-			public const int dim_foreground_material_dark = 2131099668;
+			// aapt resource value: 0x7f0b0014
+			public const int dim_foreground_material_dark = 2131427348;
 			
-			// aapt resource value: 0x7f060015
-			public const int dim_foreground_material_light = 2131099669;
+			// aapt resource value: 0x7f0b0015
+			public const int dim_foreground_material_light = 2131427349;
 			
-			// aapt resource value: 0x7f060016
-			public const int highlighted_text_material_dark = 2131099670;
+			// aapt resource value: 0x7f0b0016
+			public const int highlighted_text_material_dark = 2131427350;
 			
-			// aapt resource value: 0x7f060017
-			public const int highlighted_text_material_light = 2131099671;
+			// aapt resource value: 0x7f0b0017
+			public const int highlighted_text_material_light = 2131427351;
 			
-			// aapt resource value: 0x7f060018
-			public const int hint_foreground_material_dark = 2131099672;
+			// aapt resource value: 0x7f0b0018
+			public const int hint_foreground_material_dark = 2131427352;
 			
-			// aapt resource value: 0x7f060019
-			public const int hint_foreground_material_light = 2131099673;
+			// aapt resource value: 0x7f0b0019
+			public const int hint_foreground_material_light = 2131427353;
 			
-			// aapt resource value: 0x7f06001a
-			public const int link_text_material_dark = 2131099674;
+			// aapt resource value: 0x7f0b001a
+			public const int link_text_material_dark = 2131427354;
 			
-			// aapt resource value: 0x7f06001b
-			public const int link_text_material_light = 2131099675;
+			// aapt resource value: 0x7f0b001b
+			public const int link_text_material_light = 2131427355;
 			
-			// aapt resource value: 0x7f06001c
-			public const int material_blue_grey_800 = 2131099676;
+			// aapt resource value: 0x7f0b001c
+			public const int material_blue_grey_800 = 2131427356;
 			
-			// aapt resource value: 0x7f06001d
-			public const int material_blue_grey_900 = 2131099677;
+			// aapt resource value: 0x7f0b001d
+			public const int material_blue_grey_900 = 2131427357;
 			
-			// aapt resource value: 0x7f06001e
-			public const int material_blue_grey_950 = 2131099678;
+			// aapt resource value: 0x7f0b001e
+			public const int material_blue_grey_950 = 2131427358;
 			
-			// aapt resource value: 0x7f06001f
-			public const int material_deep_teal_200 = 2131099679;
+			// aapt resource value: 0x7f0b001f
+			public const int material_deep_teal_200 = 2131427359;
 			
-			// aapt resource value: 0x7f060020
-			public const int material_deep_teal_500 = 2131099680;
+			// aapt resource value: 0x7f0b0020
+			public const int material_deep_teal_500 = 2131427360;
 			
-			// aapt resource value: 0x7f060021
-			public const int primary_dark_material_dark = 2131099681;
+			// aapt resource value: 0x7f0b0021
+			public const int primary_dark_material_dark = 2131427361;
 			
-			// aapt resource value: 0x7f060022
-			public const int primary_dark_material_light = 2131099682;
+			// aapt resource value: 0x7f0b0022
+			public const int primary_dark_material_light = 2131427362;
 			
-			// aapt resource value: 0x7f060023
-			public const int primary_material_dark = 2131099683;
+			// aapt resource value: 0x7f0b0023
+			public const int primary_material_dark = 2131427363;
 			
-			// aapt resource value: 0x7f060024
-			public const int primary_material_light = 2131099684;
+			// aapt resource value: 0x7f0b0024
+			public const int primary_material_light = 2131427364;
 			
-			// aapt resource value: 0x7f060025
-			public const int primary_text_default_material_dark = 2131099685;
+			// aapt resource value: 0x7f0b0025
+			public const int primary_text_default_material_dark = 2131427365;
 			
-			// aapt resource value: 0x7f060026
-			public const int primary_text_default_material_light = 2131099686;
+			// aapt resource value: 0x7f0b0026
+			public const int primary_text_default_material_light = 2131427366;
 			
-			// aapt resource value: 0x7f060027
-			public const int primary_text_disabled_material_dark = 2131099687;
+			// aapt resource value: 0x7f0b0027
+			public const int primary_text_disabled_material_dark = 2131427367;
 			
-			// aapt resource value: 0x7f060028
-			public const int primary_text_disabled_material_light = 2131099688;
+			// aapt resource value: 0x7f0b0028
+			public const int primary_text_disabled_material_light = 2131427368;
 			
-			// aapt resource value: 0x7f060029
-			public const int ripple_material_dark = 2131099689;
+			// aapt resource value: 0x7f0b0029
+			public const int ripple_material_dark = 2131427369;
 			
-			// aapt resource value: 0x7f06002a
-			public const int ripple_material_light = 2131099690;
+			// aapt resource value: 0x7f0b002a
+			public const int ripple_material_light = 2131427370;
 			
-			// aapt resource value: 0x7f06002b
-			public const int secondary_text_default_material_dark = 2131099691;
+			// aapt resource value: 0x7f0b002b
+			public const int secondary_text_default_material_dark = 2131427371;
 			
-			// aapt resource value: 0x7f06002c
-			public const int secondary_text_default_material_light = 2131099692;
+			// aapt resource value: 0x7f0b002c
+			public const int secondary_text_default_material_light = 2131427372;
 			
-			// aapt resource value: 0x7f06002d
-			public const int secondary_text_disabled_material_dark = 2131099693;
+			// aapt resource value: 0x7f0b002d
+			public const int secondary_text_disabled_material_dark = 2131427373;
 			
-			// aapt resource value: 0x7f06002e
-			public const int secondary_text_disabled_material_light = 2131099694;
+			// aapt resource value: 0x7f0b002e
+			public const int secondary_text_disabled_material_light = 2131427374;
 			
-			// aapt resource value: 0x7f06002f
-			public const int switch_thumb_normal_material_dark = 2131099695;
+			// aapt resource value: 0x7f0b002f
+			public const int switch_thumb_disabled_material_dark = 2131427375;
 			
-			// aapt resource value: 0x7f060030
-			public const int switch_thumb_normal_material_light = 2131099696;
+			// aapt resource value: 0x7f0b0030
+			public const int switch_thumb_disabled_material_light = 2131427376;
 			
-			// aapt resource value: 0x7f060031
-			public const int white = 2131099697;
+			// aapt resource value: 0x7f0b003e
+			public const int switch_thumb_material_dark = 2131427390;
+			
+			// aapt resource value: 0x7f0b003f
+			public const int switch_thumb_material_light = 2131427391;
+			
+			// aapt resource value: 0x7f0b0031
+			public const int switch_thumb_normal_material_dark = 2131427377;
+			
+			// aapt resource value: 0x7f0b0032
+			public const int switch_thumb_normal_material_light = 2131427378;
+			
+			// aapt resource value: 0x7f0b0033
+			public const int white = 2131427379;
 			
 			static Color()
 			{
@@ -981,140 +2279,221 @@ namespace X_Calendar.Droid
 		public partial class Dimension
 		{
 			
-			// aapt resource value: 0x7f070000
-			public const int abc_action_bar_default_height_material = 2131165184;
+			// aapt resource value: 0x7f05000d
+			public const int abc_action_bar_content_inset_material = 2131034125;
 			
-			// aapt resource value: 0x7f070001
-			public const int abc_action_bar_default_padding_material = 2131165185;
+			// aapt resource value: 0x7f050002
+			public const int abc_action_bar_default_height_material = 2131034114;
 			
-			// aapt resource value: 0x7f070002
-			public const int abc_action_bar_icon_vertical_padding_material = 2131165186;
+			// aapt resource value: 0x7f050003
+			public const int abc_action_bar_default_padding_material = 2131034115;
 			
-			// aapt resource value: 0x7f070003
-			public const int abc_action_bar_progress_bar_size = 2131165187;
+			// aapt resource value: 0x7f050011
+			public const int abc_action_bar_icon_vertical_padding_material = 2131034129;
 			
-			// aapt resource value: 0x7f070004
-			public const int abc_action_bar_stacked_max_height = 2131165188;
+			// aapt resource value: 0x7f05000e
+			public const int abc_action_bar_navigation_padding_start_material = 2131034126;
 			
-			// aapt resource value: 0x7f070005
-			public const int abc_action_bar_stacked_tab_max_width = 2131165189;
+			// aapt resource value: 0x7f05000f
+			public const int abc_action_bar_overflow_padding_end_material = 2131034127;
 			
-			// aapt resource value: 0x7f070006
-			public const int abc_action_bar_subtitle_bottom_margin_material = 2131165190;
+			// aapt resource value: 0x7f050012
+			public const int abc_action_bar_overflow_padding_start_material = 2131034130;
 			
-			// aapt resource value: 0x7f070007
-			public const int abc_action_bar_subtitle_top_margin_material = 2131165191;
+			// aapt resource value: 0x7f050004
+			public const int abc_action_bar_progress_bar_size = 2131034116;
 			
-			// aapt resource value: 0x7f070008
-			public const int abc_action_button_min_height_material = 2131165192;
+			// aapt resource value: 0x7f050013
+			public const int abc_action_bar_stacked_max_height = 2131034131;
 			
-			// aapt resource value: 0x7f070009
-			public const int abc_action_button_min_width_material = 2131165193;
+			// aapt resource value: 0x7f050014
+			public const int abc_action_bar_stacked_tab_max_width = 2131034132;
 			
-			// aapt resource value: 0x7f07000a
-			public const int abc_action_button_min_width_overflow_material = 2131165194;
+			// aapt resource value: 0x7f050015
+			public const int abc_action_bar_subtitle_bottom_margin_material = 2131034133;
 			
-			// aapt resource value: 0x7f07000b
-			public const int abc_config_prefDialogWidth = 2131165195;
+			// aapt resource value: 0x7f050016
+			public const int abc_action_bar_subtitle_top_margin_material = 2131034134;
 			
-			// aapt resource value: 0x7f07000c
-			public const int abc_control_inset_material = 2131165196;
+			// aapt resource value: 0x7f050017
+			public const int abc_action_button_min_height_material = 2131034135;
 			
-			// aapt resource value: 0x7f07000d
-			public const int abc_control_padding_material = 2131165197;
+			// aapt resource value: 0x7f050018
+			public const int abc_action_button_min_width_material = 2131034136;
 			
-			// aapt resource value: 0x7f07000e
-			public const int abc_dropdownitem_icon_width = 2131165198;
+			// aapt resource value: 0x7f050019
+			public const int abc_action_button_min_width_overflow_material = 2131034137;
 			
-			// aapt resource value: 0x7f07000f
-			public const int abc_dropdownitem_text_padding_left = 2131165199;
+			// aapt resource value: 0x7f050001
+			public const int abc_alert_dialog_button_bar_height = 2131034113;
 			
-			// aapt resource value: 0x7f070010
-			public const int abc_dropdownitem_text_padding_right = 2131165200;
+			// aapt resource value: 0x7f05001a
+			public const int abc_button_inset_horizontal_material = 2131034138;
 			
-			// aapt resource value: 0x7f070011
-			public const int abc_panel_menu_list_width = 2131165201;
+			// aapt resource value: 0x7f05001b
+			public const int abc_button_inset_vertical_material = 2131034139;
 			
-			// aapt resource value: 0x7f070012
-			public const int abc_search_view_preferred_width = 2131165202;
+			// aapt resource value: 0x7f05001c
+			public const int abc_button_padding_horizontal_material = 2131034140;
 			
-			// aapt resource value: 0x7f070013
-			public const int abc_search_view_text_min_width = 2131165203;
+			// aapt resource value: 0x7f05001d
+			public const int abc_button_padding_vertical_material = 2131034141;
 			
-			// aapt resource value: 0x7f070014
-			public const int abc_text_size_body_1_material = 2131165204;
+			// aapt resource value: 0x7f050007
+			public const int abc_config_prefDialogWidth = 2131034119;
 			
-			// aapt resource value: 0x7f070015
-			public const int abc_text_size_body_2_material = 2131165205;
+			// aapt resource value: 0x7f05001e
+			public const int abc_control_corner_material = 2131034142;
 			
-			// aapt resource value: 0x7f070016
-			public const int abc_text_size_button_material = 2131165206;
+			// aapt resource value: 0x7f05001f
+			public const int abc_control_inset_material = 2131034143;
 			
-			// aapt resource value: 0x7f070017
-			public const int abc_text_size_caption_material = 2131165207;
+			// aapt resource value: 0x7f050020
+			public const int abc_control_padding_material = 2131034144;
 			
-			// aapt resource value: 0x7f070018
-			public const int abc_text_size_display_1_material = 2131165208;
+			// aapt resource value: 0x7f050021
+			public const int abc_dialog_list_padding_vertical_material = 2131034145;
 			
-			// aapt resource value: 0x7f070019
-			public const int abc_text_size_display_2_material = 2131165209;
+			// aapt resource value: 0x7f050022
+			public const int abc_dialog_min_width_major = 2131034146;
 			
-			// aapt resource value: 0x7f07001a
-			public const int abc_text_size_display_3_material = 2131165210;
+			// aapt resource value: 0x7f050023
+			public const int abc_dialog_min_width_minor = 2131034147;
 			
-			// aapt resource value: 0x7f07001b
-			public const int abc_text_size_display_4_material = 2131165211;
+			// aapt resource value: 0x7f050024
+			public const int abc_dialog_padding_material = 2131034148;
 			
-			// aapt resource value: 0x7f07001c
-			public const int abc_text_size_headline_material = 2131165212;
+			// aapt resource value: 0x7f050025
+			public const int abc_dialog_padding_top_material = 2131034149;
 			
-			// aapt resource value: 0x7f07001d
-			public const int abc_text_size_large_material = 2131165213;
+			// aapt resource value: 0x7f050026
+			public const int abc_disabled_alpha_material_dark = 2131034150;
 			
-			// aapt resource value: 0x7f07001e
-			public const int abc_text_size_medium_material = 2131165214;
+			// aapt resource value: 0x7f050027
+			public const int abc_disabled_alpha_material_light = 2131034151;
 			
-			// aapt resource value: 0x7f07001f
-			public const int abc_text_size_menu_material = 2131165215;
+			// aapt resource value: 0x7f050028
+			public const int abc_dropdownitem_icon_width = 2131034152;
 			
-			// aapt resource value: 0x7f070020
-			public const int abc_text_size_small_material = 2131165216;
+			// aapt resource value: 0x7f050029
+			public const int abc_dropdownitem_text_padding_left = 2131034153;
 			
-			// aapt resource value: 0x7f070021
-			public const int abc_text_size_subhead_material = 2131165217;
+			// aapt resource value: 0x7f05002a
+			public const int abc_dropdownitem_text_padding_right = 2131034154;
 			
-			// aapt resource value: 0x7f070022
-			public const int abc_text_size_subtitle_material_toolbar = 2131165218;
+			// aapt resource value: 0x7f05002b
+			public const int abc_edit_text_inset_bottom_material = 2131034155;
 			
-			// aapt resource value: 0x7f070023
-			public const int abc_text_size_title_material = 2131165219;
+			// aapt resource value: 0x7f05002c
+			public const int abc_edit_text_inset_horizontal_material = 2131034156;
 			
-			// aapt resource value: 0x7f070024
-			public const int abc_text_size_title_material_toolbar = 2131165220;
+			// aapt resource value: 0x7f05002d
+			public const int abc_edit_text_inset_top_material = 2131034157;
 			
-			// aapt resource value: 0x7f07002c
-			public const int date_text_size_year_mode = 2131165228;
+			// aapt resource value: 0x7f05002e
+			public const int abc_floating_window_z = 2131034158;
 			
-			// aapt resource value: 0x7f070025
-			public const int dialog_fixed_height_major = 2131165221;
+			// aapt resource value: 0x7f05002f
+			public const int abc_list_item_padding_horizontal_material = 2131034159;
 			
-			// aapt resource value: 0x7f070026
-			public const int dialog_fixed_height_minor = 2131165222;
+			// aapt resource value: 0x7f050030
+			public const int abc_panel_menu_list_width = 2131034160;
 			
-			// aapt resource value: 0x7f070027
-			public const int dialog_fixed_width_major = 2131165223;
+			// aapt resource value: 0x7f050031
+			public const int abc_search_view_preferred_width = 2131034161;
 			
-			// aapt resource value: 0x7f070028
-			public const int dialog_fixed_width_minor = 2131165224;
+			// aapt resource value: 0x7f050008
+			public const int abc_search_view_text_min_width = 2131034120;
 			
-			// aapt resource value: 0x7f070029
-			public const int disabled_alpha_material_dark = 2131165225;
+			// aapt resource value: 0x7f050010
+			public const int abc_switch_padding = 2131034128;
 			
-			// aapt resource value: 0x7f07002a
-			public const int disabled_alpha_material_light = 2131165226;
+			// aapt resource value: 0x7f050032
+			public const int abc_text_size_body_1_material = 2131034162;
 			
-			// aapt resource value: 0x7f07002b
-			public const int legend_stroke_width = 2131165227;
+			// aapt resource value: 0x7f050033
+			public const int abc_text_size_body_2_material = 2131034163;
+			
+			// aapt resource value: 0x7f050034
+			public const int abc_text_size_button_material = 2131034164;
+			
+			// aapt resource value: 0x7f050035
+			public const int abc_text_size_caption_material = 2131034165;
+			
+			// aapt resource value: 0x7f050036
+			public const int abc_text_size_display_1_material = 2131034166;
+			
+			// aapt resource value: 0x7f050037
+			public const int abc_text_size_display_2_material = 2131034167;
+			
+			// aapt resource value: 0x7f050038
+			public const int abc_text_size_display_3_material = 2131034168;
+			
+			// aapt resource value: 0x7f050039
+			public const int abc_text_size_display_4_material = 2131034169;
+			
+			// aapt resource value: 0x7f05003a
+			public const int abc_text_size_headline_material = 2131034170;
+			
+			// aapt resource value: 0x7f05003b
+			public const int abc_text_size_large_material = 2131034171;
+			
+			// aapt resource value: 0x7f05003c
+			public const int abc_text_size_medium_material = 2131034172;
+			
+			// aapt resource value: 0x7f05003d
+			public const int abc_text_size_menu_material = 2131034173;
+			
+			// aapt resource value: 0x7f05003e
+			public const int abc_text_size_small_material = 2131034174;
+			
+			// aapt resource value: 0x7f05003f
+			public const int abc_text_size_subhead_material = 2131034175;
+			
+			// aapt resource value: 0x7f050005
+			public const int abc_text_size_subtitle_material_toolbar = 2131034117;
+			
+			// aapt resource value: 0x7f050040
+			public const int abc_text_size_title_material = 2131034176;
+			
+			// aapt resource value: 0x7f050006
+			public const int abc_text_size_title_material_toolbar = 2131034118;
+			
+			// aapt resource value: 0x7f050047
+			public const int date_text_size_year_mode = 2131034183;
+			
+			// aapt resource value: 0x7f050009
+			public const int dialog_fixed_height_major = 2131034121;
+			
+			// aapt resource value: 0x7f05000a
+			public const int dialog_fixed_height_minor = 2131034122;
+			
+			// aapt resource value: 0x7f05000b
+			public const int dialog_fixed_width_major = 2131034123;
+			
+			// aapt resource value: 0x7f05000c
+			public const int dialog_fixed_width_minor = 2131034124;
+			
+			// aapt resource value: 0x7f050041
+			public const int disabled_alpha_material_dark = 2131034177;
+			
+			// aapt resource value: 0x7f050042
+			public const int disabled_alpha_material_light = 2131034178;
+			
+			// aapt resource value: 0x7f050000
+			public const int item_touch_helper_max_drag_scroll_per_frame = 2131034112;
+			
+			// aapt resource value: 0x7f050046
+			public const int legend_stroke_width = 2131034182;
+			
+			// aapt resource value: 0x7f050043
+			public const int notification_large_icon_height = 2131034179;
+			
+			// aapt resource value: 0x7f050044
+			public const int notification_large_icon_width = 2131034180;
+			
+			// aapt resource value: 0x7f050045
+			public const int notification_subtext_size = 2131034181;
 			
 			static Dimension()
 			{
@@ -1130,10 +2509,10 @@ namespace X_Calendar.Droid
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int abc_ab_share_pack_holo_dark = 2130837504;
+			public const int abc_ab_share_pack_mtrl_alpha = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int abc_ab_share_pack_holo_light = 2130837505;
+			public const int abc_btn_borderless_material = 2130837505;
 			
 			// aapt resource value: 0x7f020002
 			public const int abc_btn_check_material = 2130837506;
@@ -1145,154 +2524,181 @@ namespace X_Calendar.Droid
 			public const int abc_btn_check_to_on_mtrl_015 = 2130837508;
 			
 			// aapt resource value: 0x7f020005
-			public const int abc_btn_radio_material = 2130837509;
+			public const int abc_btn_default_mtrl_shape = 2130837509;
 			
 			// aapt resource value: 0x7f020006
-			public const int abc_btn_radio_to_on_mtrl_000 = 2130837510;
+			public const int abc_btn_radio_material = 2130837510;
 			
 			// aapt resource value: 0x7f020007
-			public const int abc_btn_radio_to_on_mtrl_015 = 2130837511;
+			public const int abc_btn_radio_to_on_mtrl_000 = 2130837511;
 			
 			// aapt resource value: 0x7f020008
-			public const int abc_btn_switch_to_on_mtrl_00001 = 2130837512;
+			public const int abc_btn_radio_to_on_mtrl_015 = 2130837512;
 			
 			// aapt resource value: 0x7f020009
-			public const int abc_btn_switch_to_on_mtrl_00012 = 2130837513;
+			public const int abc_btn_rating_star_off_mtrl_alpha = 2130837513;
 			
 			// aapt resource value: 0x7f02000a
-			public const int abc_cab_background_internal_bg = 2130837514;
+			public const int abc_btn_rating_star_on_mtrl_alpha = 2130837514;
 			
 			// aapt resource value: 0x7f02000b
-			public const int abc_cab_background_top_material = 2130837515;
+			public const int abc_btn_switch_to_on_mtrl_00001 = 2130837515;
 			
 			// aapt resource value: 0x7f02000c
-			public const int abc_cab_background_top_mtrl_alpha = 2130837516;
+			public const int abc_btn_switch_to_on_mtrl_00012 = 2130837516;
 			
 			// aapt resource value: 0x7f02000d
-			public const int abc_edit_text_material = 2130837517;
+			public const int abc_cab_background_internal_bg = 2130837517;
 			
 			// aapt resource value: 0x7f02000e
-			public const int abc_ic_ab_back_mtrl_am_alpha = 2130837518;
+			public const int abc_cab_background_top_material = 2130837518;
 			
 			// aapt resource value: 0x7f02000f
-			public const int abc_ic_clear_mtrl_alpha = 2130837519;
+			public const int abc_cab_background_top_mtrl_alpha = 2130837519;
 			
 			// aapt resource value: 0x7f020010
-			public const int abc_ic_commit_search_api_mtrl_alpha = 2130837520;
+			public const int abc_dialog_material_background_dark = 2130837520;
 			
 			// aapt resource value: 0x7f020011
-			public const int abc_ic_go_search_api_mtrl_alpha = 2130837521;
+			public const int abc_dialog_material_background_light = 2130837521;
 			
 			// aapt resource value: 0x7f020012
-			public const int abc_ic_menu_copy_mtrl_am_alpha = 2130837522;
+			public const int abc_edit_text_material = 2130837522;
 			
 			// aapt resource value: 0x7f020013
-			public const int abc_ic_menu_cut_mtrl_alpha = 2130837523;
+			public const int abc_ic_ab_back_mtrl_am_alpha = 2130837523;
 			
 			// aapt resource value: 0x7f020014
-			public const int abc_ic_menu_moreoverflow_mtrl_alpha = 2130837524;
+			public const int abc_ic_clear_mtrl_alpha = 2130837524;
 			
 			// aapt resource value: 0x7f020015
-			public const int abc_ic_menu_paste_mtrl_am_alpha = 2130837525;
+			public const int abc_ic_commit_search_api_mtrl_alpha = 2130837525;
 			
 			// aapt resource value: 0x7f020016
-			public const int abc_ic_menu_selectall_mtrl_alpha = 2130837526;
+			public const int abc_ic_go_search_api_mtrl_alpha = 2130837526;
 			
 			// aapt resource value: 0x7f020017
-			public const int abc_ic_menu_share_mtrl_alpha = 2130837527;
+			public const int abc_ic_menu_copy_mtrl_am_alpha = 2130837527;
 			
 			// aapt resource value: 0x7f020018
-			public const int abc_ic_search_api_mtrl_alpha = 2130837528;
+			public const int abc_ic_menu_cut_mtrl_alpha = 2130837528;
 			
 			// aapt resource value: 0x7f020019
-			public const int abc_ic_voice_search_api_mtrl_alpha = 2130837529;
+			public const int abc_ic_menu_moreoverflow_mtrl_alpha = 2130837529;
 			
 			// aapt resource value: 0x7f02001a
-			public const int abc_item_background_holo_dark = 2130837530;
+			public const int abc_ic_menu_paste_mtrl_am_alpha = 2130837530;
 			
 			// aapt resource value: 0x7f02001b
-			public const int abc_item_background_holo_light = 2130837531;
+			public const int abc_ic_menu_selectall_mtrl_alpha = 2130837531;
 			
 			// aapt resource value: 0x7f02001c
-			public const int abc_list_divider_mtrl_alpha = 2130837532;
+			public const int abc_ic_menu_share_mtrl_alpha = 2130837532;
 			
 			// aapt resource value: 0x7f02001d
-			public const int abc_list_focused_holo = 2130837533;
+			public const int abc_ic_search_api_mtrl_alpha = 2130837533;
 			
 			// aapt resource value: 0x7f02001e
-			public const int abc_list_longpressed_holo = 2130837534;
+			public const int abc_ic_voice_search_api_mtrl_alpha = 2130837534;
 			
 			// aapt resource value: 0x7f02001f
-			public const int abc_list_pressed_holo_dark = 2130837535;
+			public const int abc_item_background_holo_dark = 2130837535;
 			
 			// aapt resource value: 0x7f020020
-			public const int abc_list_pressed_holo_light = 2130837536;
+			public const int abc_item_background_holo_light = 2130837536;
 			
 			// aapt resource value: 0x7f020021
-			public const int abc_list_selector_background_transition_holo_dark = 2130837537;
+			public const int abc_list_divider_mtrl_alpha = 2130837537;
 			
 			// aapt resource value: 0x7f020022
-			public const int abc_list_selector_background_transition_holo_light = 2130837538;
+			public const int abc_list_focused_holo = 2130837538;
 			
 			// aapt resource value: 0x7f020023
-			public const int abc_list_selector_disabled_holo_dark = 2130837539;
+			public const int abc_list_longpressed_holo = 2130837539;
 			
 			// aapt resource value: 0x7f020024
-			public const int abc_list_selector_disabled_holo_light = 2130837540;
+			public const int abc_list_pressed_holo_dark = 2130837540;
 			
 			// aapt resource value: 0x7f020025
-			public const int abc_list_selector_holo_dark = 2130837541;
+			public const int abc_list_pressed_holo_light = 2130837541;
 			
 			// aapt resource value: 0x7f020026
-			public const int abc_list_selector_holo_light = 2130837542;
+			public const int abc_list_selector_background_transition_holo_dark = 2130837542;
 			
 			// aapt resource value: 0x7f020027
-			public const int abc_menu_hardkey_panel_mtrl_mult = 2130837543;
+			public const int abc_list_selector_background_transition_holo_light = 2130837543;
 			
 			// aapt resource value: 0x7f020028
-			public const int abc_popup_background_mtrl_mult = 2130837544;
+			public const int abc_list_selector_disabled_holo_dark = 2130837544;
 			
 			// aapt resource value: 0x7f020029
-			public const int abc_spinner_mtrl_am_alpha = 2130837545;
+			public const int abc_list_selector_disabled_holo_light = 2130837545;
 			
 			// aapt resource value: 0x7f02002a
-			public const int abc_switch_thumb_material = 2130837546;
+			public const int abc_list_selector_holo_dark = 2130837546;
 			
 			// aapt resource value: 0x7f02002b
-			public const int abc_switch_track_mtrl_alpha = 2130837547;
+			public const int abc_list_selector_holo_light = 2130837547;
 			
 			// aapt resource value: 0x7f02002c
-			public const int abc_tab_indicator_material = 2130837548;
+			public const int abc_menu_hardkey_panel_mtrl_mult = 2130837548;
 			
 			// aapt resource value: 0x7f02002d
-			public const int abc_tab_indicator_mtrl_alpha = 2130837549;
+			public const int abc_popup_background_mtrl_mult = 2130837549;
 			
 			// aapt resource value: 0x7f02002e
-			public const int abc_textfield_activated_mtrl_alpha = 2130837550;
+			public const int abc_ratingbar_full_material = 2130837550;
 			
 			// aapt resource value: 0x7f02002f
-			public const int abc_textfield_default_mtrl_alpha = 2130837551;
+			public const int abc_spinner_mtrl_am_alpha = 2130837551;
 			
 			// aapt resource value: 0x7f020030
-			public const int abc_textfield_search_activated_mtrl_alpha = 2130837552;
+			public const int abc_spinner_textfield_background_material = 2130837552;
 			
 			// aapt resource value: 0x7f020031
-			public const int abc_textfield_search_default_mtrl_alpha = 2130837553;
+			public const int abc_switch_thumb_material = 2130837553;
 			
 			// aapt resource value: 0x7f020032
-			public const int abc_textfield_search_material = 2130837554;
+			public const int abc_switch_track_mtrl_alpha = 2130837554;
 			
 			// aapt resource value: 0x7f020033
-			public const int events_popup_bg = 2130837555;
+			public const int abc_tab_indicator_material = 2130837555;
 			
 			// aapt resource value: 0x7f020034
-			public const int hamburger = 2130837556;
+			public const int abc_tab_indicator_mtrl_alpha = 2130837556;
 			
 			// aapt resource value: 0x7f020035
-			public const int hmb = 2130837557;
+			public const int abc_text_cursor_mtrl_alpha = 2130837557;
 			
 			// aapt resource value: 0x7f020036
-			public const int icon = 2130837558;
+			public const int abc_textfield_activated_mtrl_alpha = 2130837558;
+			
+			// aapt resource value: 0x7f020037
+			public const int abc_textfield_default_mtrl_alpha = 2130837559;
+			
+			// aapt resource value: 0x7f020038
+			public const int abc_textfield_search_activated_mtrl_alpha = 2130837560;
+			
+			// aapt resource value: 0x7f020039
+			public const int abc_textfield_search_default_mtrl_alpha = 2130837561;
+			
+			// aapt resource value: 0x7f02003a
+			public const int abc_textfield_search_material = 2130837562;
+			
+			// aapt resource value: 0x7f02003b
+			public const int events_popup_bg = 2130837563;
+			
+			// aapt resource value: 0x7f02003c
+			public const int hamburger = 2130837564;
+			
+			// aapt resource value: 0x7f02003d
+			public const int hmb = 2130837565;
+			
+			// aapt resource value: 0x7f02003e
+			public const int icon = 2130837566;
+			
+			// aapt resource value: 0x7f02003f
+			public const int notification_template_icon_bg = 2130837567;
 			
 			static Drawable()
 			{
@@ -1307,311 +2713,404 @@ namespace X_Calendar.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f080026
-			public const int Block = 2131230758;
+			// aapt resource value: 0x7f06002c
+			public const int Block = 2131099692;
 			
-			// aapt resource value: 0x7f080027
-			public const int Inline = 2131230759;
+			// aapt resource value: 0x7f06002d
+			public const int Inline = 2131099693;
 			
-			// aapt resource value: 0x7f080023
-			public const int Month = 2131230755;
+			// aapt resource value: 0x7f060029
+			public const int Month = 2131099689;
 			
-			// aapt resource value: 0x7f080020
-			public const int Multiple = 2131230752;
+			// aapt resource value: 0x7f060026
+			public const int Multiple = 2131099686;
 			
-			// aapt resource value: 0x7f080028
-			public const int None = 2131230760;
+			// aapt resource value: 0x7f06002e
+			public const int None = 2131099694;
 			
-			// aapt resource value: 0x7f080021
-			public const int Range = 2131230753;
+			// aapt resource value: 0x7f060027
+			public const int Range = 2131099687;
 			
-			// aapt resource value: 0x7f080022
-			public const int Single = 2131230754;
+			// aapt resource value: 0x7f060028
+			public const int Single = 2131099688;
 			
-			// aapt resource value: 0x7f080024
-			public const int Week = 2131230756;
+			// aapt resource value: 0x7f06002a
+			public const int Week = 2131099690;
 			
-			// aapt resource value: 0x7f080025
-			public const int Year = 2131230757;
+			// aapt resource value: 0x7f06002b
+			public const int Year = 2131099691;
 			
-			// aapt resource value: 0x7f08003c
-			public const int action_bar = 2131230780;
+			// aapt resource value: 0x7f060074
+			public const int action0 = 2131099764;
 			
-			// aapt resource value: 0x7f080000
-			public const int action_bar_activity_content = 2131230720;
+			// aapt resource value: 0x7f06004c
+			public const int action_bar = 2131099724;
 			
-			// aapt resource value: 0x7f08003b
-			public const int action_bar_container = 2131230779;
+			// aapt resource value: 0x7f060001
+			public const int action_bar_activity_content = 2131099649;
 			
-			// aapt resource value: 0x7f080037
-			public const int action_bar_root = 2131230775;
+			// aapt resource value: 0x7f06004b
+			public const int action_bar_container = 2131099723;
 			
-			// aapt resource value: 0x7f080001
-			public const int action_bar_spinner = 2131230721;
+			// aapt resource value: 0x7f060047
+			public const int action_bar_root = 2131099719;
 			
-			// aapt resource value: 0x7f08002a
-			public const int action_bar_subtitle = 2131230762;
+			// aapt resource value: 0x7f060002
+			public const int action_bar_spinner = 2131099650;
 			
-			// aapt resource value: 0x7f080029
-			public const int action_bar_title = 2131230761;
+			// aapt resource value: 0x7f060030
+			public const int action_bar_subtitle = 2131099696;
 			
-			// aapt resource value: 0x7f08003d
-			public const int action_context_bar = 2131230781;
+			// aapt resource value: 0x7f06002f
+			public const int action_bar_title = 2131099695;
 			
-			// aapt resource value: 0x7f080002
-			public const int action_menu_divider = 2131230722;
+			// aapt resource value: 0x7f06004d
+			public const int action_context_bar = 2131099725;
 			
-			// aapt resource value: 0x7f080003
-			public const int action_menu_presenter = 2131230723;
+			// aapt resource value: 0x7f060078
+			public const int action_divider = 2131099768;
 			
-			// aapt resource value: 0x7f080039
-			public const int action_mode_bar = 2131230777;
+			// aapt resource value: 0x7f060003
+			public const int action_menu_divider = 2131099651;
 			
-			// aapt resource value: 0x7f080038
-			public const int action_mode_bar_stub = 2131230776;
+			// aapt resource value: 0x7f060004
+			public const int action_menu_presenter = 2131099652;
 			
-			// aapt resource value: 0x7f08002b
-			public const int action_mode_close_button = 2131230763;
+			// aapt resource value: 0x7f060049
+			public const int action_mode_bar = 2131099721;
 			
-			// aapt resource value: 0x7f08002c
-			public const int activity_chooser_view_content = 2131230764;
+			// aapt resource value: 0x7f060048
+			public const int action_mode_bar_stub = 2131099720;
 			
-			// aapt resource value: 0x7f080016
-			public const int always = 2131230742;
+			// aapt resource value: 0x7f060031
+			public const int action_mode_close_button = 2131099697;
 			
-			// aapt resource value: 0x7f080013
-			public const int beginning = 2131230739;
+			// aapt resource value: 0x7f060032
+			public const int activity_chooser_view_content = 2131099698;
 			
-			// aapt resource value: 0x7f080065
-			public const int chart_data_point_content_container = 2131230821;
+			// aapt resource value: 0x7f06003c
+			public const int alertTitle = 2131099708;
 			
-			// aapt resource value: 0x7f08005a
-			public const int chart_tooltip_category = 2131230810;
+			// aapt resource value: 0x7f060017
+			public const int always = 2131099671;
 			
-			// aapt resource value: 0x7f080064
-			public const int chart_tooltip_pointer = 2131230820;
+			// aapt resource value: 0x7f060014
+			public const int beginning = 2131099668;
 			
-			// aapt resource value: 0x7f08005b
-			public const int chart_tooltip_value = 2131230811;
+			// aapt resource value: 0x7f060042
+			public const int buttonPanel = 2131099714;
 			
-			// aapt resource value: 0x7f080034
-			public const int checkbox = 2131230772;
+			// aapt resource value: 0x7f060075
+			public const int cancel_action = 2131099765;
 			
-			// aapt resource value: 0x7f080017
-			public const int collapseActionView = 2131230743;
+			// aapt resource value: 0x7f060084
+			public const int chart_data_point_content_container = 2131099780;
 			
-			// aapt resource value: 0x7f08004b
-			public const int data_form_checkbox_editor = 2131230795;
+			// aapt resource value: 0x7f06006c
+			public const int chart_tooltip_category = 2131099756;
 			
-			// aapt resource value: 0x7f08004d
-			public const int data_form_date_editor = 2131230797;
+			// aapt resource value: 0x7f060083
+			public const int chart_tooltip_pointer = 2131099779;
 			
-			// aapt resource value: 0x7f08004e
-			public const int data_form_decimal_editor = 2131230798;
+			// aapt resource value: 0x7f06006d
+			public const int chart_tooltip_value = 2131099757;
 			
-			// aapt resource value: 0x7f08004f
-			public const int data_form_integer_editor = 2131230799;
+			// aapt resource value: 0x7f060044
+			public const int checkbox = 2131099716;
 			
-			// aapt resource value: 0x7f080050
-			public const int data_form_root_layout = 2131230800;
+			// aapt resource value: 0x7f06007b
+			public const int chronometer = 2131099771;
 			
-			// aapt resource value: 0x7f080051
-			public const int data_form_seekbar_editor = 2131230801;
+			// aapt resource value: 0x7f060018
+			public const int collapseActionView = 2131099672;
 			
-			// aapt resource value: 0x7f080052
-			public const int data_form_spinner_editor = 2131230802;
+			// aapt resource value: 0x7f06003d
+			public const int contentPanel = 2131099709;
 			
-			// aapt resource value: 0x7f080053
-			public const int data_form_switch_editor = 2131230803;
+			// aapt resource value: 0x7f060041
+			public const int custom = 2131099713;
 			
-			// aapt resource value: 0x7f080054
-			public const int data_form_text_editor = 2131230804;
+			// aapt resource value: 0x7f060040
+			public const int customPanel = 2131099712;
 			
-			// aapt resource value: 0x7f080055
-			public const int data_form_text_viewer = 2131230805;
+			// aapt resource value: 0x7f06005c
+			public const int data_form_checkbox_editor = 2131099740;
 			
-			// aapt resource value: 0x7f08004a
-			public const int data_form_text_viewer_header = 2131230794;
+			// aapt resource value: 0x7f060061
+			public const int data_form_core_editor_layout = 2131099745;
 			
-			// aapt resource value: 0x7f080056
-			public const int data_form_time_editor = 2131230806;
+			// aapt resource value: 0x7f06005e
+			public const int data_form_date_editor = 2131099742;
 			
-			// aapt resource value: 0x7f080057
-			public const int data_form_toggle_editor = 2131230807;
+			// aapt resource value: 0x7f06005f
+			public const int data_form_decimal_editor = 2131099743;
 			
-			// aapt resource value: 0x7f080058
-			public const int data_form_validation_message_view = 2131230808;
+			// aapt resource value: 0x7f060060
+			public const int data_form_integer_editor = 2131099744;
 			
-			// aapt resource value: 0x7f08004c
-			public const int data_form_validation_view = 2131230796;
+			// aapt resource value: 0x7f060062
+			public const int data_form_root_layout = 2131099746;
 			
-			// aapt resource value: 0x7f08003a
-			public const int decor_content_parent = 2131230778;
+			// aapt resource value: 0x7f060063
+			public const int data_form_seekbar_editor = 2131099747;
 			
-			// aapt resource value: 0x7f08002f
-			public const int default_activity_button = 2131230767;
+			// aapt resource value: 0x7f060064
+			public const int data_form_spinner_editor = 2131099748;
 			
-			// aapt resource value: 0x7f08001b
-			public const int dialog = 2131230747;
+			// aapt resource value: 0x7f060065
+			public const int data_form_switch_editor = 2131099749;
 			
-			// aapt resource value: 0x7f08000c
-			public const int disableHome = 2131230732;
+			// aapt resource value: 0x7f060066
+			public const int data_form_text_editor = 2131099750;
 			
-			// aapt resource value: 0x7f08001c
-			public const int dropdown = 2131230748;
+			// aapt resource value: 0x7f060067
+			public const int data_form_text_viewer = 2131099751;
 			
-			// aapt resource value: 0x7f08003e
-			public const int edit_query = 2131230782;
+			// aapt resource value: 0x7f06005b
+			public const int data_form_text_viewer_header = 2131099739;
 			
-			// aapt resource value: 0x7f080014
-			public const int end = 2131230740;
+			// aapt resource value: 0x7f060068
+			public const int data_form_time_editor = 2131099752;
 			
-			// aapt resource value: 0x7f08002d
-			public const int expand_activities_button = 2131230765;
+			// aapt resource value: 0x7f060069
+			public const int data_form_toggle_editor = 2131099753;
 			
-			// aapt resource value: 0x7f080033
-			public const int expanded_menu = 2131230771;
+			// aapt resource value: 0x7f06006a
+			public const int data_form_validation_message_view = 2131099754;
 			
-			// aapt resource value: 0x7f080004
-			public const int home = 2131230724;
+			// aapt resource value: 0x7f06005d
+			public const int data_form_validation_view = 2131099741;
 			
-			// aapt resource value: 0x7f08000d
-			public const int homeAsUp = 2131230733;
+			// aapt resource value: 0x7f06004a
+			public const int decor_content_parent = 2131099722;
 			
-			// aapt resource value: 0x7f08001e
-			public const int horizontal = 2131230750;
+			// aapt resource value: 0x7f060035
+			public const int default_activity_button = 2131099701;
 			
-			// aapt resource value: 0x7f080031
-			public const int icon = 2131230769;
+			// aapt resource value: 0x7f06001c
+			public const int dialog = 2131099676;
 			
-			// aapt resource value: 0x7f080018
-			public const int ifRoom = 2131230744;
+			// aapt resource value: 0x7f06000d
+			public const int disableHome = 2131099661;
 			
-			// aapt resource value: 0x7f08002e
-			public const int image = 2131230766;
+			// aapt resource value: 0x7f06001d
+			public const int dropdown = 2131099677;
 			
-			// aapt resource value: 0x7f08005c
-			public const int imageView = 2131230812;
+			// aapt resource value: 0x7f06004e
+			public const int edit_query = 2131099726;
 			
-			// aapt resource value: 0x7f08005e
-			public const int inline_event_end = 2131230814;
+			// aapt resource value: 0x7f060015
+			public const int end = 2131099669;
 			
-			// aapt resource value: 0x7f08005d
-			public const int inline_event_start = 2131230813;
+			// aapt resource value: 0x7f060080
+			public const int end_padder = 2131099776;
 			
-			// aapt resource value: 0x7f08005f
-			public const int inline_event_title = 2131230815;
+			// aapt resource value: 0x7f060033
+			public const int expand_activities_button = 2131099699;
 			
-			// aapt resource value: 0x7f080009
-			public const int listMode = 2131230729;
+			// aapt resource value: 0x7f060043
+			public const int expanded_menu = 2131099715;
 			
-			// aapt resource value: 0x7f080030
-			public const int list_item = 2131230768;
+			// aapt resource value: 0x7f060005
+			public const int home = 2131099653;
 			
-			// aapt resource value: 0x7f080015
-			public const int middle = 2131230741;
+			// aapt resource value: 0x7f06000e
+			public const int homeAsUp = 2131099662;
 			
-			// aapt resource value: 0x7f080060
-			public const int navItemsLayout = 2131230816;
+			// aapt resource value: 0x7f060024
+			public const int horizontal = 2131099684;
 			
-			// aapt resource value: 0x7f080061
-			public const int navigationItemText = 2131230817;
+			// aapt resource value: 0x7f060037
+			public const int icon = 2131099703;
 			
-			// aapt resource value: 0x7f080019
-			public const int never = 2131230745;
+			// aapt resource value: 0x7f060019
+			public const int ifRoom = 2131099673;
 			
-			// aapt resource value: 0x7f08000e
-			public const int none = 2131230734;
+			// aapt resource value: 0x7f060034
+			public const int image = 2131099700;
 			
-			// aapt resource value: 0x7f08000a
-			public const int normal = 2131230730;
+			// aapt resource value: 0x7f06006e
+			public const int imageView = 2131099758;
 			
-			// aapt resource value: 0x7f080062
-			public const int popup_event_time = 2131230818;
+			// aapt resource value: 0x7f06007f
+			public const int info = 2131099775;
 			
-			// aapt resource value: 0x7f080063
-			public const int popup_event_title = 2131230819;
+			// aapt resource value: 0x7f060070
+			public const int inline_event_end = 2131099760;
 			
-			// aapt resource value: 0x7f080005
-			public const int progress_circular = 2131230725;
+			// aapt resource value: 0x7f06006f
+			public const int inline_event_start = 2131099759;
 			
-			// aapt resource value: 0x7f080006
-			public const int progress_horizontal = 2131230726;
+			// aapt resource value: 0x7f060071
+			public const int inline_event_title = 2131099761;
 			
-			// aapt resource value: 0x7f080036
-			public const int radio = 2131230774;
+			// aapt resource value: 0x7f060000
+			public const int item_touch_helper_previous_elevation = 2131099648;
 			
-			// aapt resource value: 0x7f080040
-			public const int search_badge = 2131230784;
+			// aapt resource value: 0x7f060079
+			public const int line1 = 2131099769;
 			
-			// aapt resource value: 0x7f08003f
-			public const int search_bar = 2131230783;
+			// aapt resource value: 0x7f06007d
+			public const int line3 = 2131099773;
 			
-			// aapt resource value: 0x7f080041
-			public const int search_button = 2131230785;
+			// aapt resource value: 0x7f06000a
+			public const int listMode = 2131099658;
 			
-			// aapt resource value: 0x7f080046
-			public const int search_close_btn = 2131230790;
+			// aapt resource value: 0x7f060036
+			public const int list_item = 2131099702;
 			
-			// aapt resource value: 0x7f080042
-			public const int search_edit_frame = 2131230786;
+			// aapt resource value: 0x7f060077
+			public const int media_actions = 2131099767;
 			
-			// aapt resource value: 0x7f080048
-			public const int search_go_btn = 2131230792;
+			// aapt resource value: 0x7f060016
+			public const int middle = 2131099670;
 			
-			// aapt resource value: 0x7f080043
-			public const int search_mag_icon = 2131230787;
+			// aapt resource value: 0x7f06001f
+			public const int multiply = 2131099679;
 			
-			// aapt resource value: 0x7f080044
-			public const int search_plate = 2131230788;
+			// aapt resource value: 0x7f060072
+			public const int navItemsLayout = 2131099762;
 			
-			// aapt resource value: 0x7f080045
-			public const int search_src_text = 2131230789;
+			// aapt resource value: 0x7f060073
+			public const int navigationItemText = 2131099763;
 			
-			// aapt resource value: 0x7f080049
-			public const int search_voice_btn = 2131230793;
+			// aapt resource value: 0x7f06001a
+			public const int never = 2131099674;
 			
-			// aapt resource value: 0x7f080035
-			public const int shortcut = 2131230773;
+			// aapt resource value: 0x7f06000f
+			public const int none = 2131099663;
 			
-			// aapt resource value: 0x7f08000f
-			public const int showCustom = 2131230735;
+			// aapt resource value: 0x7f06000b
+			public const int normal = 2131099659;
 			
-			// aapt resource value: 0x7f080010
-			public const int showHome = 2131230736;
+			// aapt resource value: 0x7f060039
+			public const int parentPanel = 2131099705;
 			
-			// aapt resource value: 0x7f080011
-			public const int showTitle = 2131230737;
+			// aapt resource value: 0x7f060081
+			public const int popup_event_time = 2131099777;
 			
-			// aapt resource value: 0x7f080007
-			public const int split_action_bar = 2131230727;
+			// aapt resource value: 0x7f060082
+			public const int popup_event_title = 2131099778;
 			
-			// aapt resource value: 0x7f080047
-			public const int submit_area = 2131230791;
+			// aapt resource value: 0x7f060006
+			public const int progress_circular = 2131099654;
 			
-			// aapt resource value: 0x7f08000b
-			public const int tabMode = 2131230731;
+			// aapt resource value: 0x7f060007
+			public const int progress_horizontal = 2131099655;
 			
-			// aapt resource value: 0x7f080032
-			public const int title = 2131230770;
+			// aapt resource value: 0x7f060046
+			public const int radio = 2131099718;
 			
-			// aapt resource value: 0x7f080059
-			public const int tooltip_content_container = 2131230809;
+			// aapt resource value: 0x7f060020
+			public const int screen = 2131099680;
 			
-			// aapt resource value: 0x7f080008
-			public const int up = 2131230728;
+			// aapt resource value: 0x7f06003e
+			public const int scrollView = 2131099710;
 			
-			// aapt resource value: 0x7f080012
-			public const int useLogo = 2131230738;
+			// aapt resource value: 0x7f060050
+			public const int search_badge = 2131099728;
 			
-			// aapt resource value: 0x7f08001f
-			public const int vertical = 2131230751;
+			// aapt resource value: 0x7f06004f
+			public const int search_bar = 2131099727;
 			
-			// aapt resource value: 0x7f08001a
-			public const int withText = 2131230746;
+			// aapt resource value: 0x7f060051
+			public const int search_button = 2131099729;
 			
-			// aapt resource value: 0x7f08001d
-			public const int wrap_content = 2131230749;
+			// aapt resource value: 0x7f060056
+			public const int search_close_btn = 2131099734;
+			
+			// aapt resource value: 0x7f060052
+			public const int search_edit_frame = 2131099730;
+			
+			// aapt resource value: 0x7f060058
+			public const int search_go_btn = 2131099736;
+			
+			// aapt resource value: 0x7f060053
+			public const int search_mag_icon = 2131099731;
+			
+			// aapt resource value: 0x7f060054
+			public const int search_plate = 2131099732;
+			
+			// aapt resource value: 0x7f060055
+			public const int search_src_text = 2131099733;
+			
+			// aapt resource value: 0x7f060059
+			public const int search_voice_btn = 2131099737;
+			
+			// aapt resource value: 0x7f06005a
+			public const int select_dialog_listview = 2131099738;
+			
+			// aapt resource value: 0x7f060045
+			public const int shortcut = 2131099717;
+			
+			// aapt resource value: 0x7f060010
+			public const int showCustom = 2131099664;
+			
+			// aapt resource value: 0x7f060011
+			public const int showHome = 2131099665;
+			
+			// aapt resource value: 0x7f060012
+			public const int showTitle = 2131099666;
+			
+			// aapt resource value: 0x7f060008
+			public const int split_action_bar = 2131099656;
+			
+			// aapt resource value: 0x7f060021
+			public const int src_atop = 2131099681;
+			
+			// aapt resource value: 0x7f060022
+			public const int src_in = 2131099682;
+			
+			// aapt resource value: 0x7f060023
+			public const int src_over = 2131099683;
+			
+			// aapt resource value: 0x7f060076
+			public const int status_bar_latest_event_content = 2131099766;
+			
+			// aapt resource value: 0x7f060057
+			public const int submit_area = 2131099735;
+			
+			// aapt resource value: 0x7f06000c
+			public const int tabMode = 2131099660;
+			
+			// aapt resource value: 0x7f06007e
+			public const int text = 2131099774;
+			
+			// aapt resource value: 0x7f06007c
+			public const int text2 = 2131099772;
+			
+			// aapt resource value: 0x7f06003f
+			public const int textSpacerNoButtons = 2131099711;
+			
+			// aapt resource value: 0x7f06007a
+			public const int time = 2131099770;
+			
+			// aapt resource value: 0x7f060038
+			public const int title = 2131099704;
+			
+			// aapt resource value: 0x7f06003b
+			public const int title_template = 2131099707;
+			
+			// aapt resource value: 0x7f06006b
+			public const int tooltip_content_container = 2131099755;
+			
+			// aapt resource value: 0x7f06003a
+			public const int topPanel = 2131099706;
+			
+			// aapt resource value: 0x7f060009
+			public const int up = 2131099657;
+			
+			// aapt resource value: 0x7f060013
+			public const int useLogo = 2131099667;
+			
+			// aapt resource value: 0x7f060025
+			public const int vertical = 2131099685;
+			
+			// aapt resource value: 0x7f06001b
+			public const int withText = 2131099675;
+			
+			// aapt resource value: 0x7f06001e
+			public const int wrap_content = 2131099678;
 			
 			static Id()
 			{
@@ -1626,8 +3125,20 @@ namespace X_Calendar.Droid
 		public partial class Integer
 		{
 			
-			// aapt resource value: 0x7f090000
-			public const int abc_max_action_buttons = 2131296256;
+			// aapt resource value: 0x7f0a0001
+			public const int abc_config_activityDefaultDur = 2131361793;
+			
+			// aapt resource value: 0x7f0a0002
+			public const int abc_config_activityShortDur = 2131361794;
+			
+			// aapt resource value: 0x7f0a0000
+			public const int abc_max_action_buttons = 2131361792;
+			
+			// aapt resource value: 0x7f0a0003
+			public const int cancel_button_image_alpha = 2131361795;
+			
+			// aapt resource value: 0x7f0a0004
+			public const int status_bar_notification_info_maxnum = 2131361796;
 			
 			static Integer()
 			{
@@ -1667,118 +3178,160 @@ namespace X_Calendar.Droid
 			public const int abc_activity_chooser_view = 2130903047;
 			
 			// aapt resource value: 0x7f030008
-			public const int abc_activity_chooser_view_include = 2130903048;
+			public const int abc_activity_chooser_view_list_item = 2130903048;
 			
 			// aapt resource value: 0x7f030009
-			public const int abc_activity_chooser_view_list_item = 2130903049;
+			public const int abc_alert_dialog_material = 2130903049;
 			
 			// aapt resource value: 0x7f03000a
-			public const int abc_expanded_menu_layout = 2130903050;
+			public const int abc_dialog_title_material = 2130903050;
 			
 			// aapt resource value: 0x7f03000b
-			public const int abc_list_menu_item_checkbox = 2130903051;
+			public const int abc_expanded_menu_layout = 2130903051;
 			
 			// aapt resource value: 0x7f03000c
-			public const int abc_list_menu_item_icon = 2130903052;
+			public const int abc_list_menu_item_checkbox = 2130903052;
 			
 			// aapt resource value: 0x7f03000d
-			public const int abc_list_menu_item_layout = 2130903053;
+			public const int abc_list_menu_item_icon = 2130903053;
 			
 			// aapt resource value: 0x7f03000e
-			public const int abc_list_menu_item_radio = 2130903054;
+			public const int abc_list_menu_item_layout = 2130903054;
 			
 			// aapt resource value: 0x7f03000f
-			public const int abc_popup_menu_item_layout = 2130903055;
+			public const int abc_list_menu_item_radio = 2130903055;
 			
 			// aapt resource value: 0x7f030010
-			public const int abc_screen_content_include = 2130903056;
+			public const int abc_popup_menu_item_layout = 2130903056;
 			
 			// aapt resource value: 0x7f030011
-			public const int abc_screen_simple = 2130903057;
+			public const int abc_screen_content_include = 2130903057;
 			
 			// aapt resource value: 0x7f030012
-			public const int abc_screen_simple_overlay_action_mode = 2130903058;
+			public const int abc_screen_simple = 2130903058;
 			
 			// aapt resource value: 0x7f030013
-			public const int abc_screen_toolbar = 2130903059;
+			public const int abc_screen_simple_overlay_action_mode = 2130903059;
 			
 			// aapt resource value: 0x7f030014
-			public const int abc_search_dropdown_item_icons_2line = 2130903060;
+			public const int abc_screen_toolbar = 2130903060;
 			
 			// aapt resource value: 0x7f030015
-			public const int abc_search_view = 2130903061;
+			public const int abc_search_dropdown_item_icons_2line = 2130903061;
 			
 			// aapt resource value: 0x7f030016
-			public const int abc_simple_dropdown_hint = 2130903062;
+			public const int abc_search_view = 2130903062;
 			
 			// aapt resource value: 0x7f030017
-			public const int data_form_checkbox_editor = 2130903063;
+			public const int abc_select_dialog_material = 2130903063;
 			
 			// aapt resource value: 0x7f030018
-			public const int data_form_date_editor = 2130903064;
+			public const int abc_simple_dropdown_hint = 2130903064;
 			
 			// aapt resource value: 0x7f030019
-			public const int data_form_decimal_editor = 2130903065;
+			public const int data_form_checkbox_editor = 2130903065;
 			
 			// aapt resource value: 0x7f03001a
-			public const int data_form_group_layout = 2130903066;
+			public const int data_form_date_editor = 2130903066;
 			
 			// aapt resource value: 0x7f03001b
-			public const int data_form_integer_editor = 2130903067;
+			public const int data_form_decimal_editor = 2130903067;
 			
 			// aapt resource value: 0x7f03001c
-			public const int data_form_root_layout = 2130903068;
+			public const int data_form_group_layout = 2130903068;
 			
 			// aapt resource value: 0x7f03001d
-			public const int data_form_seek_bar_editor = 2130903069;
+			public const int data_form_integer_editor = 2130903069;
 			
 			// aapt resource value: 0x7f03001e
-			public const int data_form_spinner_editor = 2130903070;
+			public const int data_form_main_editor_layout = 2130903070;
 			
 			// aapt resource value: 0x7f03001f
-			public const int data_form_switch_editor = 2130903071;
+			public const int data_form_root_layout = 2130903071;
 			
 			// aapt resource value: 0x7f030020
-			public const int data_form_text_editor = 2130903072;
+			public const int data_form_seek_bar_editor = 2130903072;
 			
 			// aapt resource value: 0x7f030021
-			public const int data_form_text_viewer = 2130903073;
+			public const int data_form_spinner_editor = 2130903073;
 			
 			// aapt resource value: 0x7f030022
-			public const int data_form_time_editor = 2130903074;
+			public const int data_form_switch_editor = 2130903074;
 			
 			// aapt resource value: 0x7f030023
-			public const int data_form_toggle_button_editor = 2130903075;
+			public const int data_form_text_editor = 2130903075;
 			
 			// aapt resource value: 0x7f030024
-			public const int data_form_validation_view = 2130903076;
+			public const int data_form_text_viewer = 2130903076;
 			
 			// aapt resource value: 0x7f030025
-			public const int default_tooltip_content = 2130903077;
+			public const int data_form_time_editor = 2130903077;
 			
 			// aapt resource value: 0x7f030026
-			public const int drawer_blur_fade_layer = 2130903078;
+			public const int data_form_toggle_button_editor = 2130903078;
 			
 			// aapt resource value: 0x7f030027
-			public const int inline_event = 2130903079;
+			public const int data_form_validation_view = 2130903079;
 			
 			// aapt resource value: 0x7f030028
-			public const int navigation_drawer_content = 2130903080;
+			public const int default_tooltip_content = 2130903080;
 			
 			// aapt resource value: 0x7f030029
-			public const int navigation_item_view = 2130903081;
+			public const int drawer_blur_fade_layer = 2130903081;
 			
 			// aapt resource value: 0x7f03002a
-			public const int popup_event = 2130903082;
+			public const int inline_event = 2130903082;
 			
 			// aapt resource value: 0x7f03002b
-			public const int support_simple_spinner_dropdown_item = 2130903083;
+			public const int navigation_drawer_content = 2130903083;
 			
 			// aapt resource value: 0x7f03002c
-			public const int tooltip_container = 2130903084;
+			public const int navigation_item_view = 2130903084;
 			
 			// aapt resource value: 0x7f03002d
-			public const int trial_message = 2130903085;
+			public const int notification_media_action = 2130903085;
+			
+			// aapt resource value: 0x7f03002e
+			public const int notification_media_cancel_action = 2130903086;
+			
+			// aapt resource value: 0x7f03002f
+			public const int notification_template_big_media = 2130903087;
+			
+			// aapt resource value: 0x7f030030
+			public const int notification_template_big_media_narrow = 2130903088;
+			
+			// aapt resource value: 0x7f030031
+			public const int notification_template_lines = 2130903089;
+			
+			// aapt resource value: 0x7f030032
+			public const int notification_template_media = 2130903090;
+			
+			// aapt resource value: 0x7f030033
+			public const int notification_template_part_chronometer = 2130903091;
+			
+			// aapt resource value: 0x7f030034
+			public const int notification_template_part_time = 2130903092;
+			
+			// aapt resource value: 0x7f030035
+			public const int popup_event = 2130903093;
+			
+			// aapt resource value: 0x7f030036
+			public const int select_dialog_item_material = 2130903094;
+			
+			// aapt resource value: 0x7f030037
+			public const int select_dialog_multichoice_material = 2130903095;
+			
+			// aapt resource value: 0x7f030038
+			public const int select_dialog_singlechoice_material = 2130903096;
+			
+			// aapt resource value: 0x7f030039
+			public const int support_simple_spinner_dropdown_item = 2130903097;
+			
+			// aapt resource value: 0x7f03003a
+			public const int tooltip_container = 2130903098;
+			
+			// aapt resource value: 0x7f03003b
+			public const int trial_message = 2130903099;
 			
 			static Layout()
 			{
@@ -1793,65 +3346,71 @@ namespace X_Calendar.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f0a0011
-			public const int ApplicationName = 2131361809;
+			// aapt resource value: 0x7f070013
+			public const int ApplicationName = 2131165203;
 			
-			// aapt resource value: 0x7f0a0010
-			public const int Hello = 2131361808;
+			// aapt resource value: 0x7f070012
+			public const int Hello = 2131165202;
 			
-			// aapt resource value: 0x7f0a0000
-			public const int abc_action_bar_home_description = 2131361792;
+			// aapt resource value: 0x7f070000
+			public const int abc_action_bar_home_description = 2131165184;
 			
-			// aapt resource value: 0x7f0a0001
-			public const int abc_action_bar_home_description_format = 2131361793;
+			// aapt resource value: 0x7f07000d
+			public const int abc_action_bar_home_description_format = 2131165197;
 			
-			// aapt resource value: 0x7f0a0002
-			public const int abc_action_bar_home_subtitle_description_format = 2131361794;
+			// aapt resource value: 0x7f07000e
+			public const int abc_action_bar_home_subtitle_description_format = 2131165198;
 			
-			// aapt resource value: 0x7f0a0003
-			public const int abc_action_bar_up_description = 2131361795;
+			// aapt resource value: 0x7f070001
+			public const int abc_action_bar_up_description = 2131165185;
 			
-			// aapt resource value: 0x7f0a0004
-			public const int abc_action_menu_overflow_description = 2131361796;
+			// aapt resource value: 0x7f070002
+			public const int abc_action_menu_overflow_description = 2131165186;
 			
-			// aapt resource value: 0x7f0a0005
-			public const int abc_action_mode_done = 2131361797;
+			// aapt resource value: 0x7f070003
+			public const int abc_action_mode_done = 2131165187;
 			
-			// aapt resource value: 0x7f0a0006
-			public const int abc_activity_chooser_view_see_all = 2131361798;
+			// aapt resource value: 0x7f070004
+			public const int abc_activity_chooser_view_see_all = 2131165188;
 			
-			// aapt resource value: 0x7f0a0007
-			public const int abc_activitychooserview_choose_application = 2131361799;
+			// aapt resource value: 0x7f070005
+			public const int abc_activitychooserview_choose_application = 2131165189;
 			
-			// aapt resource value: 0x7f0a0008
-			public const int abc_searchview_description_clear = 2131361800;
+			// aapt resource value: 0x7f07000f
+			public const int abc_search_hint = 2131165199;
 			
-			// aapt resource value: 0x7f0a0009
-			public const int abc_searchview_description_query = 2131361801;
+			// aapt resource value: 0x7f070006
+			public const int abc_searchview_description_clear = 2131165190;
 			
-			// aapt resource value: 0x7f0a000a
-			public const int abc_searchview_description_search = 2131361802;
+			// aapt resource value: 0x7f070007
+			public const int abc_searchview_description_query = 2131165191;
 			
-			// aapt resource value: 0x7f0a000b
-			public const int abc_searchview_description_submit = 2131361803;
+			// aapt resource value: 0x7f070008
+			public const int abc_searchview_description_search = 2131165192;
 			
-			// aapt resource value: 0x7f0a000c
-			public const int abc_searchview_description_voice = 2131361804;
+			// aapt resource value: 0x7f070009
+			public const int abc_searchview_description_submit = 2131165193;
 			
-			// aapt resource value: 0x7f0a000d
-			public const int abc_shareactionprovider_share_with = 2131361805;
+			// aapt resource value: 0x7f07000a
+			public const int abc_searchview_description_voice = 2131165194;
 			
-			// aapt resource value: 0x7f0a000e
-			public const int abc_shareactionprovider_share_with_application = 2131361806;
+			// aapt resource value: 0x7f07000b
+			public const int abc_shareactionprovider_share_with = 2131165195;
 			
-			// aapt resource value: 0x7f0a000f
-			public const int abc_toolbar_collapse_description = 2131361807;
+			// aapt resource value: 0x7f07000c
+			public const int abc_shareactionprovider_share_with_application = 2131165196;
 			
-			// aapt resource value: 0x7f0a0012
-			public const int trial_message = 2131361810;
+			// aapt resource value: 0x7f070010
+			public const int abc_toolbar_collapse_description = 2131165200;
 			
-			// aapt resource value: 0x7f0a0013
-			public const int trial_message_caption = 2131361811;
+			// aapt resource value: 0x7f070011
+			public const int status_bar_notification_info_overflow = 2131165201;
+			
+			// aapt resource value: 0x7f070014
+			public const int trial_message = 2131165204;
+			
+			// aapt resource value: 0x7f070015
+			public const int trial_message_caption = 2131165205;
 			
 			static String()
 			{
@@ -1866,716 +3425,887 @@ namespace X_Calendar.Droid
 		public partial class Style
 		{
 			
-			// aapt resource value: 0x7f0b0000
-			public const int Base_TextAppearance_AppCompat = 2131427328;
+			// aapt resource value: 0x7f080073
+			public const int AlertDialog_AppCompat = 2131230835;
 			
-			// aapt resource value: 0x7f0b0001
-			public const int Base_TextAppearance_AppCompat_Body1 = 2131427329;
+			// aapt resource value: 0x7f080074
+			public const int AlertDialog_AppCompat_Light = 2131230836;
 			
-			// aapt resource value: 0x7f0b0002
-			public const int Base_TextAppearance_AppCompat_Body2 = 2131427330;
+			// aapt resource value: 0x7f080075
+			public const int Animation_AppCompat_Dialog = 2131230837;
 			
-			// aapt resource value: 0x7f0b0003
-			public const int Base_TextAppearance_AppCompat_Button = 2131427331;
+			// aapt resource value: 0x7f080076
+			public const int Animation_AppCompat_DropDownUp = 2131230838;
 			
-			// aapt resource value: 0x7f0b0004
-			public const int Base_TextAppearance_AppCompat_Caption = 2131427332;
+			// aapt resource value: 0x7f080077
+			public const int Base_AlertDialog_AppCompat = 2131230839;
 			
-			// aapt resource value: 0x7f0b0005
-			public const int Base_TextAppearance_AppCompat_Display1 = 2131427333;
+			// aapt resource value: 0x7f080078
+			public const int Base_AlertDialog_AppCompat_Light = 2131230840;
 			
-			// aapt resource value: 0x7f0b0006
-			public const int Base_TextAppearance_AppCompat_Display2 = 2131427334;
+			// aapt resource value: 0x7f080079
+			public const int Base_Animation_AppCompat_Dialog = 2131230841;
 			
-			// aapt resource value: 0x7f0b0007
-			public const int Base_TextAppearance_AppCompat_Display3 = 2131427335;
+			// aapt resource value: 0x7f08007a
+			public const int Base_Animation_AppCompat_DropDownUp = 2131230842;
 			
-			// aapt resource value: 0x7f0b0008
-			public const int Base_TextAppearance_AppCompat_Display4 = 2131427336;
+			// aapt resource value: 0x7f08007b
+			public const int Base_DialogWindowTitle_AppCompat = 2131230843;
 			
-			// aapt resource value: 0x7f0b0009
-			public const int Base_TextAppearance_AppCompat_Headline = 2131427337;
+			// aapt resource value: 0x7f08007c
+			public const int Base_DialogWindowTitleBackground_AppCompat = 2131230844;
 			
-			// aapt resource value: 0x7f0b000a
-			public const int Base_TextAppearance_AppCompat_Inverse = 2131427338;
+			// aapt resource value: 0x7f08002e
+			public const int Base_TextAppearance_AppCompat = 2131230766;
 			
-			// aapt resource value: 0x7f0b000b
-			public const int Base_TextAppearance_AppCompat_Large = 2131427339;
+			// aapt resource value: 0x7f08002f
+			public const int Base_TextAppearance_AppCompat_Body1 = 2131230767;
 			
-			// aapt resource value: 0x7f0b000c
-			public const int Base_TextAppearance_AppCompat_Large_Inverse = 2131427340;
+			// aapt resource value: 0x7f080030
+			public const int Base_TextAppearance_AppCompat_Body2 = 2131230768;
 			
-			// aapt resource value: 0x7f0b000d
-			public const int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131427341;
+			// aapt resource value: 0x7f080018
+			public const int Base_TextAppearance_AppCompat_Button = 2131230744;
 			
-			// aapt resource value: 0x7f0b000e
-			public const int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131427342;
+			// aapt resource value: 0x7f080031
+			public const int Base_TextAppearance_AppCompat_Caption = 2131230769;
 			
-			// aapt resource value: 0x7f0b000f
-			public const int Base_TextAppearance_AppCompat_Medium = 2131427343;
+			// aapt resource value: 0x7f080032
+			public const int Base_TextAppearance_AppCompat_Display1 = 2131230770;
 			
-			// aapt resource value: 0x7f0b0010
-			public const int Base_TextAppearance_AppCompat_Medium_Inverse = 2131427344;
+			// aapt resource value: 0x7f080033
+			public const int Base_TextAppearance_AppCompat_Display2 = 2131230771;
 			
-			// aapt resource value: 0x7f0b0011
-			public const int Base_TextAppearance_AppCompat_Menu = 2131427345;
+			// aapt resource value: 0x7f080034
+			public const int Base_TextAppearance_AppCompat_Display3 = 2131230772;
 			
-			// aapt resource value: 0x7f0b0012
-			public const int Base_TextAppearance_AppCompat_SearchResult = 2131427346;
+			// aapt resource value: 0x7f080035
+			public const int Base_TextAppearance_AppCompat_Display4 = 2131230773;
 			
-			// aapt resource value: 0x7f0b0013
-			public const int Base_TextAppearance_AppCompat_SearchResult_Subtitle = 2131427347;
+			// aapt resource value: 0x7f080036
+			public const int Base_TextAppearance_AppCompat_Headline = 2131230774;
 			
-			// aapt resource value: 0x7f0b0014
-			public const int Base_TextAppearance_AppCompat_SearchResult_Title = 2131427348;
+			// aapt resource value: 0x7f080003
+			public const int Base_TextAppearance_AppCompat_Inverse = 2131230723;
 			
-			// aapt resource value: 0x7f0b0015
-			public const int Base_TextAppearance_AppCompat_Small = 2131427349;
+			// aapt resource value: 0x7f080037
+			public const int Base_TextAppearance_AppCompat_Large = 2131230775;
 			
-			// aapt resource value: 0x7f0b0016
-			public const int Base_TextAppearance_AppCompat_Small_Inverse = 2131427350;
+			// aapt resource value: 0x7f080004
+			public const int Base_TextAppearance_AppCompat_Large_Inverse = 2131230724;
 			
-			// aapt resource value: 0x7f0b0017
-			public const int Base_TextAppearance_AppCompat_Subhead = 2131427351;
+			// aapt resource value: 0x7f080038
+			public const int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131230776;
 			
-			// aapt resource value: 0x7f0b0018
-			public const int Base_TextAppearance_AppCompat_Subhead_Inverse = 2131427352;
+			// aapt resource value: 0x7f080039
+			public const int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131230777;
 			
-			// aapt resource value: 0x7f0b0019
-			public const int Base_TextAppearance_AppCompat_Title = 2131427353;
+			// aapt resource value: 0x7f08003a
+			public const int Base_TextAppearance_AppCompat_Medium = 2131230778;
 			
-			// aapt resource value: 0x7f0b001a
-			public const int Base_TextAppearance_AppCompat_Title_Inverse = 2131427354;
+			// aapt resource value: 0x7f080005
+			public const int Base_TextAppearance_AppCompat_Medium_Inverse = 2131230725;
 			
-			// aapt resource value: 0x7f0b001b
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131427355;
+			// aapt resource value: 0x7f08003b
+			public const int Base_TextAppearance_AppCompat_Menu = 2131230779;
 			
-			// aapt resource value: 0x7f0b001c
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131427356;
+			// aapt resource value: 0x7f08007d
+			public const int Base_TextAppearance_AppCompat_SearchResult = 2131230845;
 			
-			// aapt resource value: 0x7f0b001d
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131427357;
+			// aapt resource value: 0x7f08003c
+			public const int Base_TextAppearance_AppCompat_SearchResult_Subtitle = 2131230780;
 			
-			// aapt resource value: 0x7f0b001e
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Title = 2131427358;
+			// aapt resource value: 0x7f08003d
+			public const int Base_TextAppearance_AppCompat_SearchResult_Title = 2131230781;
 			
-			// aapt resource value: 0x7f0b001f
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131427359;
+			// aapt resource value: 0x7f08003e
+			public const int Base_TextAppearance_AppCompat_Small = 2131230782;
 			
-			// aapt resource value: 0x7f0b0020
-			public const int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131427360;
+			// aapt resource value: 0x7f080006
+			public const int Base_TextAppearance_AppCompat_Small_Inverse = 2131230726;
 			
-			// aapt resource value: 0x7f0b0021
-			public const int Base_TextAppearance_AppCompat_Widget_ActionMode_Title = 2131427361;
+			// aapt resource value: 0x7f08003f
+			public const int Base_TextAppearance_AppCompat_Subhead = 2131230783;
 			
-			// aapt resource value: 0x7f0b0022
-			public const int Base_TextAppearance_AppCompat_Widget_DropDownItem = 2131427362;
+			// aapt resource value: 0x7f080007
+			public const int Base_TextAppearance_AppCompat_Subhead_Inverse = 2131230727;
 			
-			// aapt resource value: 0x7f0b0023
-			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131427363;
+			// aapt resource value: 0x7f080040
+			public const int Base_TextAppearance_AppCompat_Title = 2131230784;
 			
-			// aapt resource value: 0x7f0b0024
-			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131427364;
+			// aapt resource value: 0x7f080008
+			public const int Base_TextAppearance_AppCompat_Title_Inverse = 2131230728;
 			
-			// aapt resource value: 0x7f0b0025
-			public const int Base_TextAppearance_AppCompat_Widget_Switch = 2131427365;
+			// aapt resource value: 0x7f080041
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131230785;
 			
-			// aapt resource value: 0x7f0b0026
-			public const int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131427366;
+			// aapt resource value: 0x7f080042
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131230786;
 			
-			// aapt resource value: 0x7f0b0027
-			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131427367;
+			// aapt resource value: 0x7f080043
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131230787;
 			
-			// aapt resource value: 0x7f0b0028
-			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Title = 2131427368;
+			// aapt resource value: 0x7f080044
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Title = 2131230788;
 			
-			// aapt resource value: 0x7f0b0029
-			public const int Base_Theme_AppCompat = 2131427369;
+			// aapt resource value: 0x7f080045
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131230789;
 			
-			// aapt resource value: 0x7f0b002a
-			public const int Base_Theme_AppCompat_CompactMenu = 2131427370;
+			// aapt resource value: 0x7f080046
+			public const int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131230790;
 			
-			// aapt resource value: 0x7f0b002b
-			public const int Base_Theme_AppCompat_Dialog = 2131427371;
+			// aapt resource value: 0x7f080047
+			public const int Base_TextAppearance_AppCompat_Widget_ActionMode_Title = 2131230791;
 			
-			// aapt resource value: 0x7f0b002c
-			public const int Base_Theme_AppCompat_Dialog_FixedSize = 2131427372;
+			// aapt resource value: 0x7f08007e
+			public const int Base_TextAppearance_AppCompat_Widget_DropDownItem = 2131230846;
 			
-			// aapt resource value: 0x7f0b002d
-			public const int Base_Theme_AppCompat_DialogWhenLarge = 2131427373;
+			// aapt resource value: 0x7f080048
+			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131230792;
 			
-			// aapt resource value: 0x7f0b002e
-			public const int Base_Theme_AppCompat_Light = 2131427374;
+			// aapt resource value: 0x7f080049
+			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131230793;
 			
-			// aapt resource value: 0x7f0b002f
-			public const int Base_Theme_AppCompat_Light_DarkActionBar = 2131427375;
+			// aapt resource value: 0x7f08004a
+			public const int Base_TextAppearance_AppCompat_Widget_Switch = 2131230794;
 			
-			// aapt resource value: 0x7f0b0030
-			public const int Base_Theme_AppCompat_Light_Dialog = 2131427376;
+			// aapt resource value: 0x7f08004b
+			public const int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131230795;
 			
-			// aapt resource value: 0x7f0b0031
-			public const int Base_Theme_AppCompat_Light_Dialog_FixedSize = 2131427377;
+			// aapt resource value: 0x7f08007f
+			public const int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131230847;
 			
-			// aapt resource value: 0x7f0b0032
-			public const int Base_Theme_AppCompat_Light_DialogWhenLarge = 2131427378;
+			// aapt resource value: 0x7f08004c
+			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131230796;
 			
-			// aapt resource value: 0x7f0b0033
-			public const int Base_ThemeOverlay_AppCompat = 2131427379;
+			// aapt resource value: 0x7f08004d
+			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Title = 2131230797;
 			
-			// aapt resource value: 0x7f0b0034
-			public const int Base_ThemeOverlay_AppCompat_ActionBar = 2131427380;
+			// aapt resource value: 0x7f08004e
+			public const int Base_Theme_AppCompat = 2131230798;
 			
-			// aapt resource value: 0x7f0b0035
-			public const int Base_ThemeOverlay_AppCompat_Dark = 2131427381;
+			// aapt resource value: 0x7f080080
+			public const int Base_Theme_AppCompat_CompactMenu = 2131230848;
 			
-			// aapt resource value: 0x7f0b0036
-			public const int Base_ThemeOverlay_AppCompat_Dark_ActionBar = 2131427382;
+			// aapt resource value: 0x7f080009
+			public const int Base_Theme_AppCompat_Dialog = 2131230729;
 			
-			// aapt resource value: 0x7f0b0037
-			public const int Base_ThemeOverlay_AppCompat_Light = 2131427383;
+			// aapt resource value: 0x7f080081
+			public const int Base_Theme_AppCompat_Dialog_Alert = 2131230849;
 			
-			// aapt resource value: 0x7f0b00df
-			public const int Base_V11_Theme_AppCompat = 2131427551;
+			// aapt resource value: 0x7f080082
+			public const int Base_Theme_AppCompat_Dialog_FixedSize = 2131230850;
 			
-			// aapt resource value: 0x7f0b00e0
-			public const int Base_V11_Theme_AppCompat_Dialog = 2131427552;
+			// aapt resource value: 0x7f080083
+			public const int Base_Theme_AppCompat_Dialog_MinWidth = 2131230851;
 			
-			// aapt resource value: 0x7f0b00e1
-			public const int Base_V11_Theme_AppCompat_Light = 2131427553;
+			// aapt resource value: 0x7f080001
+			public const int Base_Theme_AppCompat_DialogWhenLarge = 2131230721;
 			
-			// aapt resource value: 0x7f0b00e2
-			public const int Base_V11_Theme_AppCompat_Light_Dialog = 2131427554;
+			// aapt resource value: 0x7f08004f
+			public const int Base_Theme_AppCompat_Light = 2131230799;
 			
-			// aapt resource value: 0x7f0b00e3
-			public const int Base_V14_Theme_AppCompat = 2131427555;
+			// aapt resource value: 0x7f080084
+			public const int Base_Theme_AppCompat_Light_DarkActionBar = 2131230852;
 			
-			// aapt resource value: 0x7f0b00e4
-			public const int Base_V14_Theme_AppCompat_Dialog = 2131427556;
+			// aapt resource value: 0x7f08000a
+			public const int Base_Theme_AppCompat_Light_Dialog = 2131230730;
 			
-			// aapt resource value: 0x7f0b00e5
-			public const int Base_V14_Theme_AppCompat_Light = 2131427557;
+			// aapt resource value: 0x7f080085
+			public const int Base_Theme_AppCompat_Light_Dialog_Alert = 2131230853;
 			
-			// aapt resource value: 0x7f0b00e6
-			public const int Base_V14_Theme_AppCompat_Light_Dialog = 2131427558;
+			// aapt resource value: 0x7f080086
+			public const int Base_Theme_AppCompat_Light_Dialog_FixedSize = 2131230854;
 			
-			// aapt resource value: 0x7f0b00e7
-			public const int Base_V21_Theme_AppCompat = 2131427559;
+			// aapt resource value: 0x7f080087
+			public const int Base_Theme_AppCompat_Light_Dialog_MinWidth = 2131230855;
 			
-			// aapt resource value: 0x7f0b00e8
-			public const int Base_V21_Theme_AppCompat_Dialog = 2131427560;
+			// aapt resource value: 0x7f080002
+			public const int Base_Theme_AppCompat_Light_DialogWhenLarge = 2131230722;
 			
-			// aapt resource value: 0x7f0b00e9
-			public const int Base_V21_Theme_AppCompat_Light = 2131427561;
+			// aapt resource value: 0x7f080088
+			public const int Base_ThemeOverlay_AppCompat = 2131230856;
 			
-			// aapt resource value: 0x7f0b00ea
-			public const int Base_V21_Theme_AppCompat_Light_Dialog = 2131427562;
+			// aapt resource value: 0x7f080089
+			public const int Base_ThemeOverlay_AppCompat_ActionBar = 2131230857;
 			
-			// aapt resource value: 0x7f0b0038
-			public const int Base_V7_Theme_AppCompat = 2131427384;
+			// aapt resource value: 0x7f08008a
+			public const int Base_ThemeOverlay_AppCompat_Dark = 2131230858;
 			
-			// aapt resource value: 0x7f0b0039
-			public const int Base_V7_Theme_AppCompat_Dialog = 2131427385;
+			// aapt resource value: 0x7f08008b
+			public const int Base_ThemeOverlay_AppCompat_Dark_ActionBar = 2131230859;
 			
-			// aapt resource value: 0x7f0b003a
-			public const int Base_V7_Theme_AppCompat_Light = 2131427386;
+			// aapt resource value: 0x7f08008c
+			public const int Base_ThemeOverlay_AppCompat_Light = 2131230860;
 			
-			// aapt resource value: 0x7f0b003b
-			public const int Base_Widget_AppCompat_ActionBar = 2131427387;
+			// aapt resource value: 0x7f08000b
+			public const int Base_V11_Theme_AppCompat_Dialog = 2131230731;
 			
-			// aapt resource value: 0x7f0b003c
-			public const int Base_Widget_AppCompat_ActionBar_Solid = 2131427388;
+			// aapt resource value: 0x7f08000c
+			public const int Base_V11_Theme_AppCompat_Light_Dialog = 2131230732;
 			
-			// aapt resource value: 0x7f0b003d
-			public const int Base_Widget_AppCompat_ActionBar_TabBar = 2131427389;
+			// aapt resource value: 0x7f080014
+			public const int Base_V12_Widget_AppCompat_AutoCompleteTextView = 2131230740;
 			
-			// aapt resource value: 0x7f0b003e
-			public const int Base_Widget_AppCompat_ActionBar_TabText = 2131427390;
+			// aapt resource value: 0x7f080015
+			public const int Base_V12_Widget_AppCompat_EditText = 2131230741;
 			
-			// aapt resource value: 0x7f0b003f
-			public const int Base_Widget_AppCompat_ActionBar_TabView = 2131427391;
+			// aapt resource value: 0x7f080050
+			public const int Base_V21_Theme_AppCompat = 2131230800;
 			
-			// aapt resource value: 0x7f0b0040
-			public const int Base_Widget_AppCompat_ActionButton = 2131427392;
+			// aapt resource value: 0x7f080051
+			public const int Base_V21_Theme_AppCompat_Dialog = 2131230801;
 			
-			// aapt resource value: 0x7f0b0041
-			public const int Base_Widget_AppCompat_ActionButton_CloseMode = 2131427393;
+			// aapt resource value: 0x7f080052
+			public const int Base_V21_Theme_AppCompat_Light = 2131230802;
 			
-			// aapt resource value: 0x7f0b0042
-			public const int Base_Widget_AppCompat_ActionButton_Overflow = 2131427394;
+			// aapt resource value: 0x7f080053
+			public const int Base_V21_Theme_AppCompat_Light_Dialog = 2131230803;
 			
-			// aapt resource value: 0x7f0b0043
-			public const int Base_Widget_AppCompat_ActionMode = 2131427395;
+			// aapt resource value: 0x7f08008d
+			public const int Base_V7_Theme_AppCompat = 2131230861;
 			
-			// aapt resource value: 0x7f0b0044
-			public const int Base_Widget_AppCompat_ActivityChooserView = 2131427396;
+			// aapt resource value: 0x7f08008e
+			public const int Base_V7_Theme_AppCompat_Dialog = 2131230862;
 			
-			// aapt resource value: 0x7f0b0045
-			public const int Base_Widget_AppCompat_AutoCompleteTextView = 2131427397;
+			// aapt resource value: 0x7f08008f
+			public const int Base_V7_Theme_AppCompat_Light = 2131230863;
 			
-			// aapt resource value: 0x7f0b0046
-			public const int Base_Widget_AppCompat_CompoundButton_Switch = 2131427398;
+			// aapt resource value: 0x7f080090
+			public const int Base_V7_Theme_AppCompat_Light_Dialog = 2131230864;
 			
-			// aapt resource value: 0x7f0b0047
-			public const int Base_Widget_AppCompat_DrawerArrowToggle = 2131427399;
+			// aapt resource value: 0x7f080091
+			public const int Base_V7_Widget_AppCompat_AutoCompleteTextView = 2131230865;
 			
-			// aapt resource value: 0x7f0b0048
-			public const int Base_Widget_AppCompat_DropDownItem_Spinner = 2131427400;
+			// aapt resource value: 0x7f080092
+			public const int Base_V7_Widget_AppCompat_EditText = 2131230866;
 			
-			// aapt resource value: 0x7f0b0049
-			public const int Base_Widget_AppCompat_EditText = 2131427401;
+			// aapt resource value: 0x7f080093
+			public const int Base_Widget_AppCompat_ActionBar = 2131230867;
 			
-			// aapt resource value: 0x7f0b004a
-			public const int Base_Widget_AppCompat_Light_ActionBar = 2131427402;
+			// aapt resource value: 0x7f080094
+			public const int Base_Widget_AppCompat_ActionBar_Solid = 2131230868;
 			
-			// aapt resource value: 0x7f0b004b
-			public const int Base_Widget_AppCompat_Light_ActionBar_Solid = 2131427403;
+			// aapt resource value: 0x7f080095
+			public const int Base_Widget_AppCompat_ActionBar_TabBar = 2131230869;
 			
-			// aapt resource value: 0x7f0b004c
-			public const int Base_Widget_AppCompat_Light_ActionBar_TabBar = 2131427404;
+			// aapt resource value: 0x7f080054
+			public const int Base_Widget_AppCompat_ActionBar_TabText = 2131230804;
 			
-			// aapt resource value: 0x7f0b004d
-			public const int Base_Widget_AppCompat_Light_ActionBar_TabText = 2131427405;
+			// aapt resource value: 0x7f080055
+			public const int Base_Widget_AppCompat_ActionBar_TabView = 2131230805;
 			
-			// aapt resource value: 0x7f0b004e
-			public const int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131427406;
+			// aapt resource value: 0x7f080056
+			public const int Base_Widget_AppCompat_ActionButton = 2131230806;
 			
-			// aapt resource value: 0x7f0b004f
-			public const int Base_Widget_AppCompat_Light_ActionBar_TabView = 2131427407;
+			// aapt resource value: 0x7f080057
+			public const int Base_Widget_AppCompat_ActionButton_CloseMode = 2131230807;
 			
-			// aapt resource value: 0x7f0b0050
-			public const int Base_Widget_AppCompat_Light_ActivityChooserView = 2131427408;
+			// aapt resource value: 0x7f080058
+			public const int Base_Widget_AppCompat_ActionButton_Overflow = 2131230808;
 			
-			// aapt resource value: 0x7f0b0051
-			public const int Base_Widget_AppCompat_Light_AutoCompleteTextView = 2131427409;
+			// aapt resource value: 0x7f080096
+			public const int Base_Widget_AppCompat_ActionMode = 2131230870;
 			
-			// aapt resource value: 0x7f0b0052
-			public const int Base_Widget_AppCompat_Light_PopupMenu = 2131427410;
+			// aapt resource value: 0x7f080097
+			public const int Base_Widget_AppCompat_ActivityChooserView = 2131230871;
 			
-			// aapt resource value: 0x7f0b0053
-			public const int Base_Widget_AppCompat_Light_PopupMenu_Overflow = 2131427411;
+			// aapt resource value: 0x7f080016
+			public const int Base_Widget_AppCompat_AutoCompleteTextView = 2131230742;
 			
-			// aapt resource value: 0x7f0b0054
-			public const int Base_Widget_AppCompat_ListPopupWindow = 2131427412;
+			// aapt resource value: 0x7f080059
+			public const int Base_Widget_AppCompat_Button = 2131230809;
 			
-			// aapt resource value: 0x7f0b0055
-			public const int Base_Widget_AppCompat_ListView_DropDown = 2131427413;
+			// aapt resource value: 0x7f08005a
+			public const int Base_Widget_AppCompat_Button_Borderless = 2131230810;
 			
-			// aapt resource value: 0x7f0b0056
-			public const int Base_Widget_AppCompat_ListView_Menu = 2131427414;
+			// aapt resource value: 0x7f08005b
+			public const int Base_Widget_AppCompat_Button_Borderless_Colored = 2131230811;
 			
-			// aapt resource value: 0x7f0b0057
-			public const int Base_Widget_AppCompat_PopupMenu = 2131427415;
+			// aapt resource value: 0x7f080098
+			public const int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131230872;
 			
-			// aapt resource value: 0x7f0b0058
-			public const int Base_Widget_AppCompat_PopupMenu_Overflow = 2131427416;
+			// aapt resource value: 0x7f08005c
+			public const int Base_Widget_AppCompat_Button_Small = 2131230812;
 			
-			// aapt resource value: 0x7f0b0059
-			public const int Base_Widget_AppCompat_PopupWindow = 2131427417;
+			// aapt resource value: 0x7f08005d
+			public const int Base_Widget_AppCompat_ButtonBar = 2131230813;
 			
-			// aapt resource value: 0x7f0b005a
-			public const int Base_Widget_AppCompat_ProgressBar = 2131427418;
+			// aapt resource value: 0x7f080099
+			public const int Base_Widget_AppCompat_ButtonBar_AlertDialog = 2131230873;
 			
-			// aapt resource value: 0x7f0b005b
-			public const int Base_Widget_AppCompat_ProgressBar_Horizontal = 2131427419;
+			// aapt resource value: 0x7f08005e
+			public const int Base_Widget_AppCompat_CompoundButton_CheckBox = 2131230814;
 			
-			// aapt resource value: 0x7f0b005c
-			public const int Base_Widget_AppCompat_SearchView = 2131427420;
+			// aapt resource value: 0x7f08005f
+			public const int Base_Widget_AppCompat_CompoundButton_RadioButton = 2131230815;
 			
-			// aapt resource value: 0x7f0b005d
-			public const int Base_Widget_AppCompat_Spinner = 2131427421;
+			// aapt resource value: 0x7f08009a
+			public const int Base_Widget_AppCompat_CompoundButton_Switch = 2131230874;
 			
-			// aapt resource value: 0x7f0b005e
-			public const int Base_Widget_AppCompat_Spinner_DropDown_ActionBar = 2131427422;
+			// aapt resource value: 0x7f080000
+			public const int Base_Widget_AppCompat_DrawerArrowToggle = 2131230720;
 			
-			// aapt resource value: 0x7f0b005f
-			public const int Base_Widget_AppCompat_Toolbar = 2131427423;
+			// aapt resource value: 0x7f08009b
+			public const int Base_Widget_AppCompat_DrawerArrowToggle_Common = 2131230875;
 			
-			// aapt resource value: 0x7f0b0060
-			public const int Base_Widget_AppCompat_Toolbar_Button_Navigation = 2131427424;
+			// aapt resource value: 0x7f080060
+			public const int Base_Widget_AppCompat_DropDownItem_Spinner = 2131230816;
 			
-			// aapt resource value: 0x7f0b0061
-			public const int Platform_AppCompat = 2131427425;
+			// aapt resource value: 0x7f080017
+			public const int Base_Widget_AppCompat_EditText = 2131230743;
 			
-			// aapt resource value: 0x7f0b0062
-			public const int Platform_AppCompat_Dialog = 2131427426;
+			// aapt resource value: 0x7f08009c
+			public const int Base_Widget_AppCompat_Light_ActionBar = 2131230876;
 			
-			// aapt resource value: 0x7f0b0063
-			public const int Platform_AppCompat_Light = 2131427427;
+			// aapt resource value: 0x7f08009d
+			public const int Base_Widget_AppCompat_Light_ActionBar_Solid = 2131230877;
 			
-			// aapt resource value: 0x7f0b0064
-			public const int Platform_AppCompat_Light_Dialog = 2131427428;
+			// aapt resource value: 0x7f08009e
+			public const int Base_Widget_AppCompat_Light_ActionBar_TabBar = 2131230878;
 			
-			// aapt resource value: 0x7f0b00eb
-			public const int RadScrollViewStyle = 2131427563;
+			// aapt resource value: 0x7f080061
+			public const int Base_Widget_AppCompat_Light_ActionBar_TabText = 2131230817;
 			
-			// aapt resource value: 0x7f0b00ec
-			public const int RadScrollViewTheme = 2131427564;
+			// aapt resource value: 0x7f080062
+			public const int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131230818;
 			
-			// aapt resource value: 0x7f0b0065
-			public const int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = 2131427429;
+			// aapt resource value: 0x7f080063
+			public const int Base_Widget_AppCompat_Light_ActionBar_TabView = 2131230819;
 			
-			// aapt resource value: 0x7f0b0066
-			public const int RtlOverlay_Widget_AppCompat_ActionButton_CloseMode = 2131427430;
+			// aapt resource value: 0x7f080064
+			public const int Base_Widget_AppCompat_Light_PopupMenu = 2131230820;
 			
-			// aapt resource value: 0x7f0b0067
-			public const int RtlOverlay_Widget_AppCompat_ActionButton_Overflow = 2131427431;
+			// aapt resource value: 0x7f080065
+			public const int Base_Widget_AppCompat_Light_PopupMenu_Overflow = 2131230821;
 			
-			// aapt resource value: 0x7f0b0068
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem = 2131427432;
+			// aapt resource value: 0x7f080066
+			public const int Base_Widget_AppCompat_ListPopupWindow = 2131230822;
 			
-			// aapt resource value: 0x7f0b0069
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = 2131427433;
+			// aapt resource value: 0x7f080067
+			public const int Base_Widget_AppCompat_ListView = 2131230823;
 			
-			// aapt resource value: 0x7f0b006a
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = 2131427434;
+			// aapt resource value: 0x7f080068
+			public const int Base_Widget_AppCompat_ListView_DropDown = 2131230824;
 			
-			// aapt resource value: 0x7f0b006b
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131427435;
+			// aapt resource value: 0x7f080069
+			public const int Base_Widget_AppCompat_ListView_Menu = 2131230825;
 			
-			// aapt resource value: 0x7f0b006c
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131427436;
+			// aapt resource value: 0x7f08006a
+			public const int Base_Widget_AppCompat_PopupMenu = 2131230826;
 			
-			// aapt resource value: 0x7f0b006d
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131427437;
+			// aapt resource value: 0x7f08006b
+			public const int Base_Widget_AppCompat_PopupMenu_Overflow = 2131230827;
 			
-			// aapt resource value: 0x7f0b006e
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131427438;
+			// aapt resource value: 0x7f08009f
+			public const int Base_Widget_AppCompat_PopupWindow = 2131230879;
 			
-			// aapt resource value: 0x7f0b006f
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131427439;
+			// aapt resource value: 0x7f08000d
+			public const int Base_Widget_AppCompat_ProgressBar = 2131230733;
 			
-			// aapt resource value: 0x7f0b0070
-			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131427440;
+			// aapt resource value: 0x7f08000e
+			public const int Base_Widget_AppCompat_ProgressBar_Horizontal = 2131230734;
 			
-			// aapt resource value: 0x7f0b0071
-			public const int TextAppearance_AppCompat = 2131427441;
+			// aapt resource value: 0x7f08006c
+			public const int Base_Widget_AppCompat_RatingBar = 2131230828;
 			
-			// aapt resource value: 0x7f0b0072
-			public const int TextAppearance_AppCompat_Body1 = 2131427442;
+			// aapt resource value: 0x7f0800a0
+			public const int Base_Widget_AppCompat_SearchView = 2131230880;
 			
-			// aapt resource value: 0x7f0b0073
-			public const int TextAppearance_AppCompat_Body2 = 2131427443;
+			// aapt resource value: 0x7f0800a1
+			public const int Base_Widget_AppCompat_SearchView_ActionBar = 2131230881;
 			
-			// aapt resource value: 0x7f0b0074
-			public const int TextAppearance_AppCompat_Button = 2131427444;
+			// aapt resource value: 0x7f08000f
+			public const int Base_Widget_AppCompat_Spinner = 2131230735;
 			
-			// aapt resource value: 0x7f0b0075
-			public const int TextAppearance_AppCompat_Caption = 2131427445;
+			// aapt resource value: 0x7f08006d
+			public const int Base_Widget_AppCompat_Spinner_DropDown_ActionBar = 2131230829;
 			
-			// aapt resource value: 0x7f0b0076
-			public const int TextAppearance_AppCompat_Display1 = 2131427446;
+			// aapt resource value: 0x7f08006e
+			public const int Base_Widget_AppCompat_Spinner_Underlined = 2131230830;
 			
-			// aapt resource value: 0x7f0b0077
-			public const int TextAppearance_AppCompat_Display2 = 2131427447;
+			// aapt resource value: 0x7f08006f
+			public const int Base_Widget_AppCompat_TextView_SpinnerItem = 2131230831;
 			
-			// aapt resource value: 0x7f0b0078
-			public const int TextAppearance_AppCompat_Display3 = 2131427448;
+			// aapt resource value: 0x7f0800a2
+			public const int Base_Widget_AppCompat_Toolbar = 2131230882;
 			
-			// aapt resource value: 0x7f0b0079
-			public const int TextAppearance_AppCompat_Display4 = 2131427449;
+			// aapt resource value: 0x7f080070
+			public const int Base_Widget_AppCompat_Toolbar_Button_Navigation = 2131230832;
 			
-			// aapt resource value: 0x7f0b007a
-			public const int TextAppearance_AppCompat_Headline = 2131427450;
+			// aapt resource value: 0x7f080010
+			public const int Platform_AppCompat = 2131230736;
 			
-			// aapt resource value: 0x7f0b007b
-			public const int TextAppearance_AppCompat_Inverse = 2131427451;
+			// aapt resource value: 0x7f080011
+			public const int Platform_AppCompat_Light = 2131230737;
 			
-			// aapt resource value: 0x7f0b007c
-			public const int TextAppearance_AppCompat_Large = 2131427452;
+			// aapt resource value: 0x7f080071
+			public const int Platform_ThemeOverlay_AppCompat_Dark = 2131230833;
 			
-			// aapt resource value: 0x7f0b007d
-			public const int TextAppearance_AppCompat_Large_Inverse = 2131427453;
+			// aapt resource value: 0x7f080072
+			public const int Platform_ThemeOverlay_AppCompat_Light = 2131230834;
 			
-			// aapt resource value: 0x7f0b007e
-			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131427454;
+			// aapt resource value: 0x7f080012
+			public const int Platform_V11_AppCompat = 2131230738;
 			
-			// aapt resource value: 0x7f0b007f
-			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131427455;
+			// aapt resource value: 0x7f080013
+			public const int Platform_V11_AppCompat_Light = 2131230739;
 			
-			// aapt resource value: 0x7f0b0080
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131427456;
+			// aapt resource value: 0x7f080019
+			public const int Platform_V14_AppCompat = 2131230745;
 			
-			// aapt resource value: 0x7f0b0081
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131427457;
+			// aapt resource value: 0x7f08001a
+			public const int Platform_V14_AppCompat_Light = 2131230746;
 			
-			// aapt resource value: 0x7f0b0082
-			public const int TextAppearance_AppCompat_Medium = 2131427458;
+			// aapt resource value: 0x7f080124
+			public const int RadScrollViewStyle = 2131231012;
 			
-			// aapt resource value: 0x7f0b0083
-			public const int TextAppearance_AppCompat_Medium_Inverse = 2131427459;
+			// aapt resource value: 0x7f080125
+			public const int RadScrollViewTheme = 2131231013;
 			
-			// aapt resource value: 0x7f0b0084
-			public const int TextAppearance_AppCompat_Menu = 2131427460;
+			// aapt resource value: 0x7f080020
+			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131230752;
 			
-			// aapt resource value: 0x7f0b0085
-			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131427461;
+			// aapt resource value: 0x7f080021
+			public const int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = 2131230753;
 			
-			// aapt resource value: 0x7f0b0086
-			public const int TextAppearance_AppCompat_SearchResult_Title = 2131427462;
+			// aapt resource value: 0x7f080022
+			public const int RtlOverlay_Widget_AppCompat_ActionButton_Overflow = 2131230754;
 			
-			// aapt resource value: 0x7f0b0087
-			public const int TextAppearance_AppCompat_Small = 2131427463;
+			// aapt resource value: 0x7f080023
+			public const int RtlOverlay_Widget_AppCompat_DialogTitle_Icon = 2131230755;
 			
-			// aapt resource value: 0x7f0b0088
-			public const int TextAppearance_AppCompat_Small_Inverse = 2131427464;
+			// aapt resource value: 0x7f080024
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem = 2131230756;
 			
-			// aapt resource value: 0x7f0b0089
-			public const int TextAppearance_AppCompat_Subhead = 2131427465;
+			// aapt resource value: 0x7f080025
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = 2131230757;
 			
-			// aapt resource value: 0x7f0b008a
-			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131427466;
+			// aapt resource value: 0x7f080026
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = 2131230758;
 			
-			// aapt resource value: 0x7f0b008b
-			public const int TextAppearance_AppCompat_Title = 2131427467;
+			// aapt resource value: 0x7f080027
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131230759;
 			
-			// aapt resource value: 0x7f0b008c
-			public const int TextAppearance_AppCompat_Title_Inverse = 2131427468;
+			// aapt resource value: 0x7f080028
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131230760;
 			
-			// aapt resource value: 0x7f0b008d
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131427469;
+			// aapt resource value: 0x7f080029
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131230761;
 			
-			// aapt resource value: 0x7f0b008e
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131427470;
+			// aapt resource value: 0x7f08002a
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131230762;
 			
-			// aapt resource value: 0x7f0b008f
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131427471;
+			// aapt resource value: 0x7f08002b
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131230763;
 			
-			// aapt resource value: 0x7f0b0090
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131427472;
+			// aapt resource value: 0x7f08002c
+			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131230764;
 			
-			// aapt resource value: 0x7f0b0091
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131427473;
+			// aapt resource value: 0x7f08002d
+			public const int RtlOverlay_Widget_AppCompat_Toolbar_Button_Navigation = 2131230765;
 			
-			// aapt resource value: 0x7f0b0092
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131427474;
+			// aapt resource value: 0x7f0800a3
+			public const int TextAppearance_AppCompat = 2131230883;
 			
-			// aapt resource value: 0x7f0b0093
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131427475;
+			// aapt resource value: 0x7f0800a4
+			public const int TextAppearance_AppCompat_Body1 = 2131230884;
 			
-			// aapt resource value: 0x7f0b0094
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131427476;
+			// aapt resource value: 0x7f0800a5
+			public const int TextAppearance_AppCompat_Body2 = 2131230885;
 			
-			// aapt resource value: 0x7f0b0095
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131427477;
+			// aapt resource value: 0x7f0800a6
+			public const int TextAppearance_AppCompat_Button = 2131230886;
 			
-			// aapt resource value: 0x7f0b0096
-			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131427478;
+			// aapt resource value: 0x7f0800a7
+			public const int TextAppearance_AppCompat_Caption = 2131230887;
 			
-			// aapt resource value: 0x7f0b0097
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131427479;
+			// aapt resource value: 0x7f0800a8
+			public const int TextAppearance_AppCompat_Display1 = 2131230888;
 			
-			// aapt resource value: 0x7f0b0098
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131427480;
+			// aapt resource value: 0x7f0800a9
+			public const int TextAppearance_AppCompat_Display2 = 2131230889;
 			
-			// aapt resource value: 0x7f0b0099
-			public const int TextAppearance_AppCompat_Widget_Switch = 2131427481;
+			// aapt resource value: 0x7f0800aa
+			public const int TextAppearance_AppCompat_Display3 = 2131230890;
 			
-			// aapt resource value: 0x7f0b009a
-			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131427482;
+			// aapt resource value: 0x7f0800ab
+			public const int TextAppearance_AppCompat_Display4 = 2131230891;
 			
-			// aapt resource value: 0x7f0b009b
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131427483;
+			// aapt resource value: 0x7f0800ac
+			public const int TextAppearance_AppCompat_Headline = 2131230892;
 			
-			// aapt resource value: 0x7f0b009c
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131427484;
+			// aapt resource value: 0x7f0800ad
+			public const int TextAppearance_AppCompat_Inverse = 2131230893;
 			
-			// aapt resource value: 0x7f0b009d
-			public const int Theme_AppCompat = 2131427485;
+			// aapt resource value: 0x7f0800ae
+			public const int TextAppearance_AppCompat_Large = 2131230894;
 			
-			// aapt resource value: 0x7f0b009e
-			public const int Theme_AppCompat_CompactMenu = 2131427486;
+			// aapt resource value: 0x7f0800af
+			public const int TextAppearance_AppCompat_Large_Inverse = 2131230895;
 			
-			// aapt resource value: 0x7f0b009f
-			public const int Theme_AppCompat_Dialog = 2131427487;
+			// aapt resource value: 0x7f0800b0
+			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131230896;
 			
-			// aapt resource value: 0x7f0b00a0
-			public const int Theme_AppCompat_DialogWhenLarge = 2131427488;
+			// aapt resource value: 0x7f0800b1
+			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131230897;
 			
-			// aapt resource value: 0x7f0b00a1
-			public const int Theme_AppCompat_Light = 2131427489;
+			// aapt resource value: 0x7f0800b2
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131230898;
 			
-			// aapt resource value: 0x7f0b00a2
-			public const int Theme_AppCompat_Light_DarkActionBar = 2131427490;
+			// aapt resource value: 0x7f0800b3
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131230899;
 			
-			// aapt resource value: 0x7f0b00a3
-			public const int Theme_AppCompat_Light_Dialog = 2131427491;
+			// aapt resource value: 0x7f0800b4
+			public const int TextAppearance_AppCompat_Medium = 2131230900;
 			
-			// aapt resource value: 0x7f0b00a4
-			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131427492;
+			// aapt resource value: 0x7f0800b5
+			public const int TextAppearance_AppCompat_Medium_Inverse = 2131230901;
 			
-			// aapt resource value: 0x7f0b00a5
-			public const int Theme_AppCompat_Light_NoActionBar = 2131427493;
+			// aapt resource value: 0x7f0800b6
+			public const int TextAppearance_AppCompat_Menu = 2131230902;
 			
-			// aapt resource value: 0x7f0b00a6
-			public const int Theme_AppCompat_NoActionBar = 2131427494;
+			// aapt resource value: 0x7f0800b7
+			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131230903;
 			
-			// aapt resource value: 0x7f0b00a7
-			public const int ThemeOverlay_AppCompat = 2131427495;
+			// aapt resource value: 0x7f0800b8
+			public const int TextAppearance_AppCompat_SearchResult_Title = 2131230904;
 			
-			// aapt resource value: 0x7f0b00a8
-			public const int ThemeOverlay_AppCompat_ActionBar = 2131427496;
+			// aapt resource value: 0x7f0800b9
+			public const int TextAppearance_AppCompat_Small = 2131230905;
 			
-			// aapt resource value: 0x7f0b00a9
-			public const int ThemeOverlay_AppCompat_Dark = 2131427497;
+			// aapt resource value: 0x7f0800ba
+			public const int TextAppearance_AppCompat_Small_Inverse = 2131230906;
 			
-			// aapt resource value: 0x7f0b00aa
-			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131427498;
+			// aapt resource value: 0x7f0800bb
+			public const int TextAppearance_AppCompat_Subhead = 2131230907;
 			
-			// aapt resource value: 0x7f0b00ab
-			public const int ThemeOverlay_AppCompat_Light = 2131427499;
+			// aapt resource value: 0x7f0800bc
+			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131230908;
 			
-			// aapt resource value: 0x7f0b00ac
-			public const int Widget_AppCompat_ActionBar = 2131427500;
+			// aapt resource value: 0x7f0800bd
+			public const int TextAppearance_AppCompat_Title = 2131230909;
 			
-			// aapt resource value: 0x7f0b00ad
-			public const int Widget_AppCompat_ActionBar_Solid = 2131427501;
+			// aapt resource value: 0x7f0800be
+			public const int TextAppearance_AppCompat_Title_Inverse = 2131230910;
 			
-			// aapt resource value: 0x7f0b00ae
-			public const int Widget_AppCompat_ActionBar_TabBar = 2131427502;
+			// aapt resource value: 0x7f0800bf
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131230911;
 			
-			// aapt resource value: 0x7f0b00af
-			public const int Widget_AppCompat_ActionBar_TabText = 2131427503;
+			// aapt resource value: 0x7f0800c0
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131230912;
 			
-			// aapt resource value: 0x7f0b00b0
-			public const int Widget_AppCompat_ActionBar_TabView = 2131427504;
+			// aapt resource value: 0x7f0800c1
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131230913;
 			
-			// aapt resource value: 0x7f0b00b1
-			public const int Widget_AppCompat_ActionButton = 2131427505;
+			// aapt resource value: 0x7f0800c2
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131230914;
 			
-			// aapt resource value: 0x7f0b00b2
-			public const int Widget_AppCompat_ActionButton_CloseMode = 2131427506;
+			// aapt resource value: 0x7f0800c3
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131230915;
 			
-			// aapt resource value: 0x7f0b00b3
-			public const int Widget_AppCompat_ActionButton_Overflow = 2131427507;
+			// aapt resource value: 0x7f0800c4
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131230916;
 			
-			// aapt resource value: 0x7f0b00b4
-			public const int Widget_AppCompat_ActionMode = 2131427508;
+			// aapt resource value: 0x7f0800c5
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131230917;
 			
-			// aapt resource value: 0x7f0b00b5
-			public const int Widget_AppCompat_ActivityChooserView = 2131427509;
+			// aapt resource value: 0x7f0800c6
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131230918;
 			
-			// aapt resource value: 0x7f0b00b6
-			public const int Widget_AppCompat_AutoCompleteTextView = 2131427510;
+			// aapt resource value: 0x7f0800c7
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131230919;
 			
-			// aapt resource value: 0x7f0b00b7
-			public const int Widget_AppCompat_CompoundButton_Switch = 2131427511;
+			// aapt resource value: 0x7f0800c8
+			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131230920;
 			
-			// aapt resource value: 0x7f0b00b8
-			public const int Widget_AppCompat_DrawerArrowToggle = 2131427512;
+			// aapt resource value: 0x7f0800c9
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131230921;
 			
-			// aapt resource value: 0x7f0b00b9
-			public const int Widget_AppCompat_DropDownItem_Spinner = 2131427513;
+			// aapt resource value: 0x7f0800ca
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131230922;
 			
-			// aapt resource value: 0x7f0b00ba
-			public const int Widget_AppCompat_EditText = 2131427514;
+			// aapt resource value: 0x7f0800cb
+			public const int TextAppearance_AppCompat_Widget_Switch = 2131230923;
 			
-			// aapt resource value: 0x7f0b00bb
-			public const int Widget_AppCompat_Light_ActionBar = 2131427515;
+			// aapt resource value: 0x7f0800cc
+			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131230924;
 			
-			// aapt resource value: 0x7f0b00bc
-			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131427516;
+			// aapt resource value: 0x7f08001b
+			public const int TextAppearance_StatusBar_EventContent = 2131230747;
 			
-			// aapt resource value: 0x7f0b00bd
-			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131427517;
+			// aapt resource value: 0x7f08001c
+			public const int TextAppearance_StatusBar_EventContent_Info = 2131230748;
 			
-			// aapt resource value: 0x7f0b00be
-			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131427518;
+			// aapt resource value: 0x7f08001d
+			public const int TextAppearance_StatusBar_EventContent_Line2 = 2131230749;
 			
-			// aapt resource value: 0x7f0b00bf
-			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131427519;
+			// aapt resource value: 0x7f08001e
+			public const int TextAppearance_StatusBar_EventContent_Time = 2131230750;
 			
-			// aapt resource value: 0x7f0b00c0
-			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131427520;
+			// aapt resource value: 0x7f08001f
+			public const int TextAppearance_StatusBar_EventContent_Title = 2131230751;
 			
-			// aapt resource value: 0x7f0b00c1
-			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131427521;
+			// aapt resource value: 0x7f0800cd
+			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131230925;
 			
-			// aapt resource value: 0x7f0b00c2
-			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131427522;
+			// aapt resource value: 0x7f0800ce
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131230926;
 			
-			// aapt resource value: 0x7f0b00c3
-			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131427523;
+			// aapt resource value: 0x7f0800cf
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131230927;
 			
-			// aapt resource value: 0x7f0b00c4
-			public const int Widget_AppCompat_Light_ActionButton = 2131427524;
+			// aapt resource value: 0x7f0800d0
+			public const int Theme_AppCompat = 2131230928;
 			
-			// aapt resource value: 0x7f0b00c5
-			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131427525;
+			// aapt resource value: 0x7f0800d1
+			public const int Theme_AppCompat_CompactMenu = 2131230929;
 			
-			// aapt resource value: 0x7f0b00c6
-			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131427526;
+			// aapt resource value: 0x7f0800d2
+			public const int Theme_AppCompat_Dialog = 2131230930;
 			
-			// aapt resource value: 0x7f0b00c7
-			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131427527;
+			// aapt resource value: 0x7f0800d3
+			public const int Theme_AppCompat_Dialog_Alert = 2131230931;
 			
-			// aapt resource value: 0x7f0b00c8
-			public const int Widget_AppCompat_Light_ActivityChooserView = 2131427528;
+			// aapt resource value: 0x7f0800d4
+			public const int Theme_AppCompat_Dialog_MinWidth = 2131230932;
 			
-			// aapt resource value: 0x7f0b00c9
-			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131427529;
+			// aapt resource value: 0x7f0800d5
+			public const int Theme_AppCompat_DialogWhenLarge = 2131230933;
 			
-			// aapt resource value: 0x7f0b00ca
-			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131427530;
+			// aapt resource value: 0x7f0800d6
+			public const int Theme_AppCompat_Light = 2131230934;
 			
-			// aapt resource value: 0x7f0b00cb
-			public const int Widget_AppCompat_Light_ListPopupWindow = 2131427531;
+			// aapt resource value: 0x7f0800d7
+			public const int Theme_AppCompat_Light_DarkActionBar = 2131230935;
 			
-			// aapt resource value: 0x7f0b00cc
-			public const int Widget_AppCompat_Light_ListView_DropDown = 2131427532;
+			// aapt resource value: 0x7f0800d8
+			public const int Theme_AppCompat_Light_Dialog = 2131230936;
 			
-			// aapt resource value: 0x7f0b00cd
-			public const int Widget_AppCompat_Light_PopupMenu = 2131427533;
+			// aapt resource value: 0x7f0800d9
+			public const int Theme_AppCompat_Light_Dialog_Alert = 2131230937;
 			
-			// aapt resource value: 0x7f0b00ce
-			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131427534;
+			// aapt resource value: 0x7f0800da
+			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131230938;
 			
-			// aapt resource value: 0x7f0b00cf
-			public const int Widget_AppCompat_Light_SearchView = 2131427535;
+			// aapt resource value: 0x7f0800db
+			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131230939;
 			
-			// aapt resource value: 0x7f0b00d0
-			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131427536;
+			// aapt resource value: 0x7f0800dc
+			public const int Theme_AppCompat_Light_NoActionBar = 2131230940;
 			
-			// aapt resource value: 0x7f0b00d1
-			public const int Widget_AppCompat_ListPopupWindow = 2131427537;
+			// aapt resource value: 0x7f0800dd
+			public const int Theme_AppCompat_NoActionBar = 2131230941;
 			
-			// aapt resource value: 0x7f0b00d2
-			public const int Widget_AppCompat_ListView_DropDown = 2131427538;
+			// aapt resource value: 0x7f0800de
+			public const int ThemeOverlay_AppCompat = 2131230942;
 			
-			// aapt resource value: 0x7f0b00d3
-			public const int Widget_AppCompat_ListView_Menu = 2131427539;
+			// aapt resource value: 0x7f0800df
+			public const int ThemeOverlay_AppCompat_ActionBar = 2131230943;
 			
-			// aapt resource value: 0x7f0b00d4
-			public const int Widget_AppCompat_PopupMenu = 2131427540;
+			// aapt resource value: 0x7f0800e0
+			public const int ThemeOverlay_AppCompat_Dark = 2131230944;
 			
-			// aapt resource value: 0x7f0b00d5
-			public const int Widget_AppCompat_PopupMenu_Overflow = 2131427541;
+			// aapt resource value: 0x7f0800e1
+			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131230945;
 			
-			// aapt resource value: 0x7f0b00d6
-			public const int Widget_AppCompat_PopupWindow = 2131427542;
+			// aapt resource value: 0x7f0800e2
+			public const int ThemeOverlay_AppCompat_Light = 2131230946;
 			
-			// aapt resource value: 0x7f0b00d7
-			public const int Widget_AppCompat_ProgressBar = 2131427543;
+			// aapt resource value: 0x7f0800e3
+			public const int Widget_AppCompat_ActionBar = 2131230947;
 			
-			// aapt resource value: 0x7f0b00d8
-			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131427544;
+			// aapt resource value: 0x7f0800e4
+			public const int Widget_AppCompat_ActionBar_Solid = 2131230948;
 			
-			// aapt resource value: 0x7f0b00d9
-			public const int Widget_AppCompat_SearchView = 2131427545;
+			// aapt resource value: 0x7f0800e5
+			public const int Widget_AppCompat_ActionBar_TabBar = 2131230949;
 			
-			// aapt resource value: 0x7f0b00da
-			public const int Widget_AppCompat_Spinner = 2131427546;
+			// aapt resource value: 0x7f0800e6
+			public const int Widget_AppCompat_ActionBar_TabText = 2131230950;
 			
-			// aapt resource value: 0x7f0b00db
-			public const int Widget_AppCompat_Spinner_DropDown = 2131427547;
+			// aapt resource value: 0x7f0800e7
+			public const int Widget_AppCompat_ActionBar_TabView = 2131230951;
 			
-			// aapt resource value: 0x7f0b00dc
-			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131427548;
+			// aapt resource value: 0x7f0800e8
+			public const int Widget_AppCompat_ActionButton = 2131230952;
 			
-			// aapt resource value: 0x7f0b00dd
-			public const int Widget_AppCompat_Toolbar = 2131427549;
+			// aapt resource value: 0x7f0800e9
+			public const int Widget_AppCompat_ActionButton_CloseMode = 2131230953;
 			
-			// aapt resource value: 0x7f0b00de
-			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131427550;
+			// aapt resource value: 0x7f0800ea
+			public const int Widget_AppCompat_ActionButton_Overflow = 2131230954;
+			
+			// aapt resource value: 0x7f0800eb
+			public const int Widget_AppCompat_ActionMode = 2131230955;
+			
+			// aapt resource value: 0x7f0800ec
+			public const int Widget_AppCompat_ActivityChooserView = 2131230956;
+			
+			// aapt resource value: 0x7f0800ed
+			public const int Widget_AppCompat_AutoCompleteTextView = 2131230957;
+			
+			// aapt resource value: 0x7f0800ee
+			public const int Widget_AppCompat_Button = 2131230958;
+			
+			// aapt resource value: 0x7f0800ef
+			public const int Widget_AppCompat_Button_Borderless = 2131230959;
+			
+			// aapt resource value: 0x7f0800f0
+			public const int Widget_AppCompat_Button_Borderless_Colored = 2131230960;
+			
+			// aapt resource value: 0x7f0800f1
+			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131230961;
+			
+			// aapt resource value: 0x7f0800f2
+			public const int Widget_AppCompat_Button_Small = 2131230962;
+			
+			// aapt resource value: 0x7f0800f3
+			public const int Widget_AppCompat_ButtonBar = 2131230963;
+			
+			// aapt resource value: 0x7f0800f4
+			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131230964;
+			
+			// aapt resource value: 0x7f0800f5
+			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131230965;
+			
+			// aapt resource value: 0x7f0800f6
+			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131230966;
+			
+			// aapt resource value: 0x7f0800f7
+			public const int Widget_AppCompat_CompoundButton_Switch = 2131230967;
+			
+			// aapt resource value: 0x7f0800f8
+			public const int Widget_AppCompat_DrawerArrowToggle = 2131230968;
+			
+			// aapt resource value: 0x7f0800f9
+			public const int Widget_AppCompat_DropDownItem_Spinner = 2131230969;
+			
+			// aapt resource value: 0x7f0800fa
+			public const int Widget_AppCompat_EditText = 2131230970;
+			
+			// aapt resource value: 0x7f0800fb
+			public const int Widget_AppCompat_Light_ActionBar = 2131230971;
+			
+			// aapt resource value: 0x7f0800fc
+			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131230972;
+			
+			// aapt resource value: 0x7f0800fd
+			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131230973;
+			
+			// aapt resource value: 0x7f0800fe
+			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131230974;
+			
+			// aapt resource value: 0x7f0800ff
+			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131230975;
+			
+			// aapt resource value: 0x7f080100
+			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131230976;
+			
+			// aapt resource value: 0x7f080101
+			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131230977;
+			
+			// aapt resource value: 0x7f080102
+			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131230978;
+			
+			// aapt resource value: 0x7f080103
+			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131230979;
+			
+			// aapt resource value: 0x7f080104
+			public const int Widget_AppCompat_Light_ActionButton = 2131230980;
+			
+			// aapt resource value: 0x7f080105
+			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131230981;
+			
+			// aapt resource value: 0x7f080106
+			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131230982;
+			
+			// aapt resource value: 0x7f080107
+			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131230983;
+			
+			// aapt resource value: 0x7f080108
+			public const int Widget_AppCompat_Light_ActivityChooserView = 2131230984;
+			
+			// aapt resource value: 0x7f080109
+			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131230985;
+			
+			// aapt resource value: 0x7f08010a
+			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131230986;
+			
+			// aapt resource value: 0x7f08010b
+			public const int Widget_AppCompat_Light_ListPopupWindow = 2131230987;
+			
+			// aapt resource value: 0x7f08010c
+			public const int Widget_AppCompat_Light_ListView_DropDown = 2131230988;
+			
+			// aapt resource value: 0x7f08010d
+			public const int Widget_AppCompat_Light_PopupMenu = 2131230989;
+			
+			// aapt resource value: 0x7f08010e
+			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131230990;
+			
+			// aapt resource value: 0x7f08010f
+			public const int Widget_AppCompat_Light_SearchView = 2131230991;
+			
+			// aapt resource value: 0x7f080110
+			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131230992;
+			
+			// aapt resource value: 0x7f080111
+			public const int Widget_AppCompat_ListPopupWindow = 2131230993;
+			
+			// aapt resource value: 0x7f080112
+			public const int Widget_AppCompat_ListView = 2131230994;
+			
+			// aapt resource value: 0x7f080113
+			public const int Widget_AppCompat_ListView_DropDown = 2131230995;
+			
+			// aapt resource value: 0x7f080114
+			public const int Widget_AppCompat_ListView_Menu = 2131230996;
+			
+			// aapt resource value: 0x7f080115
+			public const int Widget_AppCompat_PopupMenu = 2131230997;
+			
+			// aapt resource value: 0x7f080116
+			public const int Widget_AppCompat_PopupMenu_Overflow = 2131230998;
+			
+			// aapt resource value: 0x7f080117
+			public const int Widget_AppCompat_PopupWindow = 2131230999;
+			
+			// aapt resource value: 0x7f080118
+			public const int Widget_AppCompat_ProgressBar = 2131231000;
+			
+			// aapt resource value: 0x7f080119
+			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131231001;
+			
+			// aapt resource value: 0x7f08011a
+			public const int Widget_AppCompat_RatingBar = 2131231002;
+			
+			// aapt resource value: 0x7f08011b
+			public const int Widget_AppCompat_SearchView = 2131231003;
+			
+			// aapt resource value: 0x7f08011c
+			public const int Widget_AppCompat_SearchView_ActionBar = 2131231004;
+			
+			// aapt resource value: 0x7f08011d
+			public const int Widget_AppCompat_Spinner = 2131231005;
+			
+			// aapt resource value: 0x7f08011e
+			public const int Widget_AppCompat_Spinner_DropDown = 2131231006;
+			
+			// aapt resource value: 0x7f08011f
+			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131231007;
+			
+			// aapt resource value: 0x7f080120
+			public const int Widget_AppCompat_Spinner_Underlined = 2131231008;
+			
+			// aapt resource value: 0x7f080121
+			public const int Widget_AppCompat_TextView_SpinnerItem = 2131231009;
+			
+			// aapt resource value: 0x7f080122
+			public const int Widget_AppCompat_Toolbar = 2131231010;
+			
+			// aapt resource value: 0x7f080123
+			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131231011;
 			
 			static Style()
 			{
@@ -2591,11 +4321,7 @@ namespace X_Calendar.Droid
 		{
 			
 			public static int[] ActionBar = new int[] {
-					2130771969,
-					2130771971,
-					2130771972,
 					2130771973,
-					2130771974,
 					2130771975,
 					2130771976,
 					2130771977,
@@ -2617,7 +4343,11 @@ namespace X_Calendar.Droid
 					2130771993,
 					2130771994,
 					2130771995,
-					2130772081};
+					2130771996,
+					2130771997,
+					2130771998,
+					2130771999,
+					2130772097};
 			
 			// aapt resource value: 10
 			public const int ActionBar_background = 10;
@@ -2715,12 +4445,12 @@ namespace X_Calendar.Droid
 			public static int[] ActionMenuView;
 			
 			public static int[] ActionMode = new int[] {
-					2130771969,
-					2130771975,
-					2130771976,
+					2130771973,
+					2130771979,
 					2130771980,
-					2130771982,
-					2130771996};
+					2130771984,
+					2130771986,
+					2130772000};
 			
 			// aapt resource value: 3
 			public const int ActionMode_background = 3;
@@ -2741,8 +4471,8 @@ namespace X_Calendar.Droid
 			public const int ActionMode_titleTextStyle = 1;
 			
 			public static int[] ActivityChooserView = new int[] {
-					2130771997,
-					2130771998};
+					2130772001,
+					2130772002};
 			
 			// aapt resource value: 1
 			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
@@ -2750,33 +4480,63 @@ namespace X_Calendar.Droid
 			// aapt resource value: 0
 			public const int ActivityChooserView_initialActivityCount = 0;
 			
-			public static int[] CalendarCellState = new int[] {
-					2130772143};
-			
-			// aapt resource value: 0
-			public const int CalendarCellState_state_calendar_cell_today = 0;
-			
-			public static int[] CalendarTheme = new int[] {
-					2130772153};
-			
-			// aapt resource value: 0
-			public const int CalendarTheme_calendarStyle = 0;
-			
-			public static int[] CompatTextView = new int[] {
-					2130771999};
-			
-			// aapt resource value: 0
-			public const int CompatTextView_textAllCaps = 0;
-			
-			public static int[] DrawerArrowToggle = new int[] {
-					2130772000,
-					2130772001,
-					2130772002,
+			public static int[] AlertDialog = new int[] {
+					16842994,
 					2130772003,
 					2130772004,
 					2130772005,
 					2130772006,
 					2130772007};
+			
+			// aapt resource value: 0
+			public const int AlertDialog_android_layout = 0;
+			
+			// aapt resource value: 1
+			public const int AlertDialog_buttonPanelSideLayout = 1;
+			
+			// aapt resource value: 5
+			public const int AlertDialog_listItemLayout = 5;
+			
+			// aapt resource value: 2
+			public const int AlertDialog_listLayout = 2;
+			
+			// aapt resource value: 3
+			public const int AlertDialog_multiChoiceItemLayout = 3;
+			
+			// aapt resource value: 4
+			public const int AlertDialog_singleChoiceItemLayout = 4;
+			
+			public static int[] AppCompatTextView = new int[] {
+					16842804,
+					2130772008};
+			
+			// aapt resource value: 0
+			public const int AppCompatTextView_android_textAppearance = 0;
+			
+			// aapt resource value: 1
+			public const int AppCompatTextView_textAllCaps = 1;
+			
+			public static int[] CalendarCellState = new int[] {
+					2130772179};
+			
+			// aapt resource value: 0
+			public const int CalendarCellState_state_calendar_cell_today = 0;
+			
+			public static int[] CalendarTheme = new int[] {
+					2130772189};
+			
+			// aapt resource value: 0
+			public const int CalendarTheme_calendarStyle = 0;
+			
+			public static int[] DrawerArrowToggle = new int[] {
+					2130772009,
+					2130772010,
+					2130772011,
+					2130772012,
+					2130772013,
+					2130772014,
+					2130772015,
+					2130772016};
 			
 			// aapt resource value: 6
 			public const int DrawerArrowToggle_barSize = 6;
@@ -2808,10 +4568,10 @@ namespace X_Calendar.Droid
 					16843046,
 					16843047,
 					16843048,
-					2130771979,
-					2130772008,
-					2130772009,
-					2130772010};
+					2130771983,
+					2130772017,
+					2130772018,
+					2130772019};
 			
 			// aapt resource value: 2
 			public const int LinearLayoutCompat_android_baselineAligned = 2;
@@ -2908,10 +4668,10 @@ namespace X_Calendar.Droid
 					16843236,
 					16843237,
 					16843375,
-					2130772011,
-					2130772012,
-					2130772013,
-					2130772014};
+					2130772020,
+					2130772021,
+					2130772022,
+					2130772023};
 			
 			// aapt resource value: 14
 			public const int MenuItem_actionLayout = 14;
@@ -2972,7 +4732,7 @@ namespace X_Calendar.Droid
 					16843055,
 					16843056,
 					16843057,
-					2130772015};
+					2130772024};
 			
 			// aapt resource value: 4
 			public const int MenuView_android_headerBackground = 4;
@@ -2999,9 +4759,9 @@ namespace X_Calendar.Droid
 			public const int MenuView_preserveIconSpacing = 7;
 			
 			public static int[] PointerLayout = new int[] {
-					2130772137,
-					2130772138,
-					2130772139};
+					2130772173,
+					2130772174,
+					2130772175};
 			
 			// aapt resource value: 2
 			public const int PointerLayout_pointerFill = 2;
@@ -3014,7 +4774,7 @@ namespace X_Calendar.Droid
 			
 			public static int[] PopupWindow = new int[] {
 					16843126,
-					2130772016};
+					2130772025};
 			
 			// aapt resource value: 0
 			public const int PopupWindow_android_popupBackground = 0;
@@ -3023,21 +4783,21 @@ namespace X_Calendar.Droid
 			public const int PopupWindow_overlapAnchor = 1;
 			
 			public static int[] PopupWindowBackgroundState = new int[] {
-					2130772017};
+					2130772026};
 			
 			// aapt resource value: 0
 			public const int PopupWindowBackgroundState_state_above_anchor = 0;
 			
 			public static int[] RadCalendarView = new int[] {
-					2130772144,
-					2130772145,
-					2130772146,
-					2130772147,
-					2130772148,
-					2130772149,
-					2130772150,
-					2130772151,
-					2130772152};
+					2130772180,
+					2130772181,
+					2130772182,
+					2130772183,
+					2130772184,
+					2130772185,
+					2130772186,
+					2130772187,
+					2130772188};
 			
 			// aapt resource value: 0
 			public const int RadCalendarView_calendarBackground = 0;
@@ -3067,8 +4827,8 @@ namespace X_Calendar.Droid
 			public const int RadCalendarView_weekNumberDisplayMode = 7;
 			
 			public static int[] RadScrollView = new int[] {
-					2130772140,
-					2130772141};
+					2130772176,
+					2130772177};
 			
 			// aapt resource value: 0
 			public const int RadScrollView_fillViewport = 0;
@@ -3077,27 +4837,51 @@ namespace X_Calendar.Droid
 			public const int RadScrollView_scrollMode = 1;
 			
 			public static int[] RadScrollViewTheme = new int[] {
-					2130772142};
+					2130772178};
 			
 			// aapt resource value: 0
 			public const int RadScrollViewTheme_radScrollViewStyle = 0;
+			
+			public static int[] RecyclerView = new int[] {
+					16842948,
+					2130771968,
+					2130771969,
+					2130771970,
+					2130771971};
+			
+			// aapt resource value: 0
+			public const int RecyclerView_android_orientation = 0;
+			
+			// aapt resource value: 1
+			public const int RecyclerView_layoutManager = 1;
+			
+			// aapt resource value: 3
+			public const int RecyclerView_reverseLayout = 3;
+			
+			// aapt resource value: 2
+			public const int RecyclerView_spanCount = 2;
+			
+			// aapt resource value: 4
+			public const int RecyclerView_stackFromEnd = 4;
 			
 			public static int[] SearchView = new int[] {
 					16842970,
 					16843039,
 					16843296,
 					16843364,
-					2130772018,
-					2130772019,
-					2130772020,
-					2130772021,
-					2130772022,
-					2130772023,
-					2130772024,
-					2130772025,
-					2130772026,
 					2130772027,
-					2130772028};
+					2130772028,
+					2130772029,
+					2130772030,
+					2130772031,
+					2130772032,
+					2130772033,
+					2130772034,
+					2130772035,
+					2130772036,
+					2130772037,
+					2130772038,
+					2130772039};
 			
 			// aapt resource value: 0
 			public const int SearchView_android_focusable = 0;
@@ -3111,14 +4895,17 @@ namespace X_Calendar.Droid
 			// aapt resource value: 1
 			public const int SearchView_android_maxWidth = 1;
 			
-			// aapt resource value: 7
-			public const int SearchView_closeIcon = 7;
-			
-			// aapt resource value: 11
-			public const int SearchView_commitIcon = 11;
-			
 			// aapt resource value: 8
-			public const int SearchView_goIcon = 8;
+			public const int SearchView_closeIcon = 8;
+			
+			// aapt resource value: 13
+			public const int SearchView_commitIcon = 13;
+			
+			// aapt resource value: 7
+			public const int SearchView_defaultQueryHint = 7;
+			
+			// aapt resource value: 9
+			public const int SearchView_goIcon = 9;
 			
 			// aapt resource value: 5
 			public const int SearchView_iconifiedByDefault = 5;
@@ -3126,23 +4913,26 @@ namespace X_Calendar.Droid
 			// aapt resource value: 4
 			public const int SearchView_layout = 4;
 			
-			// aapt resource value: 13
-			public const int SearchView_queryBackground = 13;
+			// aapt resource value: 15
+			public const int SearchView_queryBackground = 15;
 			
 			// aapt resource value: 6
 			public const int SearchView_queryHint = 6;
 			
-			// aapt resource value: 9
-			public const int SearchView_searchIcon = 9;
-			
-			// aapt resource value: 14
-			public const int SearchView_submitBackground = 14;
-			
-			// aapt resource value: 12
-			public const int SearchView_suggestionRowLayout = 12;
+			// aapt resource value: 11
+			public const int SearchView_searchHintIcon = 11;
 			
 			// aapt resource value: 10
-			public const int SearchView_voiceIcon = 10;
+			public const int SearchView_searchIcon = 10;
+			
+			// aapt resource value: 16
+			public const int SearchView_submitBackground = 16;
+			
+			// aapt resource value: 14
+			public const int SearchView_suggestionRowLayout = 14;
+			
+			// aapt resource value: 12
+			public const int SearchView_voiceIcon = 12;
 			
 			public static int[] Spinner = new int[] {
 					16842927,
@@ -3152,10 +4942,10 @@ namespace X_Calendar.Droid
 					16843362,
 					16843436,
 					16843437,
-					2130772029,
-					2130772030,
-					2130772031,
-					2130772032};
+					2130772040,
+					2130772041,
+					2130772042,
+					2130772043};
 			
 			// aapt resource value: 1
 			public const int Spinner_android_background = 1;
@@ -3194,13 +4984,13 @@ namespace X_Calendar.Droid
 					16843044,
 					16843045,
 					16843074,
-					2130772033,
-					2130772034,
-					2130772035,
-					2130772036,
-					2130772037,
-					2130772038,
-					2130772039};
+					2130772044,
+					2130772045,
+					2130772046,
+					2130772047,
+					2130772048,
+					2130772049,
+					2130772050};
 			
 			// aapt resource value: 1
 			public const int SwitchCompat_android_textOff = 1;
@@ -3232,19 +5022,31 @@ namespace X_Calendar.Droid
 			// aapt resource value: 3
 			public const int SwitchCompat_track = 3;
 			
+			public static int[] TextAppearance = new int[] {
+					16842901,
+					16842902,
+					16842903,
+					16842904,
+					2130772008};
+			
+			// aapt resource value: 3
+			public const int TextAppearance_android_textColor = 3;
+			
+			// aapt resource value: 0
+			public const int TextAppearance_android_textSize = 0;
+			
+			// aapt resource value: 2
+			public const int TextAppearance_android_textStyle = 2;
+			
+			// aapt resource value: 1
+			public const int TextAppearance_android_typeface = 1;
+			
+			// aapt resource value: 4
+			public const int TextAppearance_textAllCaps = 4;
+			
 			public static int[] Theme = new int[] {
 					16842839,
-					2130772040,
-					2130772041,
-					2130772042,
-					2130772043,
-					2130772044,
-					2130772045,
-					2130772046,
-					2130772047,
-					2130772048,
-					2130772049,
-					2130772050,
+					16842926,
 					2130772051,
 					2130772052,
 					2130772053,
@@ -3315,267 +5117,7 @@ namespace X_Calendar.Droid
 					2130772118,
 					2130772119,
 					2130772120,
-					2130772121};
-			
-			// aapt resource value: 19
-			public const int Theme_actionBarDivider = 19;
-			
-			// aapt resource value: 20
-			public const int Theme_actionBarItemBackground = 20;
-			
-			// aapt resource value: 13
-			public const int Theme_actionBarPopupTheme = 13;
-			
-			// aapt resource value: 18
-			public const int Theme_actionBarSize = 18;
-			
-			// aapt resource value: 15
-			public const int Theme_actionBarSplitStyle = 15;
-			
-			// aapt resource value: 14
-			public const int Theme_actionBarStyle = 14;
-			
-			// aapt resource value: 9
-			public const int Theme_actionBarTabBarStyle = 9;
-			
-			// aapt resource value: 8
-			public const int Theme_actionBarTabStyle = 8;
-			
-			// aapt resource value: 10
-			public const int Theme_actionBarTabTextStyle = 10;
-			
-			// aapt resource value: 16
-			public const int Theme_actionBarTheme = 16;
-			
-			// aapt resource value: 17
-			public const int Theme_actionBarWidgetTheme = 17;
-			
-			// aapt resource value: 43
-			public const int Theme_actionButtonStyle = 43;
-			
-			// aapt resource value: 38
-			public const int Theme_actionDropDownStyle = 38;
-			
-			// aapt resource value: 21
-			public const int Theme_actionMenuTextAppearance = 21;
-			
-			// aapt resource value: 22
-			public const int Theme_actionMenuTextColor = 22;
-			
-			// aapt resource value: 25
-			public const int Theme_actionModeBackground = 25;
-			
-			// aapt resource value: 24
-			public const int Theme_actionModeCloseButtonStyle = 24;
-			
-			// aapt resource value: 27
-			public const int Theme_actionModeCloseDrawable = 27;
-			
-			// aapt resource value: 29
-			public const int Theme_actionModeCopyDrawable = 29;
-			
-			// aapt resource value: 28
-			public const int Theme_actionModeCutDrawable = 28;
-			
-			// aapt resource value: 33
-			public const int Theme_actionModeFindDrawable = 33;
-			
-			// aapt resource value: 30
-			public const int Theme_actionModePasteDrawable = 30;
-			
-			// aapt resource value: 35
-			public const int Theme_actionModePopupWindowStyle = 35;
-			
-			// aapt resource value: 31
-			public const int Theme_actionModeSelectAllDrawable = 31;
-			
-			// aapt resource value: 32
-			public const int Theme_actionModeShareDrawable = 32;
-			
-			// aapt resource value: 26
-			public const int Theme_actionModeSplitBackground = 26;
-			
-			// aapt resource value: 23
-			public const int Theme_actionModeStyle = 23;
-			
-			// aapt resource value: 34
-			public const int Theme_actionModeWebSearchDrawable = 34;
-			
-			// aapt resource value: 11
-			public const int Theme_actionOverflowButtonStyle = 11;
-			
-			// aapt resource value: 12
-			public const int Theme_actionOverflowMenuStyle = 12;
-			
-			// aapt resource value: 50
-			public const int Theme_activityChooserViewStyle = 50;
-			
-			// aapt resource value: 0
-			public const int Theme_android_windowIsFloating = 0;
-			
-			// aapt resource value: 45
-			public const int Theme_buttonBarButtonStyle = 45;
-			
-			// aapt resource value: 44
-			public const int Theme_buttonBarStyle = 44;
-			
-			// aapt resource value: 77
-			public const int Theme_colorAccent = 77;
-			
-			// aapt resource value: 81
-			public const int Theme_colorButtonNormal = 81;
-			
-			// aapt resource value: 79
-			public const int Theme_colorControlActivated = 79;
-			
-			// aapt resource value: 80
-			public const int Theme_colorControlHighlight = 80;
-			
-			// aapt resource value: 78
-			public const int Theme_colorControlNormal = 78;
-			
-			// aapt resource value: 75
-			public const int Theme_colorPrimary = 75;
-			
-			// aapt resource value: 76
-			public const int Theme_colorPrimaryDark = 76;
-			
-			// aapt resource value: 82
-			public const int Theme_colorSwitchThumbNormal = 82;
-			
-			// aapt resource value: 49
-			public const int Theme_dividerHorizontal = 49;
-			
-			// aapt resource value: 48
-			public const int Theme_dividerVertical = 48;
-			
-			// aapt resource value: 67
-			public const int Theme_dropDownListViewStyle = 67;
-			
-			// aapt resource value: 39
-			public const int Theme_dropdownListPreferredItemHeight = 39;
-			
-			// aapt resource value: 56
-			public const int Theme_editTextBackground = 56;
-			
-			// aapt resource value: 55
-			public const int Theme_editTextColor = 55;
-			
-			// aapt resource value: 42
-			public const int Theme_homeAsUpIndicator = 42;
-			
-			// aapt resource value: 74
-			public const int Theme_listChoiceBackgroundIndicator = 74;
-			
-			// aapt resource value: 68
-			public const int Theme_listPopupWindowStyle = 68;
-			
-			// aapt resource value: 62
-			public const int Theme_listPreferredItemHeight = 62;
-			
-			// aapt resource value: 64
-			public const int Theme_listPreferredItemHeightLarge = 64;
-			
-			// aapt resource value: 63
-			public const int Theme_listPreferredItemHeightSmall = 63;
-			
-			// aapt resource value: 65
-			public const int Theme_listPreferredItemPaddingLeft = 65;
-			
-			// aapt resource value: 66
-			public const int Theme_listPreferredItemPaddingRight = 66;
-			
-			// aapt resource value: 71
-			public const int Theme_panelBackground = 71;
-			
-			// aapt resource value: 73
-			public const int Theme_panelMenuListTheme = 73;
-			
-			// aapt resource value: 72
-			public const int Theme_panelMenuListWidth = 72;
-			
-			// aapt resource value: 53
-			public const int Theme_popupMenuStyle = 53;
-			
-			// aapt resource value: 54
-			public const int Theme_popupWindowStyle = 54;
-			
-			// aapt resource value: 61
-			public const int Theme_searchViewStyle = 61;
-			
-			// aapt resource value: 46
-			public const int Theme_selectableItemBackground = 46;
-			
-			// aapt resource value: 47
-			public const int Theme_selectableItemBackgroundBorderless = 47;
-			
-			// aapt resource value: 41
-			public const int Theme_spinnerDropDownItemStyle = 41;
-			
-			// aapt resource value: 40
-			public const int Theme_spinnerStyle = 40;
-			
-			// aapt resource value: 57
-			public const int Theme_switchStyle = 57;
-			
-			// aapt resource value: 36
-			public const int Theme_textAppearanceLargePopupMenu = 36;
-			
-			// aapt resource value: 69
-			public const int Theme_textAppearanceListItem = 69;
-			
-			// aapt resource value: 70
-			public const int Theme_textAppearanceListItemSmall = 70;
-			
-			// aapt resource value: 59
-			public const int Theme_textAppearanceSearchResultSubtitle = 59;
-			
-			// aapt resource value: 58
-			public const int Theme_textAppearanceSearchResultTitle = 58;
-			
-			// aapt resource value: 37
-			public const int Theme_textAppearanceSmallPopupMenu = 37;
-			
-			// aapt resource value: 60
-			public const int Theme_textColorSearchUrl = 60;
-			
-			// aapt resource value: 52
-			public const int Theme_toolbarNavigationButtonStyle = 52;
-			
-			// aapt resource value: 51
-			public const int Theme_toolbarStyle = 51;
-			
-			// aapt resource value: 1
-			public const int Theme_windowActionBar = 1;
-			
-			// aapt resource value: 2
-			public const int Theme_windowActionBarOverlay = 2;
-			
-			// aapt resource value: 3
-			public const int Theme_windowActionModeOverlay = 3;
-			
-			// aapt resource value: 7
-			public const int Theme_windowFixedHeightMajor = 7;
-			
-			// aapt resource value: 5
-			public const int Theme_windowFixedHeightMinor = 5;
-			
-			// aapt resource value: 4
-			public const int Theme_windowFixedWidthMajor = 4;
-			
-			// aapt resource value: 6
-			public const int Theme_windowFixedWidthMinor = 6;
-			
-			public static int[] Toolbar = new int[] {
-					16842927,
-					16843072,
-					2130771971,
-					2130771974,
-					2130771990,
-					2130771991,
-					2130771992,
-					2130771993,
-					2130771995,
+					2130772121,
 					2130772122,
 					2130772123,
 					2130772124,
@@ -3588,7 +5130,372 @@ namespace X_Calendar.Droid
 					2130772131,
 					2130772132,
 					2130772133,
-					2130772134};
+					2130772134,
+					2130772135,
+					2130772136,
+					2130772137,
+					2130772138,
+					2130772139,
+					2130772140,
+					2130772141,
+					2130772142,
+					2130772143,
+					2130772144,
+					2130772145,
+					2130772146,
+					2130772147,
+					2130772148,
+					2130772149,
+					2130772150,
+					2130772151,
+					2130772152,
+					2130772153,
+					2130772154,
+					2130772155};
+			
+			// aapt resource value: 23
+			public const int Theme_actionBarDivider = 23;
+			
+			// aapt resource value: 24
+			public const int Theme_actionBarItemBackground = 24;
+			
+			// aapt resource value: 17
+			public const int Theme_actionBarPopupTheme = 17;
+			
+			// aapt resource value: 22
+			public const int Theme_actionBarSize = 22;
+			
+			// aapt resource value: 19
+			public const int Theme_actionBarSplitStyle = 19;
+			
+			// aapt resource value: 18
+			public const int Theme_actionBarStyle = 18;
+			
+			// aapt resource value: 13
+			public const int Theme_actionBarTabBarStyle = 13;
+			
+			// aapt resource value: 12
+			public const int Theme_actionBarTabStyle = 12;
+			
+			// aapt resource value: 14
+			public const int Theme_actionBarTabTextStyle = 14;
+			
+			// aapt resource value: 20
+			public const int Theme_actionBarTheme = 20;
+			
+			// aapt resource value: 21
+			public const int Theme_actionBarWidgetTheme = 21;
+			
+			// aapt resource value: 49
+			public const int Theme_actionButtonStyle = 49;
+			
+			// aapt resource value: 45
+			public const int Theme_actionDropDownStyle = 45;
+			
+			// aapt resource value: 25
+			public const int Theme_actionMenuTextAppearance = 25;
+			
+			// aapt resource value: 26
+			public const int Theme_actionMenuTextColor = 26;
+			
+			// aapt resource value: 29
+			public const int Theme_actionModeBackground = 29;
+			
+			// aapt resource value: 28
+			public const int Theme_actionModeCloseButtonStyle = 28;
+			
+			// aapt resource value: 31
+			public const int Theme_actionModeCloseDrawable = 31;
+			
+			// aapt resource value: 33
+			public const int Theme_actionModeCopyDrawable = 33;
+			
+			// aapt resource value: 32
+			public const int Theme_actionModeCutDrawable = 32;
+			
+			// aapt resource value: 37
+			public const int Theme_actionModeFindDrawable = 37;
+			
+			// aapt resource value: 34
+			public const int Theme_actionModePasteDrawable = 34;
+			
+			// aapt resource value: 39
+			public const int Theme_actionModePopupWindowStyle = 39;
+			
+			// aapt resource value: 35
+			public const int Theme_actionModeSelectAllDrawable = 35;
+			
+			// aapt resource value: 36
+			public const int Theme_actionModeShareDrawable = 36;
+			
+			// aapt resource value: 30
+			public const int Theme_actionModeSplitBackground = 30;
+			
+			// aapt resource value: 27
+			public const int Theme_actionModeStyle = 27;
+			
+			// aapt resource value: 38
+			public const int Theme_actionModeWebSearchDrawable = 38;
+			
+			// aapt resource value: 15
+			public const int Theme_actionOverflowButtonStyle = 15;
+			
+			// aapt resource value: 16
+			public const int Theme_actionOverflowMenuStyle = 16;
+			
+			// aapt resource value: 57
+			public const int Theme_activityChooserViewStyle = 57;
+			
+			// aapt resource value: 90
+			public const int Theme_alertDialogButtonGroupStyle = 90;
+			
+			// aapt resource value: 91
+			public const int Theme_alertDialogCenterButtons = 91;
+			
+			// aapt resource value: 89
+			public const int Theme_alertDialogStyle = 89;
+			
+			// aapt resource value: 92
+			public const int Theme_alertDialogTheme = 92;
+			
+			// aapt resource value: 1
+			public const int Theme_android_windowAnimationStyle = 1;
+			
+			// aapt resource value: 0
+			public const int Theme_android_windowIsFloating = 0;
+			
+			// aapt resource value: 97
+			public const int Theme_autoCompleteTextViewStyle = 97;
+			
+			// aapt resource value: 54
+			public const int Theme_borderlessButtonStyle = 54;
+			
+			// aapt resource value: 51
+			public const int Theme_buttonBarButtonStyle = 51;
+			
+			// aapt resource value: 95
+			public const int Theme_buttonBarNegativeButtonStyle = 95;
+			
+			// aapt resource value: 96
+			public const int Theme_buttonBarNeutralButtonStyle = 96;
+			
+			// aapt resource value: 94
+			public const int Theme_buttonBarPositiveButtonStyle = 94;
+			
+			// aapt resource value: 50
+			public const int Theme_buttonBarStyle = 50;
+			
+			// aapt resource value: 98
+			public const int Theme_buttonStyle = 98;
+			
+			// aapt resource value: 99
+			public const int Theme_buttonStyleSmall = 99;
+			
+			// aapt resource value: 100
+			public const int Theme_checkboxStyle = 100;
+			
+			// aapt resource value: 101
+			public const int Theme_checkedTextViewStyle = 101;
+			
+			// aapt resource value: 83
+			public const int Theme_colorAccent = 83;
+			
+			// aapt resource value: 87
+			public const int Theme_colorButtonNormal = 87;
+			
+			// aapt resource value: 85
+			public const int Theme_colorControlActivated = 85;
+			
+			// aapt resource value: 86
+			public const int Theme_colorControlHighlight = 86;
+			
+			// aapt resource value: 84
+			public const int Theme_colorControlNormal = 84;
+			
+			// aapt resource value: 81
+			public const int Theme_colorPrimary = 81;
+			
+			// aapt resource value: 82
+			public const int Theme_colorPrimaryDark = 82;
+			
+			// aapt resource value: 88
+			public const int Theme_colorSwitchThumbNormal = 88;
+			
+			// aapt resource value: 43
+			public const int Theme_dialogPreferredPadding = 43;
+			
+			// aapt resource value: 42
+			public const int Theme_dialogTheme = 42;
+			
+			// aapt resource value: 56
+			public const int Theme_dividerHorizontal = 56;
+			
+			// aapt resource value: 55
+			public const int Theme_dividerVertical = 55;
+			
+			// aapt resource value: 73
+			public const int Theme_dropDownListViewStyle = 73;
+			
+			// aapt resource value: 46
+			public const int Theme_dropdownListPreferredItemHeight = 46;
+			
+			// aapt resource value: 63
+			public const int Theme_editTextBackground = 63;
+			
+			// aapt resource value: 62
+			public const int Theme_editTextColor = 62;
+			
+			// aapt resource value: 102
+			public const int Theme_editTextStyle = 102;
+			
+			// aapt resource value: 48
+			public const int Theme_homeAsUpIndicator = 48;
+			
+			// aapt resource value: 80
+			public const int Theme_listChoiceBackgroundIndicator = 80;
+			
+			// aapt resource value: 44
+			public const int Theme_listDividerAlertDialog = 44;
+			
+			// aapt resource value: 74
+			public const int Theme_listPopupWindowStyle = 74;
+			
+			// aapt resource value: 68
+			public const int Theme_listPreferredItemHeight = 68;
+			
+			// aapt resource value: 70
+			public const int Theme_listPreferredItemHeightLarge = 70;
+			
+			// aapt resource value: 69
+			public const int Theme_listPreferredItemHeightSmall = 69;
+			
+			// aapt resource value: 71
+			public const int Theme_listPreferredItemPaddingLeft = 71;
+			
+			// aapt resource value: 72
+			public const int Theme_listPreferredItemPaddingRight = 72;
+			
+			// aapt resource value: 77
+			public const int Theme_panelBackground = 77;
+			
+			// aapt resource value: 79
+			public const int Theme_panelMenuListTheme = 79;
+			
+			// aapt resource value: 78
+			public const int Theme_panelMenuListWidth = 78;
+			
+			// aapt resource value: 60
+			public const int Theme_popupMenuStyle = 60;
+			
+			// aapt resource value: 61
+			public const int Theme_popupWindowStyle = 61;
+			
+			// aapt resource value: 103
+			public const int Theme_radioButtonStyle = 103;
+			
+			// aapt resource value: 104
+			public const int Theme_ratingBarStyle = 104;
+			
+			// aapt resource value: 67
+			public const int Theme_searchViewStyle = 67;
+			
+			// aapt resource value: 52
+			public const int Theme_selectableItemBackground = 52;
+			
+			// aapt resource value: 53
+			public const int Theme_selectableItemBackgroundBorderless = 53;
+			
+			// aapt resource value: 47
+			public const int Theme_spinnerDropDownItemStyle = 47;
+			
+			// aapt resource value: 105
+			public const int Theme_spinnerStyle = 105;
+			
+			// aapt resource value: 106
+			public const int Theme_switchStyle = 106;
+			
+			// aapt resource value: 40
+			public const int Theme_textAppearanceLargePopupMenu = 40;
+			
+			// aapt resource value: 75
+			public const int Theme_textAppearanceListItem = 75;
+			
+			// aapt resource value: 76
+			public const int Theme_textAppearanceListItemSmall = 76;
+			
+			// aapt resource value: 65
+			public const int Theme_textAppearanceSearchResultSubtitle = 65;
+			
+			// aapt resource value: 64
+			public const int Theme_textAppearanceSearchResultTitle = 64;
+			
+			// aapt resource value: 41
+			public const int Theme_textAppearanceSmallPopupMenu = 41;
+			
+			// aapt resource value: 93
+			public const int Theme_textColorAlertDialogListItem = 93;
+			
+			// aapt resource value: 66
+			public const int Theme_textColorSearchUrl = 66;
+			
+			// aapt resource value: 59
+			public const int Theme_toolbarNavigationButtonStyle = 59;
+			
+			// aapt resource value: 58
+			public const int Theme_toolbarStyle = 58;
+			
+			// aapt resource value: 2
+			public const int Theme_windowActionBar = 2;
+			
+			// aapt resource value: 4
+			public const int Theme_windowActionBarOverlay = 4;
+			
+			// aapt resource value: 5
+			public const int Theme_windowActionModeOverlay = 5;
+			
+			// aapt resource value: 9
+			public const int Theme_windowFixedHeightMajor = 9;
+			
+			// aapt resource value: 7
+			public const int Theme_windowFixedHeightMinor = 7;
+			
+			// aapt resource value: 6
+			public const int Theme_windowFixedWidthMajor = 6;
+			
+			// aapt resource value: 8
+			public const int Theme_windowFixedWidthMinor = 8;
+			
+			// aapt resource value: 10
+			public const int Theme_windowMinWidthMajor = 10;
+			
+			// aapt resource value: 11
+			public const int Theme_windowMinWidthMinor = 11;
+			
+			// aapt resource value: 3
+			public const int Theme_windowNoTitle = 3;
+			
+			public static int[] Toolbar = new int[] {
+					16842927,
+					16843072,
+					2130771975,
+					2130771978,
+					2130771994,
+					2130771995,
+					2130771996,
+					2130771997,
+					2130771999,
+					2130772156,
+					2130772157,
+					2130772158,
+					2130772159,
+					2130772160,
+					2130772161,
+					2130772162,
+					2130772163,
+					2130772164,
+					2130772165,
+					2130772166,
+					2130772167};
 			
 			// aapt resource value: 0
 			public const int Toolbar_android_gravity = 0;
@@ -3596,11 +5503,11 @@ namespace X_Calendar.Droid
 			// aapt resource value: 1
 			public const int Toolbar_android_minHeight = 1;
 			
-			// aapt resource value: 19
-			public const int Toolbar_collapseContentDescription = 19;
-			
 			// aapt resource value: 18
-			public const int Toolbar_collapseIcon = 18;
+			public const int Toolbar_collapseContentDescription = 18;
+			
+			// aapt resource value: 17
+			public const int Toolbar_collapseIcon = 17;
 			
 			// aapt resource value: 5
 			public const int Toolbar_contentInsetEnd = 5;
@@ -3617,11 +5524,11 @@ namespace X_Calendar.Droid
 			// aapt resource value: 16
 			public const int Toolbar_maxButtonHeight = 16;
 			
-			// aapt resource value: 21
-			public const int Toolbar_navigationContentDescription = 21;
-			
 			// aapt resource value: 20
-			public const int Toolbar_navigationIcon = 20;
+			public const int Toolbar_navigationContentDescription = 20;
+			
+			// aapt resource value: 19
+			public const int Toolbar_navigationIcon = 19;
 			
 			// aapt resource value: 8
 			public const int Toolbar_popupTheme = 8;
@@ -3631,9 +5538,6 @@ namespace X_Calendar.Droid
 			
 			// aapt resource value: 10
 			public const int Toolbar_subtitleTextAppearance = 10;
-			
-			// aapt resource value: 17
-			public const int Toolbar_theme = 17;
 			
 			// aapt resource value: 2
 			public const int Toolbar_title = 2;
@@ -3657,18 +5561,34 @@ namespace X_Calendar.Droid
 			public const int Toolbar_titleTextAppearance = 9;
 			
 			public static int[] View = new int[] {
+					16842752,
 					16842970,
-					2130772135,
-					2130772136};
-			
-			// aapt resource value: 0
-			public const int View_android_focusable = 0;
-			
-			// aapt resource value: 2
-			public const int View_paddingEnd = 2;
+					2130772168,
+					2130772169,
+					2130772170,
+					2130772171,
+					2130772172};
 			
 			// aapt resource value: 1
-			public const int View_paddingStart = 1;
+			public const int View_android_focusable = 1;
+			
+			// aapt resource value: 0
+			public const int View_android_theme = 0;
+			
+			// aapt resource value: 5
+			public const int View_backgroundTint = 5;
+			
+			// aapt resource value: 6
+			public const int View_backgroundTintMode = 6;
+			
+			// aapt resource value: 3
+			public const int View_paddingEnd = 3;
+			
+			// aapt resource value: 2
+			public const int View_paddingStart = 2;
+			
+			// aapt resource value: 4
+			public const int View_theme = 4;
 			
 			public static int[] ViewStubCompat = new int[] {
 					16842960,

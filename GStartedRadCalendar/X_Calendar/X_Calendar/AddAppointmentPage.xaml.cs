@@ -23,7 +23,7 @@ namespace X_Calendar
                 StartDate = startDatePicker.Date,
                 EndDate = endDatePicker.Date.AddSeconds(1),
                 Title = title.Text == null ? "(No Title)" : title.Text
-             });
+            });
 
             Navigation.PopAsync(true);
         }

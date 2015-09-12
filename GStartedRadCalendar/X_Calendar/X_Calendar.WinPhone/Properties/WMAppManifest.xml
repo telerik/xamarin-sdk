@@ -2,7 +2,7 @@
 
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
   <DefaultLanguage xmlns="" code="en-US"/>
-  <App xmlns="" ProductID="{6626f34f-631e-48ad-9eb6-fb00c771c603}" Title="X_Calendar.WinPhone" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal"  Author="X_Calendar.WinPhone author" Description="Sample description" Publisher="X_Calendar.WinPhone" PublisherID="{069655d5-4f01-4b29-8258-1790f6ec2a30}">
+  <App xmlns="" ProductID="{a002fdf4-3e8d-4245-8643-4c68442a2083}" Title="X_Calendar.WinPhone" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal"  Author="X_Calendar.WinPhone author" Description="Sample description" Publisher="X_Calendar.WinPhone" PublisherID="{d0e64982-97d8-40dd-81db-60ea580ba326}">
     <IconPath IsRelative="true" IsResource="false">Assets\ApplicationIcon.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_NETWORKING"/>

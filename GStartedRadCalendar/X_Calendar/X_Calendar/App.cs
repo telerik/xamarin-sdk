@@ -12,7 +12,7 @@ namespace X_Calendar
         public App()
         {
             // The root page of your application
-            MainPage = new NavigationPage(new AppointmentsPage()); 
+            MainPage = new NavigationPage(new AppointmentsPage());
         }
 
         protected override void OnStart()

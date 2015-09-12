@@ -1,4 +1,5 @@
 ﻿using System;
+
 using Android.App;
 using Android.Content.PM;
 using Android.Runtime;
@@ -7,6 +8,7 @@ using Android.Widget;
 using Android.OS;
 
 [assembly: Xamarin.Forms.ExportRenderer(typeof(Telerik.XamarinForms.Input.RadCalendar), typeof(Telerik.XamarinForms.InputRenderer.Android.CalendarRenderer))]
+
 namespace X_Calendar.Droid
 {
     [Activity(Label = "X_Calendar", Icon = "@drawable/icon", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
@@ -17,7 +19,7 @@ namespace X_Calendar.Droid
             base.OnCreate(bundle);
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
-            LoadApplication(new App());
+            LoadApplication(new X_Calendar.App());
         }
     }
 }

@@ -4,8 +4,10 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Telerik.XamarinForms.Input;
+
 using Xamarin.Forms;
+
+using Telerik.XamarinForms.Input;
 
 namespace X_Calendar
 {
@@ -14,7 +16,7 @@ namespace X_Calendar
         static AppointmentsPage()
         {
             MyStaticFields.Appointments = new ObservableCollection<Appointment>() { new Appointment() { StartDate = DateTime.Now.AddDays(-1), EndDate = DateTime.Now.AddDays(-1).AddMinutes(1), Title = "Call Steve" } };
-            MyStaticFields.Appointments.Add( new Appointment() { StartDate = DateTime.Now, EndDate = DateTime.Now.AddMinutes(1), Title = "Tickets" } );
+            MyStaticFields.Appointments.Add(new Appointment() { StartDate = DateTime.Now, EndDate = DateTime.Now.AddMinutes(1), Title = "Tickets" });
             MyStaticFields.Appointments.Add(new Appointment() { StartDate = DateTime.Now.AddDays(3), EndDate = DateTime.Now.AddDays(3).AddMinutes(1), Title = "Travel" });
         }
 

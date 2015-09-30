@@ -13,16 +13,16 @@ namespace Examples
 		{
 			base.ViewDidLoad ();
 			this.NavItem.Title = "Positions";
-			this.SideDrawerView.SideDrawer.Transition = TKSideDrawerTransitionType.Reveal;
+			this.SideDrawerView.SideDrawer.TransitionType = TKSideDrawerTransitionType.Reveal;
 			this.SideDrawerView.SideDrawer.Fill = new TKSolidFill (UIColor.Gray);
 		}
 
 		public override void AddButtons ()
 		{
-			this.CreateButton ("Left", this, new Selector ("LeftSideDrawer"), new CGPoint (15, 80));
-			this.CreateButton ("Right", this, new Selector ("RightSideDrawer"), new CGPoint (15, 130));
-			this.CreateButton ("Top", this, new Selector ("TopSideDrawer"), new CGPoint (15, 180));
-			this.CreateButton ("Bottom", this, new Selector ("BottomSideDrawer"), new CGPoint (15, 230));
+			this.CreateButton ("Left", this, new Selector ("LeftSideDrawer"));
+			this.CreateButton ("Right", this, new Selector ("RightSideDrawer"));
+			this.CreateButton ("Top", this, new Selector ("TopSideDrawer"));
+			this.CreateButton ("Bottom", this, new Selector ("BottomSideDrawer"));
 		}
 
 		[Export ("LeftSideDrawer")]

@@ -27,11 +27,11 @@ namespace Examples
 			}
 		}
 
-		public override bool ValidateProperty (TKDataFormEntityProperty property)
+		public override bool ValidateProperty (TKEntityProperty property)
 		{
 			emptyField = false;
 			incorrectFormat = false;
-			NSString email = (NSString)property.Value;
+			NSString email = (NSString)property.ValueCandidate;
 			if (email == null || email.Length == 0) {
 				emptyField = true;
 				return false;

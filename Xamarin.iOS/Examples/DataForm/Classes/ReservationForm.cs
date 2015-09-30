@@ -5,18 +5,6 @@ namespace Examples
 {
 	public class ReservationForm : NSObject
 	{
-		[Export("Origin")]
-		public int Origin { get; set;}
-
-		[Export("CancelReservation")]
-		public string CancelReservation{ get; set;}
-
-		[Export("Section")]
-		public int Section { get; set;}
-
-		[Export("Table")]
-		public int Table { get; set;}
-
 		[Export("Name")]
 		public string Name { get; set;}
 
@@ -32,6 +20,22 @@ namespace Examples
 		[Export("Guests")]
 		public int Guests { get; set;}
 
+		[Export("Section")]
+		public int Section { get; set;}
+
+		[Export("Table")]
+		public int Table { get; set;}
+
+
+		[Export("Origin")]
+		public int Origin { get; set;}
+
+
+
+
+
+
+
 		public ReservationForm ()
 		{
 			this.Name = "";
@@ -42,7 +46,6 @@ namespace Examples
 			this.Section = 0;
 			this.Table = 0;
 			this.Origin = 0;
-			this.CancelReservation = "";
 		}
 	}
 }

@@ -22,12 +22,13 @@ namespace Examples
 			}
 		}
 
-		public override bool ValidateProperty (TKDataFormEntityProperty property)
+		public override bool ValidateProperty (TKEntityProperty property)
 		{
 			shortPassword = false;
-			NSString password = (NSString)property.Value;
+			NSString password = (NSString)property.ValueCandidate;
 			if (password.Length < 6) {
 				shortPassword = true;
+				return false;
 			}
 
 			return true;

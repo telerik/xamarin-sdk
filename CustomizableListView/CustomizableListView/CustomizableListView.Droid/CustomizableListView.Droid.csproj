@@ -60,28 +60,28 @@
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Xml" />
     <Reference Include="Telerik.Xamarin.Android.Common">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\Android\Telerik.Xamarin.Android.Common.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\Android\Telerik.Xamarin.Android.Common.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Xamarin.Android.Data">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\Android\Telerik.Xamarin.Android.Data.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\Android\Telerik.Xamarin.Android.Data.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Xamarin.Android.Input">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\Android\Telerik.Xamarin.Android.Input.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\Android\Telerik.Xamarin.Android.Input.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Xamarin.Android.List">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\Android\Telerik.Xamarin.Android.List.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\Android\Telerik.Xamarin.Android.List.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.XamarinForms.Common">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\XamarinForms\Common\Telerik.XamarinForms.Common.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\XamarinForms\Common\Telerik.XamarinForms.Common.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.XamarinForms.Common.Android">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\XamarinForms\Android\Telerik.XamarinForms.Common.Android.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\XamarinForms\Android\Telerik.XamarinForms.Common.Android.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.XamarinForms.DataControls">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\XamarinForms\Common\Telerik.XamarinForms.DataControls.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\XamarinForms\Common\Telerik.XamarinForms.DataControls.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.XamarinForms.DataControlsRenderer.Android">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\XamarinForms\Android\Telerik.XamarinForms.DataControlsRenderer.Android.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\XamarinForms\Android\Telerik.XamarinForms.DataControlsRenderer.Android.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -114,6 +114,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CustomListViewRenderer.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -4,7 +4,7 @@ using Android.Content.PM;
 using Android.OS;
 using Telerik.XamarinForms.Common.Android;
 
-[assembly: Xamarin.Forms.ExportRenderer(typeof(Telerik.XamarinForms.DataControls.RadListView), typeof(Telerik.XamarinForms.DataControlsRenderer.Android.ListViewRenderer))]
+[assembly: Xamarin.Forms.ExportRenderer(typeof(Telerik.XamarinForms.DataControls.RadListView), typeof(CustomizableListView.Droid.CustomListViewRenderer))]
 namespace CustomizableListView.Droid
 {
     [Activity(Label = "CustomizableListView", Icon = "@drawable/icon", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]

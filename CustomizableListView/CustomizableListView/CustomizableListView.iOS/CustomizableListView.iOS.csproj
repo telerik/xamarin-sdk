@@ -126,19 +126,19 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Telerik.Xamarin.iOS">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\iOS\Telerik.Xamarin.iOS.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\iOS\Telerik.Xamarin.iOS.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.XamarinForms.Common">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\XamarinForms\Common\Telerik.XamarinForms.Common.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\XamarinForms\Common\Telerik.XamarinForms.Common.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.XamarinForms.Common.iOS">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\XamarinForms\iOS\Telerik.XamarinForms.Common.iOS.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\XamarinForms\iOS\Telerik.XamarinForms.Common.iOS.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.XamarinForms.DataControls">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\XamarinForms\Common\Telerik.XamarinForms.DataControls.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\XamarinForms\Common\Telerik.XamarinForms.DataControls.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.XamarinForms.DataControlsRenderer.iOS">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\XamarinForms\iOS\Telerik.XamarinForms.DataControlsRenderer.iOS.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\XamarinForms\iOS\Telerik.XamarinForms.DataControlsRenderer.iOS.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.Forms.Core">
       <HintPath>..\..\packages\Xamarin.Forms.1.4.4.6392\lib\Xamarin.iOS10\Xamarin.Forms.Core.dll</HintPath>

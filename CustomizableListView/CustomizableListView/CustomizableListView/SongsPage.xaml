@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CustomizableListView.SongsPage"
+             xmlns:local="clr-namespace:CustomizableListView;assembly=CustomizableListView"
+             xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.XamarinForms.DataControls"
+             xmlns:telerikListView="clr-namespace:Telerik.XamarinForms.DataControls.ListView;assembly=Telerik.XamarinForms.DataControls">
+  <ContentPage.Resources>
+    <ResourceDictionary>
+
+      <local:FavouriteImageConverter x:Key="FavouriteImageConverter"/>
+      <local:FavouriteButtonConverter x:Key="FavouriteButtonConverter"/>
+
+      <Style TargetType="Button" x:Key="ButtonStyle">
+        <Style.Setters>
+          <Setter Property="WidthRequest" Value="50"/>
+          <Setter Property="BorderRadius" Value="0"/>
+          <Setter Property="BackgroundColor" Value="Transparent"/>
+          <Setter Property="VerticalOptions" Value="Fill"/>
+          <Setter Property="HorizontalOptions" Value="Fill"/>
+        </Style.Setters>
+      </Style>
+      <Color x:Key="BackgroundColor">#FFEBC0</Color>
+      <Color x:Key="SelectedBackgroundColor">#FFF7E6</Color>
+    </ResourceDictionary>
+  </ContentPage.Resources>
+
+  <Grid BackgroundColor="#463003">
+    <Grid Padding="0,20,0,0">
+      <Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition/>
+      </Grid.RowDefinitions>
+      <Grid Padding="10,0,0,0">
+        <Label Text="Playlist" FontSize="Large" TextColor="White" FontAttributes="Bold"/>
+      </Grid>
+      <telerikDataControls:RadListView x:Name="listView" ItemsSource="{Binding Songs}"
+                                       IsItemSwipeEnabled="True"
+                                       SelectionMode="Single"
+                                       SwipeOffset="50,0,50,0"
+                                       BackgroundColor="#463003"
+                                       Grid.Row="1">
+        <telerikDataControls:RadListView.SelectedItemStyle>
+          <telerikListView:ListViewItemStyle BackgroundColor="{StaticResource SelectedBackgroundColor}" BorderLocation="Bottom" BorderColor="#A0967D" BorderWidth="2"/>
+        </telerikDataControls:RadListView.SelectedItemStyle>
+        <telerikDataControls:RadListView.ItemStyle>
+          <telerikListView:ListViewItemStyle BackgroundColor="{StaticResource BackgroundColor}" BorderLocation="Bottom" BorderColor="#A0967D" BorderWidth="2"/>
+        </telerikDataControls:RadListView.ItemStyle>
+        <telerikDataControls:RadListView.PressedItemStyle>
+          <telerikListView:ListViewItemStyle BackgroundColor="{StaticResource BackgroundColor}" BorderLocation="Bottom" BorderColor="#A0967D" BorderWidth="2"/>
+        </telerikDataControls:RadListView.PressedItemStyle>
+
+        <telerikDataControls:RadListView.LayoutDefinition>
+          <telerikListView:ListViewLinearLayout ItemLength="100" />
+        </telerikDataControls:RadListView.LayoutDefinition>
+
+        <telerikDataControls:RadListView.ItemTemplate>
+          <DataTemplate>
+            <telerikListView:ListViewTemplateCell>
+              <telerikListView:ListViewTemplateCell.View>
+                <Grid Padding="10">
+                  <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="90"/>
+                    <ColumnDefinition Width="*"/>
+                  </Grid.ColumnDefinitions>
+                  <Image Source="{Binding AlbumArt}"/>
+                  <StackLayout Padding="10,0,0,0" Grid.Column="1">
+                    <Grid>
+                      <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                      </Grid.ColumnDefinitions>
+                      <Label Text="{Binding Title}" TextColor="#694A00" LineBreakMode="TailTruncation" FontSize="Large"/>
+                      <Image Source="{Binding IsFavourite, Converter={StaticResource FavouriteImageConverter}}" Grid.Column="1"/>
+                    </Grid>
+                    <StackLayout Orientation="Horizontal" Padding="5,0,0,0">
+                      <Label TextColor="#806015" Text="by" FontAttributes="Italic" FontSize="Medium"/>
+                      <Label TextColor="#806015" Text="{Binding Author}" LineBreakMode="TailTruncation" FontSize="Medium"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Padding="15,0,0,0">
+                      <Label TextColor="#A0967D" Text="{Binding Album}" LineBreakMode="TailTruncation" FontSize="Small"/>
+                    </StackLayout>
+                  </StackLayout>
+                </Grid>
+              </telerikListView:ListViewTemplateCell.View>
+            </telerikListView:ListViewTemplateCell>
+          </DataTemplate>
+        </telerikDataControls:RadListView.ItemTemplate>
+
+        <telerikDataControls:RadListView.ItemSwipeContentTemplate>
+          <DataTemplate>
+            <Grid>
+              <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+              </Grid.ColumnDefinitions>
+              <Grid BackgroundColor="#33FFFFFF" Grid.Column="0">
+                <Button Image="{Binding IsFavourite, Converter={StaticResource FavouriteButtonConverter}}" Style="{StaticResource ButtonStyle}" Clicked="LoveButtonClick"/>
+              </Grid>
+              <Grid BackgroundColor="#33FF0000" Grid.Column="2">
+                <Button Image="trash.png" Style="{StaticResource ButtonStyle}" Clicked="DeleteButtonClick"/>
+              </Grid>
+            </Grid>
+          </DataTemplate>
+        </telerikDataControls:RadListView.ItemSwipeContentTemplate>
+      </telerikDataControls:RadListView>
+    </Grid>
+  </Grid>
+</ContentPage>

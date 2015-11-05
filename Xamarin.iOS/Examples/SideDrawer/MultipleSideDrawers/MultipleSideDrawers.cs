@@ -7,10 +7,12 @@ using TelerikUI;
 
 namespace Examples
 {
-	public class SideDrawerGettingStarted : ExampleViewController
+	public class MultipleSideDrawers : ExampleViewController
 	{
 		private TKSideDrawerSection primarySection;
 		private TKSideDrawerSection labelsSection;
+		private TKSideDrawerSection inboxSection;
+		private TKSideDrawerSection mobileSection;
 		SideDrawerDelegate sideDrawerDelegate;
 
 		public UINavigationItem NavItem {
@@ -26,8 +28,7 @@ namespace Examples
 		public override void ViewDidLoad ()
 		{
 			base.ViewDidLoad ();
-			this.NavigationController.InteractivePopGestureRecognizer.Enabled = false;
-		
+
 			this.SideDrawerView = new TKSideDrawerView (this.View.Bounds);
 			this.SideDrawerView.AutoresizingMask = UIViewAutoresizing.FlexibleHeight | UIViewAutoresizing.FlexibleWidth;
 			this.View.AddSubview (this.SideDrawerView);
@@ -40,8 +41,12 @@ namespace Examples
 			UINavigationBar navBar = new UINavigationBar (new CGRect (0, 0, this.SideDrawerView.MainView.Bounds.Width, 44));
 			navBar.AutoresizingMask = UIViewAutoresizing.FlexibleWidth;
 			this.NavItem = new UINavigationItem ();
-			UIBarButtonItem showSideDrawer = new UIBarButtonItem (new UIImage ("menu.png"), UIBarButtonItemStyle.Plain, this, new Selector ("ShowSideDrawer"));
-			this.NavItem.LeftBarButtonItem = showSideDrawer;
+
+			UIBarButtonItem showLeftSideDrawer = new UIBarButtonItem (new UIImage ("menu.png"), UIBarButtonItemStyle.Plain, this, new Selector ("ShowLeftSideDrawer"));
+			this.NavItem.LeftBarButtonItem = showLeftSideDrawer;
+			UIBarButtonItem showRightSideDrawer = new UIBarButtonItem (new UIImage ("menu.png"), UIBarButtonItemStyle.Plain, this, new Selector ("ShowRightSideDrawer"));
+			this.NavItem.RightBarButtonItem = showRightSideDrawer;
+
 			navBar.Items = new UINavigationItem[] { this.NavItem };
 			this.SideDrawerView.MainView.AddSubview (navBar);
 
@@ -56,12 +61,30 @@ namespace Examples
 			labelsSection.AddItem ("Drafts");
 
 			this.sideDrawerDelegate = new SideDrawerDelegate ();
-			TKSideDrawer sideDrawer = this.SideDrawerView.SideDrawers[0];
-			sideDrawer.HeaderView = new SideDrawerHeader (true, this, new Selector ("DismissSideDrawer"));
-			sideDrawer.AddSection (primarySection);
-			sideDrawer.AddSection (labelsSection);
-			sideDrawer.Delegate = this.sideDrawerDelegate;
-			sideDrawer.Style.HeaderHeight = 44;
+			TKSideDrawer sideDrawerRight = this.SideDrawerView.AddSideDrawer (TKSideDrawerPosition.Right);
+			sideDrawerRight.HeaderView = new SideDrawerHeader (true, this, new Selector ("DismissRightSideDrawer"));
+			sideDrawerRight.AddSection (primarySection);
+			sideDrawerRight.AddSection (labelsSection);
+			sideDrawerRight.Delegate = this.sideDrawerDelegate;
+			sideDrawerRight.Style.HeaderHeight = 44;
+
+			inboxSection = new TKSideDrawerSection ("Inbox");
+			inboxSection.AddItem ("Sent Items");
+			inboxSection.AddItem ("Deleted Items");
+			inboxSection.AddItem ("Outbox");
+
+			mobileSection = new TKSideDrawerSection ("Mobile");
+			mobileSection.AddItem ("iOS");
+			mobileSection.AddItem ("Android");
+			mobileSection.AddItem ("Windows Phone");
+
+			this.sideDrawerDelegate = new SideDrawerDelegate ();
+			TKSideDrawer sideDrawerLeft = this.SideDrawerView.SideDrawers[0];
+			sideDrawerLeft.HeaderView = new SideDrawerHeader (true, this, new Selector ("DismissLeftSideDrawer"));
+			sideDrawerLeft.AddSection (inboxSection);
+			sideDrawerLeft.AddSection (mobileSection);
+			sideDrawerLeft.Delegate = this.sideDrawerDelegate;
+			sideDrawerLeft.Style.HeaderHeight = 44;
 		}
 
 		public override void ViewWillDisappear (bool animated)
@@ -69,17 +92,29 @@ namespace Examples
 			base.ViewWillDisappear (animated);
 			this.NavigationController.InteractivePopGestureRecognizer.Enabled = true;
 		}
-			
-		[Export ("ShowSideDrawer")]
-		public void ShowSideDrawer()
+
+		[Export ("ShowLeftSideDrawer")]
+		public void ShowLeftSideDrawer()
 		{
 			this.SideDrawerView.SideDrawers[0].Show();
 		}
 
-		[Export ("DismissSideDrawer")]
-		public void DismissSideDrawer()
+		[Export ("ShowRightSideDrawer")]
+		public void ShowRightSideDrawer()
+		{
+			this.SideDrawerView.SideDrawers[1].Show();
+		}
+
+		[Export ("DismissLeftSideDrawer")]
+		public void DismissLeftSideDrawer()
 		{
 			this.SideDrawerView.SideDrawers[0].Dismiss();
+		}
+
+		[Export ("DismissRightSideDrawer")]
+		public void DismissRightSideDrawer()
+		{
+			this.SideDrawerView.SideDrawers[1].Dismiss();
 		}
 
 		class SideDrawerDelegate : TKSideDrawerDelegate

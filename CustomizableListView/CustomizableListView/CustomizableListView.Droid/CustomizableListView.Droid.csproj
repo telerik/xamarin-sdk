@@ -5,25 +5,27 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{6A70AC27-FCC9-4269-B786-B0658D90E3AA}</ProjectGuid>
+    <ProjectGuid>{64FBE688-C9EB-47B3-830C-2AA8C35D559E}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CustomizableListView.Droid</RootNamespace>
     <AssemblyName>CustomizableListView.Droid</AssemblyName>
     <FileAlignment>512</FileAlignment>
+    <BinariesFolder>$(MSBuildProgramFiles32)\Telerik\UI for Xamarin Q1 2016\Binaries</BinariesFolder>
     <AndroidApplication>true</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
-    <AndroidUseLatestPlatformSdk>False</AndroidUseLatestPlatformSdk>
+    <AndroidUseLatestPlatformSdk>true</AndroidUseLatestPlatformSdk>
     <AndroidSupportedAbis>armeabi,armeabi-v7a,x86</AndroidSupportedAbis>
     <AndroidStoreUncompressedFileExtensions />
     <MandroidI18n />
     <JavaMaximumHeapSize />
     <JavaOptions />
-    <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
-    <NuGetPackageImportStamp>d16143c3</NuGetPackageImportStamp>
+    <TargetFrameworkVersion>v6.0</TargetFrameworkVersion>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\</SolutionDir>
     <RestorePackages>true</RestorePackages>
   </PropertyGroup>
@@ -37,6 +39,17 @@
     <WarningLevel>4</WarningLevel>
     <AndroidUseSharedRuntime>True</AndroidUseSharedRuntime>
     <AndroidLinkMode>None</AndroidLinkMode>
+    <AndroidLinkSkip />
+    <EmbedAssembliesIntoApk>False</EmbedAssembliesIntoApk>
+    <BundleAssemblies>False</BundleAssemblies>
+    <AndroidCreatePackagePerAbi>False</AndroidCreatePackagePerAbi>
+    <AndroidSupportedAbis>armeabi,armeabi-v7a,x86</AndroidSupportedAbis>
+    <AndroidStoreUncompressedFileExtensions />
+    <MandroidI18n />
+    <JavaMaximumHeapSize>800m</JavaMaximumHeapSize>
+    <Debugger>Xamarin</Debugger>
+    <AndroidEnableMultiDex>False</AndroidEnableMultiDex>
+    <DevInstrumentationEnabled>True</DevInstrumentationEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -49,9 +62,9 @@
     <AndroidLinkMode>SdkOnly</AndroidLinkMode>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="FormsViewGroup, Version=1.4.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\packages\Xamarin.Forms.1.4.4.6392\lib\MonoAndroid10\FormsViewGroup.dll</HintPath>
+    <Reference Include="FormsViewGroup">
+      <HintPath>..\..\packages\Xamarin.Forms.2.1.0.6529\lib\MonoAndroid10\FormsViewGroup.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Mono.Android" />
     <Reference Include="mscorlib" />
@@ -60,64 +73,79 @@
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Xml" />
     <Reference Include="Telerik.Xamarin.Android.Common">
-      <HintPath>C:\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\Android\Telerik.Xamarin.Android.Common.dll</HintPath>
+      <HintPath>$(BinariesFolder)\Android\Telerik.Xamarin.Android.Common.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Xamarin.Android.Data">
-      <HintPath>C:\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\Android\Telerik.Xamarin.Android.Data.dll</HintPath>
+      <HintPath>$(BinariesFolder)\Android\Telerik.Xamarin.Android.Data.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Xamarin.Android.Input">
-      <HintPath>C:\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\Android\Telerik.Xamarin.Android.Input.dll</HintPath>
+      <HintPath>$(BinariesFolder)\Android\Telerik.Xamarin.Android.Input.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Xamarin.Android.List">
-      <HintPath>C:\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\Android\Telerik.Xamarin.Android.List.dll</HintPath>
+      <HintPath>$(BinariesFolder)\Android\Telerik.Xamarin.Android.List.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.XamarinForms.Common">
-      <HintPath>C:\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\XamarinForms\Common\Telerik.XamarinForms.Common.dll</HintPath>
+      <HintPath>$(BinariesFolder)\XamarinForms\Common\Telerik.XamarinForms.Common.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.XamarinForms.Common.Android">
-      <HintPath>C:\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\XamarinForms\Android\Telerik.XamarinForms.Common.Android.dll</HintPath>
+      <HintPath>$(BinariesFolder)\XamarinForms\Android\Telerik.XamarinForms.Common.Android.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.XamarinForms.DataControls">
-      <HintPath>C:\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\XamarinForms\Common\Telerik.XamarinForms.DataControls.dll</HintPath>
+      <HintPath>$(BinariesFolder)\XamarinForms\Common\Telerik.XamarinForms.DataControls.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.XamarinForms.DataControlsRenderer.Android">
-      <HintPath>C:\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\XamarinForms\Android\Telerik.XamarinForms.DataControlsRenderer.Android.dll</HintPath>
+      <HintPath>$(BinariesFolder)\XamarinForms\Android\Telerik.XamarinForms.DataControlsRenderer.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.Design, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Xamarin.Android.Support.Design.23.0.1.3\lib\MonoAndroid403\Xamarin.Android.Support.Design.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\packages\Xamarin.Android.Support.v4.22.2.1.0\lib\MonoAndroid403\Xamarin.Android.Support.v4.dll</HintPath>
+      <HintPath>..\..\packages\Xamarin.Android.Support.v4.23.0.1.3\lib\MonoAndroid403\Xamarin.Android.Support.v4.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="Xamarin.Android.Support.v7.AppCompat">
-      <HintPath>..\..\packages\Xamarin.Android.Support.v7.AppCompat.22.2.1.0\lib\MonoAndroid403\Xamarin.Android.Support.v7.AppCompat.dll</HintPath>
+    <Reference Include="Xamarin.Android.Support.v7.AppCompat, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Xamarin.Android.Support.v7.AppCompat.23.0.1.3\lib\MonoAndroid403\Xamarin.Android.Support.v7.AppCompat.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="Xamarin.Android.Support.v7.RecyclerView">
-      <HintPath>..\..\packages\Xamarin.Android.Support.v7.RecyclerView.22.2.1.0\lib\MonoAndroid403\Xamarin.Android.Support.v7.RecyclerView.dll</HintPath>
+    <Reference Include="Xamarin.Android.Support.v7.CardView, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Xamarin.Android.Support.v7.CardView.23.0.1.3\lib\MonoAndroid403\Xamarin.Android.Support.v7.CardView.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="Xamarin.Android.Support.v8.RenderScript">
-      <HintPath>..\..\packages\Xamarin.Android.Support.v8.RenderScript.22.2.1.0\lib\MonoAndroid403\Xamarin.Android.Support.v8.RenderScript.dll</HintPath>
+    <Reference Include="Xamarin.Android.Support.v7.MediaRouter, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Xamarin.Android.Support.v7.MediaRouter.23.0.1.3\lib\MonoAndroid403\Xamarin.Android.Support.v7.MediaRouter.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="Xamarin.Forms.Core, Version=1.4.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\packages\Xamarin.Forms.1.4.4.6392\lib\MonoAndroid10\Xamarin.Forms.Core.dll</HintPath>
+    <Reference Include="Xamarin.Android.Support.v7.RecyclerView, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Xamarin.Android.Support.v7.RecyclerView.23.0.1.3\lib\MonoAndroid403\Xamarin.Android.Support.v7.RecyclerView.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="Xamarin.Forms.Platform, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\packages\Xamarin.Forms.1.4.4.6392\lib\MonoAndroid10\Xamarin.Forms.Platform.dll</HintPath>
+    <Reference Include="Xamarin.Android.Support.v8.RenderScript, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Xamarin.Android.Support.v8.RenderScript.23.0.1.3\lib\MonoAndroid403\Xamarin.Android.Support.v8.RenderScript.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="Xamarin.Forms.Platform.Android, Version=1.4.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\packages\Xamarin.Forms.1.4.4.6392\lib\MonoAndroid10\Xamarin.Forms.Platform.Android.dll</HintPath>
+    <Reference Include="Xamarin.Forms.Core">
+      <HintPath>..\..\packages\Xamarin.Forms.2.1.0.6529\lib\MonoAndroid10\Xamarin.Forms.Core.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="Xamarin.Forms.Xaml, Version=1.4.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\packages\Xamarin.Forms.1.4.4.6392\lib\MonoAndroid10\Xamarin.Forms.Xaml.dll</HintPath>
+    <Reference Include="Xamarin.Forms.Platform">
+      <HintPath>..\..\packages\Xamarin.Forms.2.1.0.6529\lib\MonoAndroid10\Xamarin.Forms.Platform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Platform.Android">
+      <HintPath>..\..\packages\Xamarin.Forms.2.1.0.6529\lib\MonoAndroid10\Xamarin.Forms.Platform.Android.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Xaml">
+      <HintPath>..\..\packages\Xamarin.Forms.2.1.0.6529\lib\MonoAndroid10\Xamarin.Forms.Xaml.dll</HintPath>
+      <Private>True</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CustomListViewRenderer.cs" />
     <Compile Include="MainActivity.cs" />
-    <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\Resource.Designer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -131,16 +159,15 @@
     <AndroidResource Include="Resources\drawable-xxhdpi\icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Properties\AndroidManifest.xml">
-      <SubType>Designer</SubType>
-    </Content>
-    <AndroidResource Include="Resources\drawable\trash.png" />
-    <AndroidResource Include="Resources\drawable\fav_btn.png" />
-    <AndroidResource Include="Resources\drawable\unfav_btn.png" />
+    <Content Include="Properties\AndroidManifest.xml" />
     <AndroidResource Include="Resources\drawable\fav.png" />
+    <AndroidResource Include="Resources\drawable\fav_btn.png" />
+    <AndroidResource Include="Resources\drawable\trash.png" />
+    <AndroidResource Include="Resources\drawable\unfav_btn.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CustomizableListView\CustomizableListView.csproj">
+      <Project>{8cbb691f-7078-4420-94d6-d739f95e01aa}</Project>
       <Name>CustomizableListView</Name>
     </ProjectReference>
   </ItemGroup>
@@ -150,10 +177,10 @@
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
     <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />
-    <Error Condition="!Exists('..\..\packages\Xamarin.Forms.1.4.4.6392\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Xamarin.Forms.1.4.4.6392\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets'))" />
+    <Error Condition="!Exists('..\..\packages\Xamarin.Forms.2.1.0.6529\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Xamarin.Forms.2.1.0.6529\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets'))" />
   </Target>
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
-  <Import Project="..\..\packages\Xamarin.Forms.1.4.4.6392\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.1.4.4.6392\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />
+  <Import Project="..\..\packages\Xamarin.Forms.2.1.0.6529\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.2.1.0.6529\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
      Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

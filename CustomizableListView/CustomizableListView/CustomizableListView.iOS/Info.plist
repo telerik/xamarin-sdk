@@ -23,9 +23,9 @@
     <key>MinimumOSVersion</key>
     <string>6.0</string>
     <key>CFBundleDisplayName</key>
-    <string>CustomizableListView</string>
+    <string>CustomizableListView.iOS</string>
     <key>CFBundleIdentifier</key>
-    <string>com.yourcompany.CustomizableListView</string>
+    <string>com.yourcompany.CustomizableListView.iOS</string>
     <key>CFBundleVersion</key>
     <string>1.0</string>
     <key>CFBundleIconFiles</key>

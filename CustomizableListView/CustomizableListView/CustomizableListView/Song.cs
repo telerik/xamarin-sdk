@@ -25,7 +25,7 @@ namespace CustomizableListView
                 if (this.isFavourite != value)
                 {
                     this.isFavourite = value;
-                    this.RaisePropertyCanged();
+                    this.OnPropertyChanged();
                 }
             }
         }

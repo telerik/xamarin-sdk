@@ -5,3 +5,4 @@ CustomizableListView/CustomizableListView/CustomizableListView.iOS/obj/
 CustomizableListView/CustomizableListView/CustomizableListView/bin/
 CustomizableListView/CustomizableListView/CustomizableListView/obj/
 CustomizableListView/packages/
+*.suo

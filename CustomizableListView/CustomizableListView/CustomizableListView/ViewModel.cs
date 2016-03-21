@@ -24,7 +24,7 @@ namespace CustomizableListView
                 if (this.songs != value)
                 {
                     this.songs = value;
-                    this.RaisePropertyCanged();
+                    this.OnPropertyChanged();
                 }
             }
         }

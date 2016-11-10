@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:telerikListView="clr-namespace:Telerik.XamarinForms.DataControls.ListView;assembly=Telerik.XamarinForms.DataControls"
+             xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.XamarinForms.Primitives"
+             xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.XamarinForms.DataControls"
+             x:Class="Portable.SecondPage">
+  <telerikPrimitives:RadSideDrawer x:Name="Drawer" DrawerLength="200">
+    <telerikPrimitives:RadSideDrawer.MainContent>
+      <Grid BackgroundColor="#5468E5">
+        <Grid.RowDefinitions>
+          <RowDefinition Height="40"/>
+          <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid BackgroundColor="#FF6E40">
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="56"/>
+            <ColumnDefinition />
+          </Grid.ColumnDefinitions>
+          <Grid x:Name="BackBtnHolder" BackgroundColor="Transparent">
+            <Image Aspect="AspectFit" VerticalOptions="Center" HorizontalOptions="Center">
+              <Image.Source>
+                <OnPlatform x:TypeArguments="ImageSource"
+                            iOS="back_btn.png"
+                            Android="back_btn.png"
+                            WinPhone="Assets\back_btn.png"/>
+              </Image.Source>
+            </Image>
+          </Grid>
+          <Label Grid.Column="1" x:Name="Header" TextColor="White" FontSize="Medium" VerticalOptions="Center" HorizontalOptions="Start"/>
+        </Grid>
+        <telerikDataControls:RadListView ItemsSource="{Binding BinariesList}" Grid.Row="1">
+          <telerikDataControls:RadListView.ItemTemplate>
+            <DataTemplate>
+              <telerikListView:ListViewTemplateCell>
+                <telerikListView:ListViewTemplateCell.View>
+                  <Grid BackgroundColor="#5468E5">
+                    <Label Text="{Binding BinaryName}" Margin="16,0,0,0" HorizontalOptions="Fill" TextColor="White" >
+                      <Label.FontSize>
+                        <OnPlatform x:TypeArguments="x:Double"
+                                    iOS="12"
+                                    Android="18"
+                                    WinPhone="11"/>
+                      </Label.FontSize>
+                    </Label>
+                  </Grid>
+                </telerikListView:ListViewTemplateCell.View>
+              </telerikListView:ListViewTemplateCell>
+            </DataTemplate>
+          </telerikDataControls:RadListView.ItemTemplate>
+          <telerikDataControls:RadListView.GroupDescriptors>
+            <telerikListView:PropertyGroupDescriptor PropertyName="Platform"/>
+          </telerikDataControls:RadListView.GroupDescriptors>
+          <telerikDataControls:RadListView.GroupHeaderTemplate>
+            <DataTemplate>
+              <Grid BackgroundColor="#FF6E40" HeightRequest="40">
+                <Label Text="{Binding }" TextColor="White" VerticalOptions="Center" HorizontalOptions="Center">
+                  <Label.FontSize>
+                    <OnPlatform x:TypeArguments="x:Double"
+                                iOS="16"
+                                Android="16"
+                                WinPhone="14"/>
+                  </Label.FontSize>
+                </Label>
+              </Grid>
+            </DataTemplate>
+          </telerikDataControls:RadListView.GroupHeaderTemplate>
+        </telerikDataControls:RadListView>
+      </Grid>
+    </telerikPrimitives:RadSideDrawer.MainContent>
+    <telerikPrimitives:RadSideDrawer.DrawerContent>
+      <StackLayout>
+        <Button Text="Calendar" Clicked="Calendar_Clicked"/>
+        <Button Text="Chart" Clicked="Chart_Clicked"/>
+        <Button Text="DataForm" Clicked="DataForm_Clicked"/>
+        <Button Text="ListView" Clicked="ListView_Clicked"/>
+        <Button Text="SideDrawer" Clicked="SideDrawer_Clicked"/>
+      </StackLayout>
+    </telerikPrimitives:RadSideDrawer.DrawerContent>
+  </telerikPrimitives:RadSideDrawer>
+</ContentPage>

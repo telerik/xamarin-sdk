@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.XamarinForms.Primitives"
+             xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.XamarinForms.DataControls"
+             xmlns:telerikListView="clr-namespace:Telerik.XamarinForms.DataControls.ListView;assembly=Telerik.XamarinForms.DataControls"
+             x:Class="Portable.StartPage">
+  <telerikPrimitives:RadSideDrawer x:Name="Drawer" DrawerLength="200">
+    <telerikPrimitives:RadSideDrawer.MainContent>
+      <Grid Grid.RowSpacing="0">
+        <Grid.RowDefinitions>
+          <RowDefinition Height="56"/>
+          <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackLayout BackgroundColor="#FF6E40" Padding="0, 0, 16, 0" Spacing="10" Orientation="Horizontal" >
+          <Grid x:Name="ImageHolder" HeightRequest="56" WidthRequest="56" BackgroundColor="Transparent">
+            <Image Aspect="AspectFit" VerticalOptions="Center" HorizontalOptions="Center">
+              <Image.Source>
+                <OnPlatform x:TypeArguments="ImageSource"
+                            iOS="hamburgerBtn"
+                            Android="hamburgerBtn"
+                            WinPhone="Assets\hamburgerBtn.png"/>
+              </Image.Source>
+            </Image>
+          </Grid>
+          <Label x:Name="AssemblyNameHolder" HorizontalOptions="Fill" VerticalOptions="Center" FontSize="20" TextColor="White"/>          
+        </StackLayout>
+        
+        <Grid Grid.Row="1" BackgroundColor="#5468E5" Padding="16, 48, 16, 0">
+          <Label Text="Use the buttons in the drawer content to navigate to different pages." TextColor="White"/>
+        </Grid>
+      </Grid>      
+    </telerikPrimitives:RadSideDrawer.MainContent>
+    
+    <telerikPrimitives:RadSideDrawer.DrawerContent>
+      <StackLayout>
+        <Button Text="Calendar" Clicked="Calendar_Clicked"/>
+        <Button Text="Chart" Clicked="Chart_Clicked"/>
+        <Button Text="DataForm" Clicked="DataForm_Clicked"/>
+        <Button Text="ListView" Clicked="ListView_Clicked"/>
+        <Button Text="SideDrawer" Clicked="SideDrawer_Clicked"/>
+      </StackLayout>
+    </telerikPrimitives:RadSideDrawer.DrawerContent>
+  </telerikPrimitives:RadSideDrawer>
+</ContentPage>

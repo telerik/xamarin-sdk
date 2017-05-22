@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GridLikeListView.GridFilteringControl">
+
+    <StackLayout Margin="0, 3">
+        <StackLayout x:Name="headerContainer" Orientation="Horizontal" BackgroundColor="#57575D" Padding="3">
+            <Label x:Name="header" FontSize="16" TextColor="White"/>
+            <Image Margin="5, 0, 0, 0" VerticalOptions="Center"/>
+        </StackLayout>
+        <Picker x:Name="picker" />
+        <Entry x:Name="inputEntry"/>
+        <StackLayout>
+            <Button Text="Apply filter" Clicked="OnApplyFilterClicked" />
+            <Button Text="Clear filter" Clicked="OnClearFilterClicked" />
+        </StackLayout>
+    </StackLayout>
+
+</ContentView>

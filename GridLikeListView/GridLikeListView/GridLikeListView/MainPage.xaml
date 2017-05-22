@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.XamarinForms.DataControls"
+             xmlns:telerikListView="clr-namespace:Telerik.XamarinForms.DataControls.ListView;assembly=Telerik.XamarinForms.DataControls"
+             xmlns:local="clr-namespace:GridLikeListView"
+             x:Class="GridLikeListView.MainPage">
+
+    <Grid>
+        <Grid.Margin>
+            <OnPlatform x:TypeArguments="Thickness"
+                        iOS="5, 20, 5, 5"
+                        Android="5"
+                        WinPhone="5" />
+        </Grid.Margin>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <Button Text="Show/Hide Filter" Clicked="Button_Clicked"/>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Label Text="Group by: " VerticalOptions="Center" />
+            <Picker x:Name="picker" SelectedIndexChanged="Picker_SelectedIndexChanged" Grid.Column="1">
+                <Picker.Items>
+                    <x:String>None</x:String>
+                    <x:String>First Name</x:String>
+                    <x:String>Last Name</x:String>
+                    <x:String>Age</x:String>
+                </Picker.Items>
+            </Picker>
+        </Grid>
+
+        <Grid Grid.Row="2" ColumnSpacing="1" BackgroundColor="#E7E7E7" x:Name="filteringGrid">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <local:GridFilteringControl ColumnName="FirstName"
+                                        HeaderText="First Name"
+                                        OnSortOrderChanged="OnSortOrderChanged"
+                                        OnFilterChanged="OnFilterChanged"/>
+            <local:GridFilteringControl ColumnName="LastName"
+                                        HeaderText="Last Name"
+                                        OnSortOrderChanged="OnSortOrderChanged"
+                                        OnFilterChanged="OnFilterChanged"
+                                        Grid.Column="1"/>
+            <local:GridFilteringControl ColumnName="Age"
+                                        HeaderText="Age"
+                                        OnSortOrderChanged="OnSortOrderChanged"
+                                        OnFilterChanged="OnFilterChanged"
+                                        Grid.Column="2"/>
+        </Grid>
+
+        <telerikDataControls:RadListView x:Name="listView" BackgroundColor="Black" Grid.Row="3">
+            <telerikDataControls:RadListView.ItemTemplate>
+                <DataTemplate>
+                    <telerikListView:ListViewTemplateCell>
+                        <telerikListView:ListViewTemplateCell.View>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition />
+                                    <ColumnDefinition />
+                                    <ColumnDefinition />
+                                </Grid.ColumnDefinitions>
+                                <Grid BackgroundColor="White" Margin="1">
+                                    <Label Text="{Binding FirstName}" Margin="4, 2"/>
+                                </Grid>
+                                <Grid Grid.Column="1" BackgroundColor="White" Margin="1">
+                                    <Label Text="{Binding LastName}" Margin="4, 2"/>
+                                </Grid>
+                                <Grid Grid.Column="2" BackgroundColor="White" Margin="1">
+                                    <Label Text="{Binding Age}" Margin="4, 2"/>
+                                </Grid>
+                            </Grid>
+                        </telerikListView:ListViewTemplateCell.View>
+                    </telerikListView:ListViewTemplateCell>
+                </DataTemplate>
+            </telerikDataControls:RadListView.ItemTemplate>
+            <telerikDataControls:RadListView.GroupHeaderTemplate>
+                <DataTemplate>
+                    <Grid BackgroundColor="Black">
+                        <Grid BackgroundColor="White" Margin="1">
+                            <Label Text="{Binding }" TextColor="#303030" FontSize="Medium" HorizontalOptions="Center" VerticalOptions="Center"/>
+                        </Grid>
+                    </Grid>
+                </DataTemplate>
+            </telerikDataControls:RadListView.GroupHeaderTemplate>
+            <telerikDataControls:RadListView.LayoutDefinition>
+                <telerikListView:ListViewLinearLayout VerticalItemSpacing="0" />
+            </telerikDataControls:RadListView.LayoutDefinition>
+            <telerikDataControls:RadListView.ItemStyle>
+                <telerikListView:ListViewItemStyle BackgroundColor="Transparent" BorderLocation="None"/>
+            </telerikDataControls:RadListView.ItemStyle>
+        </telerikDataControls:RadListView>
+    </Grid>
+
+</ContentPage>
